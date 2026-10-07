@@ -12,10 +12,19 @@ export const MMA_SOURCES = [
 // feed = část adresy https://next-fight.com/en/organization/<feed> (seznam: https://next-fight.com/en/mma-organizations)
 export const MMA_FEEDS = [
   { org: "RFA", feed: "real-fight-arena" },
+  { org: "Cage Warriors", feed: "cage-warriors" },
+  { org: "BRAVE CF", feed: "brave-cf" },
+  { org: "ONE", feed: "one-championship" },
+  { org: "RIZIN", feed: "rizin" },
+  { org: "We Love MMA", feed: "we-love-mma" },
+  { org: "Babilon MMA", feed: "babilon-mma" },
+  { org: "PML", feed: "professional-muaythai-league" }, // muay thai
 ];
 
 export const FOOTBALL = {
   daysAhead: 270, // do konce sezóny
+  // Na tolik dní dopředu se zobrazí VŠECHNY zápasy vybraných soutěží, dál už jen velké zápasy (viz níže)
+  allMatchesDaysAhead: 14,
   // Kódy soutěží z football-data.org (zdarma: PL, CL, PD, BL1, SA, FL1, DED, PPL, ELC, BSA, WC, EC)
   competitions: {
     CL: "Liga mistrů",

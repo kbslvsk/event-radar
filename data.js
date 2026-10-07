@@ -1,6 +1,8 @@
 // Ruční seznam událostí (dohledáno 7. 10. 2026).
 // Pro kategorie, které stahuje scripts/update.mjs (MMA, fotbal, koncerty), se použije jen tehdy,
 // když automatický zdroj nemá žádná data. Tenis automaticky stahovaný není – doplňuj ho tady.
+// always: true = zobrazit vždy (akce, které automatický zdroj ještě nemá). Když se pak objeví
+// automaticky se stejným id (<org>-<datum>), ruční záznam se nahradí.
 // category: mma | football | tennis | concert
 // date / endDate: YYYY-MM-DD, time: HH:MM (místní čas akce, nepovinné)
 
@@ -34,6 +36,9 @@ const DEFAULT_EVENTS = [
   { id: "pfl-chicago", category: "mma", org: "PFL", title: "PFL Chicago: Carmouche vs. Bishop 2", date: "2026-10-16", city: "Chicago", country: "USA" },
   { id: "pfl-dubai", category: "mma", org: "PFL", title: "PFL Dubai: Nemkov vs. Bilostenniy", date: "2026-11-14", city: "Dubaj", country: "SAE" },
   { id: "pfl-lyon", category: "mma", org: "PFL", title: "PFL Lyon: Lapilus vs. McKee", date: "2026-12-19", city: "Lyon", country: "Francie" },
+
+  // ---------- MUAY THAI: PML ----------
+  { id: "pml-2026-11-28", always: true, category: "mma", org: "PML", title: "PML 22", date: "2026-11-28", time: "17:30", venue: "Zimný štadión P. Demitru", city: "Trenčín", country: "Slovensko", headline: "Professional Muaythai League", url: "https://7sport.sk/program/professional-muay-thai-league/" },
 
   // ---------- FOTBAL ----------
   { id: "pl-liv-mci", category: "football", org: "Premier League", title: "Liverpool – Manchester City", date: "2026-10-10", venue: "Anfield", city: "Liverpool", country: "Anglie" },

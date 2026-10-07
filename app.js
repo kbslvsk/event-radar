@@ -1,5 +1,5 @@
 const CATEGORIES = {
-  mma: { label: "MMA", color: "var(--mma)" },
+  mma: { label: "Bojové sporty", color: "var(--mma)" },
   football: { label: "Fotbal", color: "var(--football)" },
   tennis: { label: "Tenis", color: "var(--tennis)" },
   concert: { label: "Koncerty", color: "var(--concert)" },
@@ -75,7 +75,8 @@ const AUTO = typeof AUTO_DATA !== "undefined" ? AUTO_DATA : { sources: {} };
 const autoEvents = Object.values(AUTO.sources).flatMap((s) => s.events);
 const autoCategories = new Set(autoEvents.map((e) => e.category));
 // Ruční data z data.js se použijí jen pro kategorie, které automatika nepokrývá (tenis, nebo když zdroj nemá data)
-const manualEvents = DEFAULT_EVENTS.filter((e) => !autoCategories.has(e.category));
+const autoIds = new Set(autoEvents.map((e) => e.id));
+const manualEvents = DEFAULT_EVENTS.filter((e) => (e.always || !autoCategories.has(e.category)) && !autoIds.has(e.id));
 
 const allEvents = () =>
   [...autoEvents, ...manualEvents, ...state.custom].sort((a, b) => a.date.localeCompare(b.date) || a.title.localeCompare(b.title));

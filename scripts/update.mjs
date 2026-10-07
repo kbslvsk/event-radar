@@ -215,22 +215,35 @@ const czWeight = (s) => WEIGHTS.reduce((acc, [re, cz]) => acc.replace(re, cz), s
 async function fetchMmaFeeds() {
   const today = todayStr();
   const events = [];
+  const seenIds = new Set();
+  const failed = [];
   for (const src of MMA_FEEDS) {
     const res = await fetch(`https://next-fight.com/api/calendar/${src.feed}.ics?lang=en`, { headers: { "User-Agent": UA } });
-    if (!res.ok) throw new Error(`${src.org}: HTTP ${res.status}`);
+    const text = res.ok ? await res.text() : "";
+    if (!text.startsWith("BEGIN:VCALENDAR")) {
+      failed.push(src.org);
+      console.warn(`  ${src.org}: feed nejde načíst (HTTP ${res.status})`);
+      continue;
+    }
     let found = 0;
-    for (const e of parseIcs(await res.text())) {
+    for (const e of parseIcs(text)) {
       if (!e.DTSTART || e.STATUS === "CANCELLED") continue;
       const allDay = !e.DTSTART.includes("T");
       const { date, time } = allDay ? { date: `${e.DTSTART.slice(0, 4)}-${e.DTSTART.slice(4, 6)}-${e.DTSTART.slice(6, 8)}` } : localParts(icsDate(e.DTSTART));
       if (date < today) continue;
       // "Main event : Michal Kopas vs Marcel Simo — Featherweight, title"
       const main = e.DESCRIPTION?.match(/Main event\s*:\s*(.+?)\s+vs\.?\s+(.+?)\s+—\s+([^\n]+)/);
-      const name = (e.SUMMARY ?? src.org).split(" - ").at(-1).trim();
+      // "Real Fight Arena 34 - RFA 34", "Babilon MMA 61 - Oct. 24", "Rizin FF - Landmark Vol. 17"
+      const parts = (e.SUMMARY ?? src.org).split(" - ").map((s) => s.trim());
+      let name = /\bvs\.?\s|^[A-Z][a-z]{2}\.? \d{1,2}$/.test(parts.at(-1)) ? parts[0] : parts.at(-1);
+      if (!name.toLowerCase().includes(src.org.toLowerCase())) name = `${src.org} ${name}`;
       const [city, country] = (e.LOCATION ?? "").split(",").map((s) => s.trim()).slice(-2);
       const venue = (e.LOCATION ?? "").split(",").length > 2 ? e.LOCATION.split(",")[0].trim() : undefined;
+      let id = `${slug(src.org)}-${date}`;
+      if (seenIds.has(id)) id += "-" + slug(name).slice(0, 30);
+      seenIds.add(id);
       events.push({
-        id: `${slug(src.org)}-${date}`, category: "mma", org: src.org,
+        id, category: "mma", org: src.org,
         title: main ? `${name}: ${lastName(main[1])} vs. ${lastName(main[2])}` : name,
         date, time,
         headline: main ? `${main[1]} vs. ${main[2]} (${czWeight(main[3])})` : undefined,
@@ -240,6 +253,7 @@ async function fetchMmaFeeds() {
     }
     console.log(`  ${src.org}: ${found}`);
   }
+  if (failed.length === MMA_FEEDS.length) throw new Error("žádný feed nejde načíst");
   return events;
 }
 
@@ -258,6 +272,7 @@ async function fetchFootball() {
   const is = (set, t) => set.has(normTeam(t.name)) || set.has(normTeam(t.shortName));
   const from = todayStr();
   const to = localParts(addDays(FOOTBALL.daysAhead)).date;
+  const allUntil = localParts(addDays(FOOTBALL.allMatchesDaysAhead ?? 0)).date;
   const events = [];
 
   for (const [code, label] of Object.entries(FOOTBALL.competitions)) {
@@ -268,7 +283,9 @@ async function fetchFootball() {
     for (const m of data.matches ?? []) {
       if (["FINISHED", "CANCELLED", "AWARDED"].includes(m.status)) continue;
       const h = m.homeTeam, a = m.awayTeam;
-      const wanted = (is(big, h) && is(big, a)) || is(fav, h) || is(fav, a) || FOOTBALL.allMatchesFromStages.includes(m.stage);
+      const derby = is(big, h) && is(big, a);
+      const wanted = m.utcDate.slice(0, 10) <= allUntil ||
+        derby || is(fav, h) || is(fav, a) || FOOTBALL.allMatchesFromStages.includes(m.stage);
       if (!wanted) continue;
       // Výkop v 00:00 UTC znamená, že čas ještě není určený
       const tbd = m.status === "POSTPONED" || m.utcDate.includes("T00:00:00");
@@ -278,7 +295,7 @@ async function fetchFootball() {
         id: `fd-${m.id}`, category: "football", org: label,
         title: `${h.shortName || h.name || "?"} – ${a.shortName || a.name || "?"}`,
         date, time,
-        headline: [stage, m.matchday && `${m.matchday}. kolo`, m.status === "POSTPONED" && "odloženo"].filter(Boolean).join(", ") || undefined,
+        headline: [derby && "⭐ šlágr", stage, m.matchday && `${m.matchday}. kolo`, m.status === "POSTPONED" && "odloženo"].filter(Boolean).join(", ") || undefined,
         venue: m.venue || undefined,
       });
     }
@@ -344,7 +361,7 @@ async function loadPrevious() {
 
 const SOURCES = {
   mma: { label: "MMA (Wikipedia)", run: fetchMma },
-  mmaFeeds: { label: "Menší MMA (next-fight.com)", run: fetchMmaFeeds },
+  mmaFeeds: { label: "Menší organizace (next-fight.com)", run: fetchMmaFeeds },
   football: { label: "Fotbal (football-data.org)", run: fetchFootball },
   concert: { label: "Koncerty (Ticketmaster)", run: fetchConcerts },
 };
