@@ -7,6 +7,7 @@ Přehled MMA turnajů, fotbalových zápasů, tenisu a koncertů s osobním sezn
 | Kategorie | Zdroj | Klíč |
 |---|---|---|
 | MMA (UFC, OKTAGON, KSW, PFL) | Wikipedia | není potřeba |
+| Menší MMA (RFA, …) | kalendářové feedy [next-fight.com](https://next-fight.com/en/mma-organizations) | není potřeba |
 | Fotbal | [football-data.org](https://www.football-data.org) | `FOOTBALL_DATA_TOKEN` |
 | Koncerty | [Ticketmaster Discovery API](https://developer.ticketmaster.com) | `TICKETMASTER_KEY` (Consumer Key) |
 | Tenis | ručně v `data.js` | – |

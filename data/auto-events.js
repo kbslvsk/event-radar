@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-07T13:02:42.768Z",
+ "updatedAt": "2026-10-07T13:10:02.497Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:02:42.768Z",
+   "updatedAt": "2026-10-07T13:10:02.497Z",
    "count": 22,
    "events": [
     {
@@ -252,10 +252,42 @@ const AUTO_DATA = {
     }
    ]
   },
+  "mmaFeeds": {
+   "label": "Menší MMA (next-fight.com)",
+   "ok": true,
+   "updatedAt": "2026-10-07T13:10:02.497Z",
+   "count": 2,
+   "events": [
+    {
+     "id": "rfa-2026-10-17",
+     "category": "mma",
+     "org": "RFA",
+     "title": "RFA 34: Kopas vs. Simo",
+     "date": "2026-10-17",
+     "time": "15:30",
+     "headline": "Michal Kopas vs. Marcel Simo (pérová váha, o titul)",
+     "venue": "Zimny Stadion",
+     "city": "Zilina",
+     "country": "Slovakia",
+     "url": "https://next-fight.com/en/event/real-fight-arena-34-rfa-34"
+    },
+    {
+     "id": "rfa-2026-11-27",
+     "category": "mma",
+     "org": "RFA",
+     "title": "RFA 35",
+     "date": "2026-11-27",
+     "venue": "Sportovni Hala Kralovka",
+     "city": "Prague",
+     "country": "Czech Republic",
+     "url": "https://next-fight.com/en/event/real-fight-arena-35-rfa-35"
+    }
+   ]
+  },
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:02:42.768Z",
+   "updatedAt": "2026-10-07T13:10:02.497Z",
    "count": 68,
    "events": [
     {
@@ -861,7 +893,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:02:42.768Z",
+   "updatedAt": "2026-10-07T13:10:02.497Z",
    "count": 49,
    "events": [
     {

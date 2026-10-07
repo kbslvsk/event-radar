@@ -5,7 +5,7 @@
 // Klíče: FOOTBALL_DATA_TOKEN, TICKETMASTER_KEY (env proměnné nebo soubor .env)
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
-import { MMA_SOURCES, FOOTBALL, CONCERTS } from "./config.mjs";
+import { MMA_SOURCES, MMA_FEEDS, FOOTBALL, CONCERTS } from "./config.mjs";
 
 const OUT_FILE = new URL("../data/auto-events.js", import.meta.url);
 const TZ = "Europe/Prague";
@@ -180,6 +180,69 @@ async function fetchMma() {
   return events;
 }
 
+// ---------------------------------------------------------------- Menší MMA (iCal feedy next-fight.com)
+
+function parseIcs(text) {
+  const lines = text.replace(/\r\n/g, "\n").replace(/\n[ \t]/g, "").split("\n"); // rozbalí zalomené řádky
+  const unescape = (s) => s.replace(/\\n/gi, "\n").replace(/\\([,;\\])/g, "$1");
+  const events = [];
+  let cur = null;
+  for (const line of lines) {
+    if (line === "BEGIN:VEVENT") cur = {};
+    else if (line === "END:VEVENT") { if (cur) events.push(cur); cur = null; }
+    else if (cur) {
+      const i = line.indexOf(":");
+      if (i > 0) cur[line.slice(0, i).split(";")[0]] = unescape(line.slice(i + 1));
+    }
+  }
+  return events;
+}
+
+// 20261017T133000Z → Date
+const icsDate = (s) => new Date(s.replace(/^(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2})(\d{2})Z?)?$/, (_, y, mo, d, h = "00", mi = "00", se = "00") => `${y}-${mo}-${d}T${h}:${mi}:${se}Z`));
+
+const lastName = (name) => name.trim().split(/\s+/).at(-1);
+
+const WEIGHTS = [
+  [/women's\s+/i, "ženy, "], [/light heavyweight/i, "polotěžká váha"], [/heavyweight/i, "těžká váha"],
+  [/middleweight/i, "střední váha"], [/welterweight/i, "velterová váha"], [/lightweight/i, "lehká váha"],
+  [/featherweight/i, "pérová váha"], [/bantamweight/i, "bantamová váha"], [/strawweight/i, "slámová váha"],
+  [/flyweight/i, "muší váha"], [/(\d+)\s*lb catchweight/i, "smluvní váha $1 lb"], [/catchweight/i, "smluvní váha"],
+  [/,\s*title/i, ", o titul"],
+];
+const czWeight = (s) => WEIGHTS.reduce((acc, [re, cz]) => acc.replace(re, cz), s);
+
+async function fetchMmaFeeds() {
+  const today = todayStr();
+  const events = [];
+  for (const src of MMA_FEEDS) {
+    const res = await fetch(`https://next-fight.com/api/calendar/${src.feed}.ics?lang=en`, { headers: { "User-Agent": UA } });
+    if (!res.ok) throw new Error(`${src.org}: HTTP ${res.status}`);
+    let found = 0;
+    for (const e of parseIcs(await res.text())) {
+      if (!e.DTSTART || e.STATUS === "CANCELLED") continue;
+      const allDay = !e.DTSTART.includes("T");
+      const { date, time } = allDay ? { date: `${e.DTSTART.slice(0, 4)}-${e.DTSTART.slice(4, 6)}-${e.DTSTART.slice(6, 8)}` } : localParts(icsDate(e.DTSTART));
+      if (date < today) continue;
+      // "Main event : Michal Kopas vs Marcel Simo — Featherweight, title"
+      const main = e.DESCRIPTION?.match(/Main event\s*:\s*(.+?)\s+vs\.?\s+(.+?)\s+—\s+([^\n]+)/);
+      const name = (e.SUMMARY ?? src.org).split(" - ").at(-1).trim();
+      const [city, country] = (e.LOCATION ?? "").split(",").map((s) => s.trim()).slice(-2);
+      const venue = (e.LOCATION ?? "").split(",").length > 2 ? e.LOCATION.split(",")[0].trim() : undefined;
+      events.push({
+        id: `${slug(src.org)}-${date}`, category: "mma", org: src.org,
+        title: main ? `${name}: ${lastName(main[1])} vs. ${lastName(main[2])}` : name,
+        date, time,
+        headline: main ? `${main[1]} vs. ${main[2]} (${czWeight(main[3])})` : undefined,
+        venue, city, country, url: e.URL,
+      });
+      found++;
+    }
+    console.log(`  ${src.org}: ${found}`);
+  }
+  return events;
+}
+
 // ---------------------------------------------------------------- Fotbal (football-data.org)
 
 const normTeam = (s = "") => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase()
@@ -281,6 +344,7 @@ async function loadPrevious() {
 
 const SOURCES = {
   mma: { label: "MMA (Wikipedia)", run: fetchMma },
+  mmaFeeds: { label: "Menší MMA (next-fight.com)", run: fetchMmaFeeds },
   football: { label: "Fotbal (football-data.org)", run: fetchFootball },
   concert: { label: "Koncerty (Ticketmaster)", run: fetchConcerts },
 };

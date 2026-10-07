@@ -8,6 +8,12 @@ export const MMA_SOURCES = [
   { org: "PFL", pages: ["{year}_in_Professional_Fighters_League"] },
 ];
 
+// Menší MMA organizace z kalendářových feedů next-fight.com.
+// feed = část adresy https://next-fight.com/en/organization/<feed> (seznam: https://next-fight.com/en/mma-organizations)
+export const MMA_FEEDS = [
+  { org: "RFA", feed: "real-fight-arena" },
+];
+
 export const FOOTBALL = {
   daysAhead: 270, // do konce sezóny
   // Kódy soutěží z football-data.org (zdarma: PL, CL, PD, BL1, SA, FL1, DED, PPL, ELC, BSA, WC, EC)
