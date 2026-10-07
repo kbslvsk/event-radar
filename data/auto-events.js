@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-07T13:10:02.497Z",
+ "updatedAt": "2026-10-07T13:11:18.227Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:10:02.497Z",
+   "updatedAt": "2026-10-07T13:11:18.227Z",
    "count": 22,
    "events": [
     {
@@ -255,7 +255,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší MMA (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:10:02.497Z",
+   "updatedAt": "2026-10-07T13:11:18.227Z",
    "count": 2,
    "events": [
     {
@@ -287,7 +287,7 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:10:02.497Z",
+   "updatedAt": "2026-10-07T13:11:18.227Z",
    "count": 68,
    "events": [
     {
@@ -893,7 +893,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:10:02.497Z",
+   "updatedAt": "2026-10-07T13:11:18.227Z",
    "count": 49,
    "events": [
     {
