@@ -1,0 +1,8 @@
+{
+  "name": "event-radar",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "update": "node --env-file-if-exists=.env scripts/update.mjs"
+  }
+}

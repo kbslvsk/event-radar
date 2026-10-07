@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Event Radar – sport &amp; koncerty</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">◉</span>
+      <div>
+        <h1>Event Radar</h1>
+        <p class="subtitle">MMA · fotbal · tenis · koncerty</p>
+      </div>
+    </div>
+    <nav class="tabs" role="tablist">
+      <button class="tab active" data-view="list">Přehled</button>
+      <button class="tab" data-view="timeline">Timeline</button>
+      <button class="tab" data-view="mine">Můj seznam <span id="watch-count" class="badge">0</span></button>
+    </nav>
+    <button id="add-btn" class="btn primary">+ Přidat událost</button>
+  </header>
+
+  <section id="next-up" class="next-up hidden"></section>
+
+  <section class="filters">
+    <input id="search" type="search" placeholder="Hledat (např. Procházka, Praha, Clásico)…" />
+    <div id="category-chips" class="chips"></div>
+    <div id="org-chips" class="chips small"></div>
+    <label class="toggle"><input type="checkbox" id="show-past" /> Zobrazit proběhlé</label>
+  </section>
+
+  <main id="content"></main>
+
+  <dialog id="event-dialog">
+    <form id="event-form" method="dialog">
+      <h2>Nová událost</h2>
+      <label>Název* <input name="title" required placeholder="UFC 336: …" /></label>
+      <div class="row">
+        <label>Kategorie
+          <select name="category">
+            <option value="mma">MMA</option>
+            <option value="football">Fotbal</option>
+            <option value="tennis">Tenis</option>
+            <option value="concert">Koncert</option>
+          </select>
+        </label>
+        <label>Organizace / interpret <input name="org" placeholder="UFC, Liga mistrů, Coldplay…" /></label>
+      </div>
+      <div class="row">
+        <label>Datum* <input name="date" type="date" required /></label>
+        <label>Do (nepovinné) <input name="endDate" type="date" /></label>
+        <label>Čas <input name="time" type="time" /></label>
+      </div>
+      <div class="row">
+        <label>Místo <input name="venue" placeholder="O2 arena" /></label>
+        <label>Město <input name="city" placeholder="Praha" /></label>
+      </div>
+      <label>Odkaz <input name="url" type="url" placeholder="https://…" /></label>
+      <label class="toggle"><input type="checkbox" name="watch" checked /> Rovnou přidat do mého seznamu</label>
+      <div class="actions">
+        <button type="button" class="btn" id="cancel-btn">Zrušit</button>
+        <button type="submit" class="btn primary">Uložit</button>
+      </div>
+    </form>
+  </dialog>
+
+  <footer class="footer">
+    <div id="update-status" class="update-status"></div>
+    Termíny se můžou měnit, vždy si je ověř u pořadatele.
+    Můj seznam a vlastní události se ukládají jen v tomto prohlížeči.
+  </footer>
+
+  <script src="data/auto-events.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

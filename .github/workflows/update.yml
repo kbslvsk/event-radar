@@ -1,0 +1,51 @@
+name: Aktualizace událostí a nasazení webu
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # každý den v 5:00/6:00 českého času
+  workflow_dispatch: # ruční spuštění z GitHubu (záložka Actions → Run workflow)
+  push:
+    branches: [main]
+    paths-ignore: ["data/auto-events.js"]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Stáhnout aktuální události
+        env:
+          FOOTBALL_DATA_TOKEN: ${{ secrets.FOOTBALL_DATA_TOKEN }}
+          TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+        run: node scripts/update.mjs
+
+      - name: Uložit změny do repozitáře
+        run: |
+          git config user.name "event-radar-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/auto-events.js
+          git diff --cached --quiet || (git commit -m "Aktualizace událostí $(date -u +%F)" && git push)
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - id: deploy
+        uses: actions/deploy-pages@v4
