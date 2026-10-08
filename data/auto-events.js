@@ -1,18 +1,18 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-07T13:18:36.171Z",
+ "updatedAt": "2026-10-08T11:05:46.861Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:18:36.171Z",
-   "count": 22,
+   "updatedAt": "2026-10-08T11:05:46.861Z",
+   "count": 23,
    "events": [
     {
      "id": "ufc-2027-02-07",
      "category": "mma",
      "org": "UFC",
-     "title": "UFC Fight Night 295",
+     "title": "UFC Fight Night 296",
      "date": "2027-02-07",
      "venue": "Afterpay Arena",
      "city": "Sydney",
@@ -28,6 +28,17 @@ const AUTO_DATA = {
      "venue": "T-Mobile Arena",
      "city": "Las Vegas, Nevada",
      "country": "U.S.",
+     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
+    },
+    {
+     "id": "ufc-2026-11-28",
+     "category": "mma",
+     "org": "UFC",
+     "title": "UFC Fight Night 295",
+     "date": "2026-11-28",
+     "venue": "TBA",
+     "city": "Riyadh",
+     "country": "Saudi Arabia",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
     },
     {
@@ -255,7 +266,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:18:36.171Z",
+   "updatedAt": "2026-10-08T11:05:46.861Z",
    "count": 22,
    "events": [
     {
@@ -299,8 +310,9 @@ const AUTO_DATA = {
      "id": "cage-warriors-2026-11-07",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 212: Spanish Showcase",
+     "title": "Cage Warriors 212: Spanish Showcase: Rutledge vs. Sargent",
      "date": "2026-11-07",
+     "headline": "Paddy Rutledge vs. Omar Sargent (bantamová váha)",
      "venue": "BBC Studioworks Television Centre",
      "city": "London",
      "country": "Greater London",
@@ -524,7 +536,7 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:18:36.171Z",
+   "updatedAt": "2026-10-08T11:05:46.861Z",
    "count": 175,
    "events": [
     {
@@ -2093,21 +2105,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-07T13:18:36.171Z",
-   "count": 49,
+   "updatedAt": "2026-10-08T11:05:46.861Z",
+   "count": 48,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z1kFN0vow",
-     "category": "concert",
-     "org": "Deep Purple",
-     "title": "Deep Purple",
-     "date": "2026-10-07",
-     "time": "20:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/deep-purple-vstupenky/223901472"
-    },
     {
      "id": "tm-Z698xZu0Z1Apat70",
      "category": "concert",
