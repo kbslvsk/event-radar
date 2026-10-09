@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-08T11:05:46.861Z",
+ "updatedAt": "2026-10-09T11:04:45.708Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-08T11:05:46.861Z",
+   "updatedAt": "2026-10-09T11:04:45.708Z",
    "count": 23,
    "events": [
     {
@@ -266,7 +266,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-08T11:05:46.861Z",
+   "updatedAt": "2026-10-09T11:04:45.708Z",
    "count": 22,
    "events": [
     {
@@ -536,8 +536,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-08T11:05:46.861Z",
-   "count": 175,
+   "updatedAt": "2026-10-09T11:04:45.708Z",
+   "count": 179,
    "events": [
     {
      "id": "fd-575341",
@@ -1161,6 +1161,15 @@ const AUTO_DATA = {
      "headline": "7. kolo"
     },
     {
+     "id": "fd-560620",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Ipswich Town – Nottingham",
+     "date": "2026-10-23",
+     "time": "21:00",
+     "headline": "8. kolo"
+    },
+    {
      "id": "fd-560617",
      "category": "football",
      "org": "Premier League",
@@ -1584,6 +1593,15 @@ const AUTO_DATA = {
      "headline": "6. kolo"
     },
     {
+     "id": "fd-564719",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Alavés – Málaga",
+     "date": "2026-10-23",
+     "time": "21:00",
+     "headline": "10. kolo"
+    },
+    {
      "id": "fd-564723",
      "category": "football",
      "org": "La Liga",
@@ -1785,6 +1803,15 @@ const AUTO_DATA = {
      "date": "2026-10-18",
      "time": "17:30",
      "headline": "6. kolo"
+    },
+    {
+     "id": "fd-565833",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Stuttgart – M'gladbach",
+     "date": "2026-10-23",
+     "time": "20:30",
+     "headline": "7. kolo"
     },
     {
      "id": "fd-565845",
@@ -2017,6 +2044,15 @@ const AUTO_DATA = {
      "headline": "7. kolo"
     },
     {
+     "id": "fd-558567",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Torino – Monza",
+     "date": "2026-10-23",
+     "time": "20:45",
+     "headline": "8. kolo"
+    },
+    {
      "id": "fd-558548",
      "category": "football",
      "org": "Serie A",
@@ -2105,8 +2141,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-08T11:05:46.861Z",
-   "count": 48,
+   "updatedAt": "2026-10-09T11:04:45.708Z",
+   "count": 49,
    "events": [
     {
      "id": "tm-Z698xZu0Z1Apat70",
@@ -2215,6 +2251,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/sima-v-o2-arene-vstupenky/1625281055"
+    },
+    {
+     "id": "tm-Z698xZu0Z1kvto07y",
+     "category": "concert",
+     "org": "Lord of the Dance",
+     "title": "Lord of the Dance 2026",
+     "date": "2026-11-14",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/lord-of-the-dance-2026-vstupenky/69464139"
     },
     {
      "id": "tm-Z698xZu0Z16vCdfAue",
