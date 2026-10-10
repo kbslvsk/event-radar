@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-09T11:04:45.708Z",
+ "updatedAt": "2026-10-10T10:22:42.959Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-09T11:04:45.708Z",
+   "updatedAt": "2026-10-10T10:22:42.959Z",
    "count": 23,
    "events": [
     {
@@ -266,8 +266,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-09T11:04:45.708Z",
-   "count": 22,
+   "updatedAt": "2026-10-10T10:22:42.959Z",
+   "count": 21,
    "events": [
     {
      "id": "rfa-2026-10-17",
@@ -365,19 +365,6 @@ const AUTO_DATA = {
      "city": "Newcastle",
      "country": "England",
      "url": "https://next-fight.com/en/event/cw-214-cage-warriors-214-newcastle"
-    },
-    {
-     "id": "one-2026-10-09",
-     "category": "mma",
-     "org": "ONE",
-     "title": "One Friday Fights 174: Andreev vs. Britez",
-     "date": "2026-10-09",
-     "time": "10:30",
-     "headline": "Denis Andreev vs. Waldimir Britez (pérová váha)",
-     "venue": "Lumpinee Boxing Stadium",
-     "city": "Bangkok",
-     "country": "Thailand",
-     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-174"
     },
     {
      "id": "one-2026-10-16",
@@ -536,8 +523,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-09T11:04:45.708Z",
-   "count": 179,
+   "updatedAt": "2026-10-10T10:22:42.959Z",
+   "count": 194,
    "events": [
     {
      "id": "fd-575341",
@@ -1170,6 +1157,33 @@ const AUTO_DATA = {
      "headline": "8. kolo"
     },
     {
+     "id": "fd-560614",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Aston Villa – Man City",
+     "date": "2026-10-24",
+     "time": "13:30",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-560616",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Arsenal – Everton",
+     "date": "2026-10-24",
+     "time": "16:00",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-560618",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Coventry City – Fulham",
+     "date": "2026-10-24",
+     "time": "16:00",
+     "headline": "8. kolo"
+    },
+    {
      "id": "fd-560617",
      "category": "football",
      "org": "Premier League",
@@ -1404,15 +1418,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564706",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Málaga – Espanyol",
-     "date": "2026-10-09",
-     "time": "21:00",
-     "headline": "8. kolo"
-    },
-    {
      "id": "fd-564698",
      "category": "football",
      "org": "La Liga",
@@ -1602,6 +1607,42 @@ const AUTO_DATA = {
      "headline": "10. kolo"
     },
     {
+     "id": "fd-564718",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Rayo Vallecano – Elche",
+     "date": "2026-10-24",
+     "time": "14:00",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-564727",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Santander – Espanyol",
+     "date": "2026-10-24",
+     "time": "16:15",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-564722",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Valencia – Villarreal",
+     "date": "2026-10-24",
+     "time": "18:30",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-564724",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Atleti – Deportivo",
+     "date": "2026-10-24",
+     "time": "21:00",
+     "headline": "10. kolo"
+    },
+    {
      "id": "fd-564723",
      "category": "football",
      "org": "La Liga",
@@ -1641,15 +1682,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565820",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Dortmund – Bremen",
-     "date": "2026-10-09",
-     "time": "20:30",
-     "headline": "5. kolo"
     },
     {
      "id": "fd-565812",
@@ -1811,6 +1843,60 @@ const AUTO_DATA = {
      "title": "Stuttgart – M'gladbach",
      "date": "2026-10-23",
      "time": "20:30",
+     "headline": "7. kolo"
+    },
+    {
+     "id": "fd-565830",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Mainz – Bremen",
+     "date": "2026-10-24",
+     "time": "15:30",
+     "headline": "7. kolo"
+    },
+    {
+     "id": "fd-565831",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "1. FC Köln – Schalke",
+     "date": "2026-10-24",
+     "time": "15:30",
+     "headline": "7. kolo"
+    },
+    {
+     "id": "fd-565832",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "RB Leipzig – Elversberg",
+     "date": "2026-10-24",
+     "time": "15:30",
+     "headline": "7. kolo"
+    },
+    {
+     "id": "fd-565834",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "SC Paderborn – HSV",
+     "date": "2026-10-24",
+     "time": "15:30",
+     "headline": "7. kolo"
+    },
+    {
+     "id": "fd-565838",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Augsburg – Union Berlin",
+     "date": "2026-10-24",
+     "time": "15:30",
+     "headline": "7. kolo"
+    },
+    {
+     "id": "fd-565837",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Dortmund – Frankfurt",
+     "date": "2026-10-24",
+     "time": "18:30",
      "headline": "7. kolo"
     },
     {
@@ -2053,6 +2139,42 @@ const AUTO_DATA = {
      "headline": "8. kolo"
     },
     {
+     "id": "fd-558560",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Cagliari – Bologna",
+     "date": "2026-10-24",
+     "time": "15:00",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-558561",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Como 1907 – Sassuolo",
+     "date": "2026-10-24",
+     "time": "15:00",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-558564",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Napoli – Roma",
+     "date": "2026-10-24",
+     "time": "18:00",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-558565",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Lazio – Parma",
+     "date": "2026-10-24",
+     "time": "20:45",
+     "headline": "8. kolo"
+    },
+    {
      "id": "fd-558548",
      "category": "football",
      "org": "Serie A",
@@ -2141,8 +2263,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-09T11:04:45.708Z",
-   "count": 49,
+   "updatedAt": "2026-10-10T10:22:42.959Z",
+   "count": 51,
    "events": [
     {
      "id": "tm-Z698xZu0Z1Apat70",
@@ -2637,6 +2759,18 @@ const AUTO_DATA = {
      "url": "https://www.ticketmaster.cz/event/rod-stewart-vstupenky/1414234887"
     },
     {
+     "id": "tm-Z698xZu0Z1kqVft7S",
+     "category": "concert",
+     "org": "Nickelback",
+     "title": "Nickelback: Everything Under The Sun Tour",
+     "date": "2027-06-26",
+     "time": "18:30",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/nickelback-everything-under-the-sun-tour-vstupenky/774529133"
+    },
+    {
      "id": "tm-Z698xZu0Z16vjV8fQ_",
      "category": "concert",
      "org": "Ben Cristovao",
@@ -2731,6 +2865,18 @@ const AUTO_DATA = {
      "city": "Vienna",
      "country": "Austria",
      "url": "https://www.ticketmaster.at/event/sombr-you-are-the-reason-tour-wien-tickets/1227066602"
+    },
+    {
+     "id": "tm-Z698xZ5rZ16vZ489ev",
+     "category": "concert",
+     "org": "Nickelback",
+     "title": "Nickelback: Everything Under The Sun Tour",
+     "date": "2027-06-25",
+     "time": "19:30",
+     "venue": "Wiener Stadthalle - Halle D",
+     "city": "Vienna",
+     "country": "Austria",
+     "url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081"
     }
    ]
   }
