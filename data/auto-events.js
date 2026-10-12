@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-11T10:30:30.484Z",
+ "updatedAt": "2026-10-12T11:35:18.675Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-11T10:30:30.484Z",
+   "updatedAt": "2026-10-12T11:35:18.675Z",
    "count": 20,
    "events": [
     {
@@ -233,7 +233,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-11T10:30:30.484Z",
+   "updatedAt": "2026-10-12T11:35:18.675Z",
    "count": 21,
    "events": [
     {
@@ -337,9 +337,10 @@ const AUTO_DATA = {
      "id": "one-2026-10-16",
      "category": "mma",
      "org": "ONE",
-     "title": "One Friday Fights 175",
+     "title": "One Friday Fights 175: Bagade vs. Shioya",
      "date": "2026-10-16",
      "time": "10:30",
+     "headline": "Ashok Bagade vs. Yuto Shioya (bantamová váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -479,6 +480,7 @@ const AUTO_DATA = {
      "org": "Babilon MMA",
      "title": "Babilon MMA 61: Kacprzak vs. Ramos",
      "date": "2026-10-24",
+     "time": "16:00",
      "headline": "Piotr Kacprzak vs. Isai Ramos (lehká váha)",
      "venue": "Enea RCS Radom",
      "city": "Radom",
@@ -490,8 +492,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-11T10:30:30.484Z",
-   "count": 190,
+   "updatedAt": "2026-10-12T11:35:18.675Z",
+   "count": 177,
    "events": [
     {
      "id": "fd-575341",
@@ -935,33 +937,6 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 8. kolo"
     },
     {
-     "id": "fd-560594",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Hull City – Everton",
-     "date": "2026-10-11",
-     "time": "15:00",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-560596",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Crystal Palace – Nottingham",
-     "date": "2026-10-11",
-     "time": "15:00",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-560598",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Liverpool – Man City",
-     "date": "2026-10-11",
-     "time": "17:30",
-     "headline": "⭐ šlágr, 6. kolo"
-    },
-    {
      "id": "fd-560597",
      "category": "football",
      "org": "Premier League",
@@ -1376,42 +1351,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564703",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Elche – Celta",
-     "date": "2026-10-11",
-     "time": "14:00",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-564707",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Real Sociedad – Deportivo",
-     "date": "2026-10-11",
-     "time": "16:15",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-564701",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Real Betis – Osasuna",
-     "date": "2026-10-11",
-     "time": "18:30",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-564705",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Santander – Valencia",
-     "date": "2026-10-11",
-     "time": "21:00",
-     "headline": "8. kolo"
-    },
-    {
      "id": "fd-564704",
      "category": "football",
      "org": "La Liga",
@@ -1601,6 +1540,15 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 10. kolo"
     },
     {
+     "id": "fd-564721",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Sevilla FC – Osasuna",
+     "date": "2026-10-26",
+     "time": "21:00",
+     "headline": "10. kolo"
+    },
+    {
      "id": "fd-564746",
      "category": "football",
      "org": "La Liga",
@@ -1631,24 +1579,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565814",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "1. FC Köln – M'gladbach",
-     "date": "2026-10-11",
-     "time": "15:30",
-     "headline": "5. kolo"
-    },
-    {
-     "id": "fd-565816",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Freiburg – Schalke",
-     "date": "2026-10-11",
-     "time": "17:30",
-     "headline": "5. kolo"
     },
     {
      "id": "fd-565828",
@@ -1861,51 +1791,6 @@ const AUTO_DATA = {
      "title": "Leverkusen – Bayern",
      "date": "2027-05-15",
      "headline": "⭐ šlágr, 33. kolo"
-    },
-    {
-     "id": "fd-558585",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Como 1907 – Roma",
-     "date": "2026-10-11",
-     "time": "12:30",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-558581",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Lecce – Bologna",
-     "date": "2026-10-11",
-     "time": "15:00",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-558583",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Lazio – Monza",
-     "date": "2026-10-11",
-     "time": "15:00",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-558580",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Sassuolo – Milan",
-     "date": "2026-10-11",
-     "time": "18:00",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-558584",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Cagliari – Juventus",
-     "date": "2026-10-11",
-     "time": "20:45",
-     "headline": "6. kolo"
     },
     {
      "id": "fd-558579",
@@ -2194,7 +2079,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-11T10:30:30.484Z",
+   "updatedAt": "2026-10-12T11:35:18.675Z",
    "count": 50,
    "events": [
     {
@@ -2791,7 +2676,7 @@ const AUTO_DATA = {
      "org": "Nickelback",
      "title": "Nickelback: Everything Under The Sun Tour",
      "date": "2027-06-25",
-     "time": "19:30",
+     "time": "18:30",
      "venue": "Wiener Stadthalle - Halle D",
      "city": "Vienna",
      "country": "Austria",
