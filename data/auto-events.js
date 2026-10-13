@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-12T11:35:18.675Z",
+ "updatedAt": "2026-10-13T11:20:51.255Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-12T11:35:18.675Z",
+   "updatedAt": "2026-10-13T11:20:51.255Z",
    "count": 20,
    "events": [
     {
@@ -233,8 +233,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-12T11:35:18.675Z",
-   "count": 21,
+   "updatedAt": "2026-10-13T11:20:51.255Z",
+   "count": 23,
    "events": [
     {
      "id": "rfa-2026-10-17",
@@ -337,10 +337,10 @@ const AUTO_DATA = {
      "id": "one-2026-10-16",
      "category": "mma",
      "org": "ONE",
-     "title": "One Friday Fights 175: Bagade vs. Shioya",
+     "title": "One Friday Fights 175: Cabrera vs. Hutagaol",
      "date": "2026-10-16",
      "time": "10:30",
-     "headline": "Ashok Bagade vs. Yuto Shioya (bantamová váha)",
+     "headline": "Javier Cabrera vs. Sanjaya Hutagaol (muší váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -383,6 +383,17 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-177"
     },
     {
+     "id": "one-2026-11-13",
+     "category": "mma",
+     "org": "ONE",
+     "title": "One Friday Fights 178",
+     "date": "2026-11-13",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-178"
+    },
+    {
      "id": "one-2026-11-18",
      "category": "mma",
      "org": "ONE",
@@ -393,6 +404,18 @@ const AUTO_DATA = {
      "city": "Ota",
      "country": "Tokyo",
      "url": "https://next-fight.com/en/event/one-championship-one-samurai-5"
+    },
+    {
+     "id": "one-2026-11-20",
+     "category": "mma",
+     "org": "ONE",
+     "title": "One Friday Fights 179: Rodrigues vs. Padie",
+     "date": "2026-11-20",
+     "headline": "Allycia Hellen Rodrigues vs. Charlotte Padie (slámová váha)",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-179"
     },
     {
      "id": "rizin-2026-11-08",
@@ -492,8 +515,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-12T11:35:18.675Z",
-   "count": 177,
+   "updatedAt": "2026-10-13T11:20:51.255Z",
+   "count": 176,
    "events": [
     {
      "id": "fd-575341",
@@ -937,15 +960,6 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 8. kolo"
     },
     {
-     "id": "fd-560597",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Coventry City – Newcastle",
-     "date": "2026-10-12",
-     "time": "21:00",
-     "headline": "6. kolo"
-    },
-    {
      "id": "fd-560603",
      "category": "football",
      "org": "Premier League",
@@ -1351,15 +1365,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564704",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Levante – Sevilla FC",
-     "date": "2026-10-12",
-     "time": "21:00",
-     "headline": "8. kolo"
-    },
-    {
      "id": "fd-564716",
      "category": "football",
      "org": "La Liga",
@@ -1554,6 +1559,7 @@ const AUTO_DATA = {
      "org": "La Liga",
      "title": "Atleti – Barça",
      "date": "2026-11-08",
+     "time": "21:00",
      "headline": "⭐ šlágr, 12. kolo"
     },
     {
@@ -1793,24 +1799,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 33. kolo"
     },
     {
-     "id": "fd-558579",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Atalanta – Venezia FC",
-     "date": "2026-10-12",
-     "time": "18:30",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-558587",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Torino – Udinese",
-     "date": "2026-10-12",
-     "time": "20:45",
-     "headline": "6. kolo"
-    },
-    {
      "id": "fd-558573",
      "category": "football",
      "org": "Serie A",
@@ -1991,6 +1979,33 @@ const AUTO_DATA = {
      "headline": "8. kolo"
     },
     {
+     "id": "fd-558556",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Sassuolo – Lazio",
+     "date": "2026-10-27",
+     "time": "18:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-558555",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Roma – Cagliari",
+     "date": "2026-10-27",
+     "time": "20:45",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-558557",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Torino – Como 1907",
+     "date": "2026-10-27",
+     "time": "20:45",
+     "headline": "9. kolo"
+    },
+    {
      "id": "fd-558548",
      "category": "football",
      "org": "Serie A",
@@ -2079,7 +2094,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-12T11:35:18.675Z",
+   "updatedAt": "2026-10-13T11:20:51.255Z",
    "count": 50,
    "events": [
     {
