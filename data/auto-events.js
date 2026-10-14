@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-13T11:20:51.255Z",
+ "updatedAt": "2026-10-14T09:13:09.190Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-13T11:20:51.255Z",
+   "updatedAt": "2026-10-14T09:13:09.190Z",
    "count": 20,
    "events": [
     {
@@ -233,8 +233,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-13T11:20:51.255Z",
-   "count": 23,
+   "updatedAt": "2026-10-14T09:13:09.190Z",
+   "count": 24,
    "events": [
     {
      "id": "rfa-2026-10-17",
@@ -418,6 +418,18 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-179"
     },
     {
+     "id": "one-2026-12-02",
+     "category": "mma",
+     "org": "ONE",
+     "title": "ONE Samurai 6: Sawada vs. Nikolakakos",
+     "date": "2026-12-02",
+     "headline": "Chihiro Sawada vs. Anastasia Nikolakakos (slámová váha, o titul)",
+     "venue": "Yokohama Buntai",
+     "city": "Yokohama",
+     "country": "Kanagawa",
+     "url": "https://next-fight.com/en/event/one-championship-one-samurai-6"
+    },
+    {
      "id": "rizin-2026-11-08",
      "category": "mma",
      "org": "RIZIN",
@@ -515,90 +527,9 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-13T11:20:51.255Z",
-   "count": 176,
+   "updatedAt": "2026-10-14T09:13:09.190Z",
+   "count": 172,
    "events": [
-    {
-     "id": "fd-575341",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "RC Lens – Sporting CP",
-     "date": "2026-10-13",
-     "time": "18:45",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575342",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Sabah FK – Slavia Praha",
-     "date": "2026-10-13",
-     "time": "18:45",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575343",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Inter – Club Brugge",
-     "date": "2026-10-13",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575344",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Galatasaray – Barça",
-     "date": "2026-10-13",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575345",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Atleti – Man United",
-     "date": "2026-10-13",
-     "time": "21:00",
-     "headline": "⭐ šlágr, ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575346",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Arsenal – Lille",
-     "date": "2026-10-13",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575347",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Viking – Bayern",
-     "date": "2026-10-13",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575348",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "RB Leipzig – PSV",
-     "date": "2026-10-13",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575349",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Villarreal – Napoli",
-     "date": "2026-10-13",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
     {
      "id": "fd-575350",
      "category": "football",
@@ -2006,6 +1937,51 @@ const AUTO_DATA = {
      "headline": "9. kolo"
     },
     {
+     "id": "fd-558549",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Milan – Bologna",
+     "date": "2026-10-28",
+     "time": "18:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-558550",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Venezia FC – Inter",
+     "date": "2026-10-28",
+     "time": "18:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-558553",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Parma – Udinese",
+     "date": "2026-10-28",
+     "time": "18:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-558552",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Genoa – Juventus",
+     "date": "2026-10-28",
+     "time": "20:45",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-558554",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Monza – Napoli",
+     "date": "2026-10-28",
+     "time": "20:45",
+     "headline": "9. kolo"
+    },
+    {
      "id": "fd-558548",
      "category": "football",
      "org": "Serie A",
@@ -2094,7 +2070,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-13T11:20:51.255Z",
+   "updatedAt": "2026-10-14T09:13:09.190Z",
    "count": 50,
    "events": [
     {
