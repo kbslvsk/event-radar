@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-14T09:13:09.190Z",
+ "updatedAt": "2026-10-15T08:46:00.835Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-14T09:13:09.190Z",
+   "updatedAt": "2026-10-15T08:46:00.835Z",
    "count": 20,
    "events": [
     {
@@ -233,7 +233,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-14T09:13:09.190Z",
+   "updatedAt": "2026-10-15T08:46:00.835Z",
    "count": 24,
    "events": [
     {
@@ -527,90 +527,9 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-14T09:13:09.190Z",
-   "count": 172,
+   "updatedAt": "2026-10-15T08:46:00.835Z",
+   "count": 165,
    "events": [
-    {
-     "id": "fd-575350",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "LASK – Liverpool",
-     "date": "2026-10-14",
-     "time": "18:45",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575351",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Feyenoord – Como 1907",
-     "date": "2026-10-14",
-     "time": "18:45",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575352",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Roma – Real Madrid",
-     "date": "2026-10-14",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575353",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Man City – PSG",
-     "date": "2026-10-14",
-     "time": "21:00",
-     "headline": "⭐ šlágr, ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575354",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Bodø/Glimt – Dortmund",
-     "date": "2026-10-14",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575355",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Aston Villa – Fenerbahçe",
-     "date": "2026-10-14",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575356",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Real Betis – Porto",
-     "date": "2026-10-14",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575357",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Shaktar – PAE AEK",
-     "date": "2026-10-14",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
-    {
-     "id": "fd-575358",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Sl. Bratislava – Stuttgart",
-     "date": "2026-10-14",
-     "time": "21:00",
-     "headline": "ligová fáze, 2. kolo"
-    },
     {
      "id": "fd-575359",
      "category": "football",
@@ -1982,6 +1901,24 @@ const AUTO_DATA = {
      "headline": "9. kolo"
     },
     {
+     "id": "fd-558558",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Frosinone – Lecce",
+     "date": "2026-10-29",
+     "time": "18:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-558551",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Fiorentina – Atalanta",
+     "date": "2026-10-29",
+     "time": "20:45",
+     "headline": "9. kolo"
+    },
+    {
      "id": "fd-558548",
      "category": "football",
      "org": "Serie A",
@@ -2070,8 +2007,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-14T09:13:09.190Z",
-   "count": 50,
+   "updatedAt": "2026-10-15T08:46:00.835Z",
+   "count": 51,
    "events": [
     {
      "id": "tm-Z698xZu0Z1ku7afFw",
@@ -2360,6 +2297,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/drupi-vstupenky/352334732"
+    },
+    {
+     "id": "tm-Z698xZu0Z1krFAUqa",
+     "category": "concert",
+     "org": "MEGA SILVESTROVSKÉ PECKY",
+     "title": "MEGA SILVESTROVSKÉ PECKY",
+     "date": "2026-12-31",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/mega-silvestrovske-pecky-vstupenky/788176749"
     },
     {
      "id": "tm-Z698xZu0Z16vrF8vjx",
