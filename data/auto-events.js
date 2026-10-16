@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-15T08:46:00.835Z",
+ "updatedAt": "2026-10-16T08:41:23.339Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-15T08:46:00.835Z",
+   "updatedAt": "2026-10-16T08:41:23.339Z",
    "count": 20,
    "events": [
     {
@@ -31,11 +31,11 @@ const AUTO_DATA = {
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
     },
     {
-     "id": "ufc-2026-11-28",
+     "id": "ufc-2026-12-05",
      "category": "mma",
      "org": "UFC",
      "title": "UFC Fight Night 295",
-     "date": "2026-11-28",
+     "date": "2026-12-05",
      "venue": "TBA",
      "city": "Riyadh",
      "country": "Saudi Arabia",
@@ -233,7 +233,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-15T08:46:00.835Z",
+   "updatedAt": "2026-10-16T08:41:23.339Z",
    "count": 24,
    "events": [
     {
@@ -365,6 +365,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One Friday Fights 176",
      "date": "2026-10-30",
+     "time": "09:30",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -527,8 +528,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-15T08:46:00.835Z",
-   "count": 165,
+   "updatedAt": "2026-10-16T08:41:23.339Z",
+   "count": 167,
    "events": [
     {
      "id": "fd-575359",
@@ -1404,6 +1405,15 @@ const AUTO_DATA = {
      "headline": "10. kolo"
     },
     {
+     "id": "fd-564737",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Villarreal – Espanyol",
+     "date": "2026-10-30",
+     "time": "21:00",
+     "headline": "11. kolo"
+    },
+    {
      "id": "fd-564746",
      "category": "football",
      "org": "La Liga",
@@ -1597,6 +1607,15 @@ const AUTO_DATA = {
      "date": "2026-10-25",
      "time": "17:30",
      "headline": "7. kolo"
+    },
+    {
+     "id": "fd-565846",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Elversberg – Mainz",
+     "date": "2026-10-30",
+     "time": "20:30",
+     "headline": "8. kolo"
     },
     {
      "id": "fd-565845",
@@ -2007,7 +2026,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-15T08:46:00.835Z",
+   "updatedAt": "2026-10-16T08:41:23.339Z",
    "count": 51,
    "events": [
     {
