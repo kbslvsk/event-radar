@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-16T08:41:23.339Z",
+ "updatedAt": "2026-10-17T08:12:19.634Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-16T08:41:23.339Z",
+   "updatedAt": "2026-10-17T08:12:19.634Z",
    "count": 20,
    "events": [
     {
@@ -111,7 +111,7 @@ const AUTO_DATA = {
      "id": "oktagon-2026-10-17",
      "category": "mma",
      "org": "OKTAGON",
-     "title": "Oktagon 95: Kincl vs. Humburger",
+     "title": "Oktagon 95: Škvor vs. Narkun",
      "date": "2026-10-17",
      "venue": "Mattoni Arena",
      "city": "Karlovy Vary",
@@ -233,8 +233,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-16T08:41:23.339Z",
-   "count": 24,
+   "updatedAt": "2026-10-17T08:12:19.634Z",
+   "count": 23,
    "events": [
     {
      "id": "rfa-2026-10-17",
@@ -332,19 +332,6 @@ const AUTO_DATA = {
      "city": "Newcastle",
      "country": "England",
      "url": "https://next-fight.com/en/event/cw-214-cage-warriors-214-newcastle"
-    },
-    {
-     "id": "one-2026-10-16",
-     "category": "mma",
-     "org": "ONE",
-     "title": "One Friday Fights 175: Cabrera vs. Hutagaol",
-     "date": "2026-10-16",
-     "time": "10:30",
-     "headline": "Javier Cabrera vs. Sanjaya Hutagaol (muší váha)",
-     "venue": "Lumpinee Boxing Stadium",
-     "city": "Bangkok",
-     "country": "Thailand",
-     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-175"
     },
     {
      "id": "one-2026-10-17",
@@ -528,8 +515,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-16T08:41:23.339Z",
-   "count": 167,
+   "updatedAt": "2026-10-17T08:12:19.634Z",
+   "count": 182,
    "events": [
     {
      "id": "fd-575359",
@@ -1000,6 +987,69 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 9. kolo"
     },
     {
+     "id": "fd-560623",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Man City – Brighton Hove",
+     "date": "2026-10-31",
+     "time": "16:00",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-560624",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Bournemouth – Leeds United",
+     "date": "2026-10-31",
+     "time": "16:00",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-560625",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Coventry City – Sunderland",
+     "date": "2026-10-31",
+     "time": "16:00",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-560629",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Hull City – Ipswich Town",
+     "date": "2026-10-31",
+     "time": "16:00",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-560630",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Brentford – Nottingham",
+     "date": "2026-10-31",
+     "time": "16:00",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-560627",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Tottenham – Crystal Palace",
+     "date": "2026-10-31",
+     "time": "18:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-560628",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Aston Villa – Fulham",
+     "date": "2026-10-31",
+     "time": "21:00",
+     "headline": "9. kolo"
+    },
+    {
      "id": "fd-560631",
      "category": "football",
      "org": "Premier League",
@@ -1216,15 +1266,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564716",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Deportivo – Levante",
-     "date": "2026-10-16",
-     "time": "21:00",
-     "headline": "9. kolo"
-    },
-    {
      "id": "fd-564710",
      "category": "football",
      "org": "La Liga",
@@ -1414,6 +1455,42 @@ const AUTO_DATA = {
      "headline": "11. kolo"
     },
     {
+     "id": "fd-564730",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Levante – Atleti",
+     "date": "2026-10-31",
+     "time": "14:00",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-564735",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Rayo Vallecano – Celta",
+     "date": "2026-10-31",
+     "time": "16:15",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-564736",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Real Betis – Málaga",
+     "date": "2026-10-31",
+     "time": "18:30",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-564732",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Barça – Alavés",
+     "date": "2026-10-31",
+     "time": "21:00",
+     "headline": "11. kolo"
+    },
+    {
      "id": "fd-564746",
      "category": "football",
      "org": "La Liga",
@@ -1445,15 +1522,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565828",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Frankfurt – 1. FC Köln",
-     "date": "2026-10-16",
-     "time": "20:30",
-     "headline": "6. kolo"
     },
     {
      "id": "fd-565821",
@@ -1618,6 +1686,51 @@ const AUTO_DATA = {
      "headline": "8. kolo"
     },
     {
+     "id": "fd-565839",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "M'gladbach – SC Paderborn",
+     "date": "2026-10-31",
+     "time": "15:30",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-565840",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Schalke – RB Leipzig",
+     "date": "2026-10-31",
+     "time": "15:30",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-565842",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Augsburg – Freiburg",
+     "date": "2026-10-31",
+     "time": "15:30",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-565843",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Bremen – Hoffenheim",
+     "date": "2026-10-31",
+     "time": "15:30",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-565847",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Leverkusen – Stuttgart",
+     "date": "2026-10-31",
+     "time": "15:30",
+     "headline": "8. kolo"
+    },
+    {
      "id": "fd-565845",
      "category": "football",
      "org": "Bundesliga",
@@ -1666,15 +1779,6 @@ const AUTO_DATA = {
      "title": "Leverkusen – Bayern",
      "date": "2027-05-15",
      "headline": "⭐ šlágr, 33. kolo"
-    },
-    {
-     "id": "fd-558573",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Frosinone – Sassuolo",
-     "date": "2026-10-16",
-     "time": "20:45",
-     "headline": "7. kolo"
     },
     {
      "id": "fd-558575",
@@ -1938,6 +2042,24 @@ const AUTO_DATA = {
      "headline": "9. kolo"
     },
     {
+     "id": "fd-558539",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Bologna – Monza",
+     "date": "2026-10-31",
+     "time": "15:00",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-558542",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Udinese – Roma",
+     "date": "2026-10-31",
+     "time": "18:00",
+     "headline": "10. kolo"
+    },
+    {
      "id": "fd-558548",
      "category": "football",
      "org": "Serie A",
@@ -2026,7 +2148,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-16T08:41:23.339Z",
+   "updatedAt": "2026-10-17T08:12:19.634Z",
    "count": 51,
    "events": [
     {
