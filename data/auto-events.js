@@ -1,12 +1,12 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-17T08:12:19.634Z",
+ "updatedAt": "2026-10-18T08:29:33.763Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-17T08:12:19.634Z",
-   "count": 20,
+   "updatedAt": "2026-10-18T08:29:33.763Z",
+   "count": 18,
    "events": [
     {
      "id": "ufc-2027-02-07",
@@ -17,6 +17,17 @@ const AUTO_DATA = {
      "venue": "Afterpay Arena",
      "city": "Sydney",
      "country": "Australia",
+     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
+    },
+    {
+     "id": "ufc-2027-01-30",
+     "category": "mma",
+     "org": "UFC",
+     "title": "UFC 336",
+     "date": "2027-01-30",
+     "venue": "Scotiabank Arena",
+     "city": "Toronto, Ontario",
+     "country": "Canada",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
     },
     {
@@ -97,28 +108,6 @@ const AUTO_DATA = {
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
     },
     {
-     "id": "ufc-2026-10-17",
-     "category": "mma",
-     "org": "UFC",
-     "title": "UFC Fight Night: Buckley vs. Malott",
-     "date": "2026-10-17",
-     "venue": "Rogers Place",
-     "city": "Edmonton, Alberta",
-     "country": "Canada",
-     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
-    },
-    {
-     "id": "oktagon-2026-10-17",
-     "category": "mma",
-     "org": "OKTAGON",
-     "title": "Oktagon 95: Škvor vs. Narkun",
-     "date": "2026-10-17",
-     "venue": "Mattoni Arena",
-     "city": "Karlovy Vary",
-     "country": "Czech Republic",
-     "url": "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA"
-    },
-    {
      "id": "oktagon-2026-10-31",
      "category": "mma",
      "org": "OKTAGON",
@@ -196,17 +185,6 @@ const AUTO_DATA = {
      "url": "https://en.wikipedia.org/wiki/2026_in_Konfrontacja_Sztuk_Walki"
     },
     {
-     "id": "pfl-2026-10-17",
-     "category": "mma",
-     "org": "PFL",
-     "title": "PFL Chicago: Carmouche vs. Bishop 2",
-     "date": "2026-10-17",
-     "venue": "Wintrust Arena",
-     "city": "Chicago, Illinois",
-     "country": "United States",
-     "url": "https://en.wikipedia.org/wiki/2026_in_Professional_Fighters_League"
-    },
-    {
      "id": "pfl-2026-11-14",
      "category": "mma",
      "org": "PFL",
@@ -233,22 +211,9 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-17T08:12:19.634Z",
-   "count": 23,
+   "updatedAt": "2026-10-18T08:29:33.763Z",
+   "count": 19,
    "events": [
-    {
-     "id": "rfa-2026-10-17",
-     "category": "mma",
-     "org": "RFA",
-     "title": "RFA 34: Kopas vs. Simo",
-     "date": "2026-10-17",
-     "time": "15:30",
-     "headline": "Michal Kopas vs. Marcel Simo (pérová váha, o titul)",
-     "venue": "Zimny Stadion",
-     "city": "Zilina",
-     "country": "Slovakia",
-     "url": "https://next-fight.com/en/event/real-fight-arena-34-rfa-34"
-    },
     {
      "id": "rfa-2026-11-27",
      "category": "mma",
@@ -259,19 +224,6 @@ const AUTO_DATA = {
      "city": "Prague",
      "country": "Czech Republic",
      "url": "https://next-fight.com/en/event/real-fight-arena-35-rfa-35"
-    },
-    {
-     "id": "cage-warriors-2026-10-17",
-     "category": "mma",
-     "org": "Cage Warriors",
-     "title": "Cage Warriors 211: Rome: Bellandi vs. Alves",
-     "date": "2026-10-17",
-     "time": "11:00",
-     "headline": "Dario Bellandi vs. Renato Valente Alves (střední váha)",
-     "venue": "PalaPellicone",
-     "city": "Rome",
-     "country": "Italy",
-     "url": "https://next-fight.com/en/event/cw-211-cage-warriors-211-rome"
     },
     {
      "id": "cage-warriors-2026-11-07",
@@ -332,19 +284,6 @@ const AUTO_DATA = {
      "city": "Newcastle",
      "country": "England",
      "url": "https://next-fight.com/en/event/cw-214-cage-warriors-214-newcastle"
-    },
-    {
-     "id": "one-2026-10-17",
-     "category": "mma",
-     "org": "ONE",
-     "title": "ONE Samurai 4: Radzuan vs. Hirata",
-     "date": "2026-10-17",
-     "time": "06:00",
-     "headline": "Jihin Radzuan vs. Itsuki Hirata (slámová váha)",
-     "venue": "Ariake Arena",
-     "city": "Koto",
-     "country": "Tokyo",
-     "url": "https://next-fight.com/en/event/one-championship-one-samurai-4"
     },
     {
      "id": "one-2026-10-30",
@@ -442,18 +381,6 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/rizin-ff-new-years-eve-event"
     },
     {
-     "id": "we-love-mma-2026-10-17",
-     "category": "mma",
-     "org": "We Love MMA",
-     "title": "We Love MMA 90",
-     "date": "2026-10-17",
-     "time": "16:00",
-     "venue": "Porsche Arena",
-     "city": "Stuttgart",
-     "country": "Germany",
-     "url": "https://next-fight.com/en/event/wlmma-we-love-mma-90"
-    },
-    {
      "id": "we-love-mma-2026-11-22",
      "category": "mma",
      "org": "We Love MMA",
@@ -505,7 +432,7 @@ const AUTO_DATA = {
      "date": "2026-10-24",
      "time": "16:00",
      "headline": "Piotr Kacprzak vs. Isai Ramos (lehká váha)",
-     "venue": "Enea RCS Radom",
+     "venue": "Enea Radomskie Centrum Sportu",
      "city": "Radom",
      "country": "Poland",
      "url": "https://next-fight.com/en/event/babilon-mma-61-oct-24"
@@ -515,8 +442,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-17T08:12:19.634Z",
-   "count": 182,
+   "updatedAt": "2026-10-18T08:29:33.763Z",
+   "count": 174,
    "events": [
     {
      "id": "fd-575359",
@@ -796,51 +723,6 @@ const AUTO_DATA = {
      "date": "2027-01-27",
      "time": "21:00",
      "headline": "ligová fáze, 8. kolo"
-    },
-    {
-     "id": "fd-560603",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Everton – Chelsea",
-     "date": "2026-10-17",
-     "time": "13:30",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-560602",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Fulham – Hull City",
-     "date": "2026-10-17",
-     "time": "16:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-560610",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Man City – Ipswich Town",
-     "date": "2026-10-17",
-     "time": "16:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-560611",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Brentford – Liverpool",
-     "date": "2026-10-17",
-     "time": "16:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-560607",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Newcastle – Aston Villa",
-     "date": "2026-10-17",
-     "time": "18:30",
-     "headline": "7. kolo"
     },
     {
      "id": "fd-560604",
@@ -1266,42 +1148,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564710",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Espanyol – Atleti",
-     "date": "2026-10-17",
-     "time": "14:00",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-564708",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Villarreal – Elche",
-     "date": "2026-10-17",
-     "time": "16:15",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-564713",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Real Betis – Barça",
-     "date": "2026-10-17",
-     "time": "18:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-564711",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Valencia – Athletic",
-     "date": "2026-10-17",
-     "time": "21:00",
-     "headline": "9. kolo"
-    },
-    {
      "id": "fd-564715",
      "category": "football",
      "org": "La Liga",
@@ -1491,6 +1337,42 @@ const AUTO_DATA = {
      "headline": "11. kolo"
     },
     {
+     "id": "fd-564733",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Getafe – Sevilla FC",
+     "date": "2026-11-01",
+     "time": "14:00",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-564734",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Santander – Real Madrid",
+     "date": "2026-11-01",
+     "time": "16:15",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-564728",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Elche – Valencia",
+     "date": "2026-11-01",
+     "time": "18:30",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-564729",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Athletic – Real Sociedad",
+     "date": "2026-11-01",
+     "time": "21:00",
+     "headline": "11. kolo"
+    },
+    {
      "id": "fd-564746",
      "category": "football",
      "org": "La Liga",
@@ -1522,60 +1404,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565821",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Union Berlin – Dortmund",
-     "date": "2026-10-17",
-     "time": "15:30",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-565822",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "HSV – Stuttgart",
-     "date": "2026-10-17",
-     "time": "15:30",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-565823",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Bremen – SC Paderborn",
-     "date": "2026-10-17",
-     "time": "15:30",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-565824",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Elversberg – Augsburg",
-     "date": "2026-10-17",
-     "time": "15:30",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-565829",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Schalke – Mainz",
-     "date": "2026-10-17",
-     "time": "15:30",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-565825",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Bayern – RB Leipzig",
-     "date": "2026-10-17",
-     "time": "18:30",
-     "headline": "6. kolo"
     },
     {
      "id": "fd-565827",
@@ -1740,6 +1568,24 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 8. kolo"
     },
     {
+     "id": "fd-565841",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Union Berlin – 1. FC Köln",
+     "date": "2026-11-01",
+     "time": "15:30",
+     "headline": "8. kolo"
+    },
+    {
+     "id": "fd-565844",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Frankfurt – HSV",
+     "date": "2026-11-01",
+     "time": "17:30",
+     "headline": "8. kolo"
+    },
+    {
      "id": "fd-565872",
      "category": "football",
      "org": "Bundesliga",
@@ -1779,33 +1625,6 @@ const AUTO_DATA = {
      "title": "Leverkusen – Bayern",
      "date": "2027-05-15",
      "headline": "⭐ šlágr, 33. kolo"
-    },
-    {
-     "id": "fd-558575",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Venezia FC – Napoli",
-     "date": "2026-10-17",
-     "time": "15:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-558571",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Bologna – Inter",
-     "date": "2026-10-17",
-     "time": "18:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-558572",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Roma – Genoa",
-     "date": "2026-10-17",
-     "time": "20:45",
-     "headline": "7. kolo"
     },
     {
      "id": "fd-558574",
@@ -2069,6 +1888,42 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 10. kolo"
     },
     {
+     "id": "fd-558543",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Como 1907 – Venezia FC",
+     "date": "2026-11-01",
+     "time": "12:30",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-558544",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Frosinone – Torino",
+     "date": "2026-11-01",
+     "time": "15:00",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-558546",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Lazio – Cagliari",
+     "date": "2026-11-01",
+     "time": "15:00",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-558540",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Lecce – Genoa",
+     "date": "2026-11-01",
+     "time": "18:00",
+     "headline": "10. kolo"
+    },
+    {
      "id": "fd-558547",
      "category": "football",
      "org": "Serie A",
@@ -2148,21 +2003,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-17T08:12:19.634Z",
+   "updatedAt": "2026-10-18T08:29:33.763Z",
    "count": 51,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z1ku7afFw",
-     "category": "concert",
-     "org": "Český mejdan s Impulsem",
-     "title": "ČESKÝ MEJDAN S IMPULSEM 2026",
-     "date": "2026-10-17",
-     "time": "18:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/cesky-mejdan-s-impulsem-2026-vstupenky/344254232"
-    },
     {
      "id": "tm-Z698xZu0Z16vaNj8e9",
      "category": "concert",
@@ -2678,6 +2521,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/ben-cristovao-2027-vstupenky/1917128315"
+    },
+    {
+     "id": "tm-Z698xZu0Z1kQ7Z6jd",
+     "category": "concert",
+     "org": "Český mejdan s Impulsem",
+     "title": "ČESKÝ MEJDAN S IMPULSEM 2027",
+     "date": "2027-10-16",
+     "time": "18:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/cesky-mejdan-s-impulsem-2027-vstupenky/684007703"
     },
     {
      "id": "tm-Z698xZ5rZ1kbob6e3",
