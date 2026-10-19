@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-18T08:29:33.763Z",
+ "updatedAt": "2026-10-19T09:31:17.291Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-18T08:29:33.763Z",
+   "updatedAt": "2026-10-19T09:31:17.291Z",
    "count": 18,
    "events": [
     {
@@ -211,7 +211,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-18T08:29:33.763Z",
+   "updatedAt": "2026-10-19T09:31:17.291Z",
    "count": 19,
    "events": [
     {
@@ -442,8 +442,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-18T08:29:33.763Z",
-   "count": 174,
+   "updatedAt": "2026-10-19T09:31:17.291Z",
+   "count": 164,
    "events": [
     {
      "id": "fd-575359",
@@ -725,42 +725,6 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 8. kolo"
     },
     {
-     "id": "fd-560604",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Bournemouth – Sunderland",
-     "date": "2026-10-18",
-     "time": "15:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-560605",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Leeds United – Man United",
-     "date": "2026-10-18",
-     "time": "15:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-560609",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Brighton Hove – Crystal Palace",
-     "date": "2026-10-18",
-     "time": "15:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-560608",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Nottingham – Arsenal",
-     "date": "2026-10-18",
-     "time": "17:30",
-     "headline": "7. kolo"
-    },
-    {
      "id": "fd-560606",
      "category": "football",
      "org": "Premier League",
@@ -939,6 +903,15 @@ const AUTO_DATA = {
      "date": "2026-11-01",
      "time": "17:30",
      "headline": "⭐ šlágr, 9. kolo"
+    },
+    {
+     "id": "fd-560622",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Newcastle – Everton",
+     "date": "2026-11-02",
+     "time": "21:00",
+     "headline": "9. kolo"
     },
     {
      "id": "fd-560645",
@@ -1148,42 +1121,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564715",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Osasuna – Santander",
-     "date": "2026-10-18",
-     "time": "14:00",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-564712",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Celta – Alavés",
-     "date": "2026-10-18",
-     "time": "16:15",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-564714",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Málaga – Real Sociedad",
-     "date": "2026-10-18",
-     "time": "18:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-564709",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Real Madrid – Sevilla FC",
-     "date": "2026-10-18",
-     "time": "21:00",
-     "headline": "9. kolo"
-    },
-    {
      "id": "fd-564717",
      "category": "football",
      "org": "La Liga",
@@ -1373,6 +1310,15 @@ const AUTO_DATA = {
      "headline": "11. kolo"
     },
     {
+     "id": "fd-564731",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Deportivo – Osasuna",
+     "date": "2026-11-02",
+     "time": "21:00",
+     "headline": "11. kolo"
+    },
+    {
      "id": "fd-564746",
      "category": "football",
      "org": "La Liga",
@@ -1404,24 +1350,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565827",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Leverkusen – Freiburg",
-     "date": "2026-10-18",
-     "time": "15:30",
-     "headline": "6. kolo"
-    },
-    {
-     "id": "fd-565826",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "M'gladbach – Hoffenheim",
-     "date": "2026-10-18",
-     "time": "17:30",
-     "headline": "6. kolo"
     },
     {
      "id": "fd-565833",
@@ -1625,42 +1553,6 @@ const AUTO_DATA = {
      "title": "Leverkusen – Bayern",
      "date": "2027-05-15",
      "headline": "⭐ šlágr, 33. kolo"
-    },
-    {
-     "id": "fd-558574",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Udinese – Lecce",
-     "date": "2026-10-18",
-     "time": "12:30",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-558577",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Fiorentina – Como 1907",
-     "date": "2026-10-18",
-     "time": "15:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-558569",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Milan – Atalanta",
-     "date": "2026-10-18",
-     "time": "18:00",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-558570",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Juventus – Lazio",
-     "date": "2026-10-18",
-     "time": "20:45",
-     "headline": "7. kolo"
     },
     {
      "id": "fd-558576",
@@ -1933,6 +1825,24 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 10. kolo"
     },
     {
+     "id": "fd-558541",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Sassuolo – Fiorentina",
+     "date": "2026-11-02",
+     "time": "18:30",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-558545",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Atalanta – Parma",
+     "date": "2026-11-02",
+     "time": "20:45",
+     "headline": "10. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -2003,8 +1913,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-18T08:29:33.763Z",
-   "count": 51,
+   "updatedAt": "2026-10-19T09:31:17.291Z",
+   "count": 52,
    "events": [
     {
      "id": "tm-Z698xZu0Z16vaNj8e9",
@@ -2533,6 +2443,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/cesky-mejdan-s-impulsem-2027-vstupenky/684007703"
+    },
+    {
+     "id": "tm-Z698xZu0Z1kfFve1b",
+     "category": "concert",
+     "org": "Il Volo",
+     "title": "IL VOLO",
+     "date": "2027-10-18",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/il-volo-vstupenky/508042298"
     },
     {
      "id": "tm-Z698xZ5rZ1kbob6e3",
