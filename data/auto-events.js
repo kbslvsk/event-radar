@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-19T09:31:17.291Z",
+ "updatedAt": "2026-10-20T09:03:52.283Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-19T09:31:17.291Z",
+   "updatedAt": "2026-10-20T09:03:52.283Z",
    "count": 18,
    "events": [
     {
@@ -211,7 +211,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-19T09:31:17.291Z",
+   "updatedAt": "2026-10-20T09:03:52.283Z",
    "count": 19,
    "events": [
     {
@@ -442,8 +442,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-19T09:31:17.291Z",
-   "count": 164,
+   "updatedAt": "2026-10-20T09:03:52.283Z",
+   "count": 168,
    "events": [
     {
      "id": "fd-575359",
@@ -608,6 +608,42 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 3. kolo"
     },
     {
+     "id": "fd-575377",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Shaktar – Sporting CP",
+     "date": "2026-11-03",
+     "time": "18:45",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575378",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Galatasaray – Stuttgart",
+     "date": "2026-11-03",
+     "time": "18:45",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575379",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Feyenoord – Inter",
+     "date": "2026-11-03",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575380",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Barça – Aston Villa",
+     "date": "2026-11-03",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
      "id": "fd-575381",
      "category": "football",
      "org": "Liga mistrů",
@@ -615,6 +651,42 @@ const AUTO_DATA = {
      "date": "2026-11-03",
      "time": "21:00",
      "headline": "⭐ šlágr, ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575382",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Villarreal – PSG",
+     "date": "2026-11-03",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575383",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Man United – Roma",
+     "date": "2026-11-03",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575384",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Bodø/Glimt – Lille",
+     "date": "2026-11-03",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575385",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "LASK – Sl. Bratislava",
+     "date": "2026-11-03",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
     },
     {
      "id": "fd-575389",
@@ -723,15 +795,6 @@ const AUTO_DATA = {
      "date": "2027-01-27",
      "time": "21:00",
      "headline": "ligová fáze, 8. kolo"
-    },
-    {
-     "id": "fd-560606",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Tottenham – Coventry City",
-     "date": "2026-10-19",
-     "time": "21:00",
-     "headline": "7. kolo"
     },
     {
      "id": "fd-560620",
@@ -1119,15 +1182,6 @@ const AUTO_DATA = {
      "date": "2027-05-23",
      "time": "16:00",
      "headline": "⭐ šlágr, 37. kolo"
-    },
-    {
-     "id": "fd-564717",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Getafe – Rayo Vallecano",
-     "date": "2026-10-19",
-     "time": "21:00",
-     "headline": "9. kolo"
     },
     {
      "id": "fd-564685",
@@ -1555,24 +1609,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 33. kolo"
     },
     {
-     "id": "fd-558576",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Monza – Cagliari",
-     "date": "2026-10-19",
-     "time": "18:30",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-558578",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Parma – Torino",
-     "date": "2026-10-19",
-     "time": "20:45",
-     "headline": "7. kolo"
-    },
-    {
      "id": "fd-558567",
      "category": "football",
      "org": "Serie A",
@@ -1913,7 +1949,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-19T09:31:17.291Z",
+   "updatedAt": "2026-10-20T09:03:52.283Z",
    "count": 52,
    "events": [
     {
