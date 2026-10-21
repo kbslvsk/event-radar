@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-20T09:03:52.283Z",
+ "updatedAt": "2026-10-21T09:03:33.594Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-20T09:03:52.283Z",
+   "updatedAt": "2026-10-21T09:03:33.594Z",
    "count": 18,
    "events": [
     {
@@ -211,7 +211,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-20T09:03:52.283Z",
+   "updatedAt": "2026-10-21T09:03:33.594Z",
    "count": 19,
    "events": [
     {
@@ -442,90 +442,9 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-20T09:03:52.283Z",
-   "count": 168,
+   "updatedAt": "2026-10-21T09:03:33.594Z",
+   "count": 167,
    "events": [
-    {
-     "id": "fd-575359",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Sabah FK – Dortmund",
-     "date": "2026-10-20",
-     "time": "18:45",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575360",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Fenerbahçe – Slavia Praha",
-     "date": "2026-10-20",
-     "time": "18:45",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575361",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Man City – PAE AEK",
-     "date": "2026-10-20",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575362",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Stuttgart – Atleti",
-     "date": "2026-10-20",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575363",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Liverpool – Villarreal",
-     "date": "2026-10-20",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575364",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Roma – Sl. Bratislava",
-     "date": "2026-10-20",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575365",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Porto – PSV",
-     "date": "2026-10-20",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575366",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Napoli – Bodø/Glimt",
-     "date": "2026-10-20",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575367",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "PSG – Barça",
-     "date": "2026-10-20",
-     "time": "21:00",
-     "headline": "⭐ šlágr, ligová fáze, 3. kolo"
-    },
     {
      "id": "fd-575368",
      "category": "football",
@@ -689,10 +608,82 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 4. kolo"
     },
     {
+     "id": "fd-575386",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "PAE AEK – Real Madrid",
+     "date": "2026-11-04",
+     "time": "18:45",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575387",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Fenerbahçe – Liverpool",
+     "date": "2026-11-04",
+     "time": "18:45",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575388",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "RB Leipzig – Man City",
+     "date": "2026-11-04",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
      "id": "fd-575389",
      "category": "football",
      "org": "Liga mistrů",
      "title": "Slavia Praha – Arsenal",
+     "date": "2026-11-04",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575390",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "PSV – Club Brugge",
+     "date": "2026-11-04",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575391",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Dortmund – Real Betis",
+     "date": "2026-11-04",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575392",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Porto – Napoli",
+     "date": "2026-11-04",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575393",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "RC Lens – Como 1907",
+     "date": "2026-11-04",
+     "time": "21:00",
+     "headline": "ligová fáze, 4. kolo"
+    },
+    {
+     "id": "fd-575394",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Viking – Sabah FK",
      "date": "2026-11-04",
      "time": "21:00",
      "headline": "ligová fáze, 4. kolo"
@@ -995,21 +986,21 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 12. kolo"
     },
     {
-     "id": "fd-560672",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Tottenham – Arsenal",
-     "date": "2026-12-05",
-     "time": "16:00",
-     "headline": "⭐ šlágr, 14. kolo"
-    },
-    {
      "id": "fd-560676",
      "category": "football",
      "org": "Premier League",
      "title": "Chelsea – Liverpool",
      "date": "2026-12-05",
-     "time": "16:00",
+     "time": "13:30",
+     "headline": "⭐ šlágr, 14. kolo"
+    },
+    {
+     "id": "fd-560672",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Tottenham – Arsenal",
+     "date": "2026-12-06",
+     "time": "17:30",
      "headline": "⭐ šlágr, 14. kolo"
     },
     {
@@ -1018,17 +1009,8 @@ const AUTO_DATA = {
      "org": "Premier League",
      "title": "Man City – Chelsea",
      "date": "2026-12-12",
-     "time": "16:00",
+     "time": "18:30",
      "headline": "⭐ šlágr, 15. kolo"
-    },
-    {
-     "id": "fd-560699",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Arsenal – Man United",
-     "date": "2026-12-19",
-     "time": "16:00",
-     "headline": "⭐ šlágr, 16. kolo"
     },
     {
      "id": "fd-560700",
@@ -1036,7 +1018,16 @@ const AUTO_DATA = {
      "org": "Premier League",
      "title": "Liverpool – Tottenham",
      "date": "2026-12-19",
-     "time": "16:00",
+     "time": "18:30",
+     "headline": "⭐ šlágr, 16. kolo"
+    },
+    {
+     "id": "fd-560699",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Arsenal – Man United",
+     "date": "2026-12-20",
+     "time": "17:30",
      "headline": "⭐ šlágr, 16. kolo"
     },
     {
@@ -1949,8 +1940,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-20T09:03:52.283Z",
-   "count": 52,
+   "updatedAt": "2026-10-21T09:03:33.594Z",
+   "count": 53,
    "events": [
     {
      "id": "tm-Z698xZu0Z16vaNj8e9",
@@ -2467,6 +2458,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/ben-cristovao-2027-vstupenky/1917128315"
+    },
+    {
+     "id": "tm-Z698xZu0Z1kOo4Pra",
+     "category": "concert",
+     "org": "Jean-Michel Jarre",
+     "title": "Jean-Michel Jarre - OXYGENE & BEYOND TOUR",
+     "date": "2027-10-03",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/jean-michel-jarre-oxygene--beyond-tour-vstupenky/811565789"
     },
     {
      "id": "tm-Z698xZu0Z1kQ7Z6jd",
