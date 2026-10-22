@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-21T09:03:33.594Z",
+ "updatedAt": "2026-10-22T09:05:52.914Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-21T09:03:33.594Z",
+   "updatedAt": "2026-10-22T09:05:52.914Z",
    "count": 18,
    "events": [
     {
@@ -211,8 +211,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-21T09:03:33.594Z",
-   "count": 19,
+   "updatedAt": "2026-10-22T09:05:52.914Z",
+   "count": 20,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -226,12 +226,23 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/real-fight-arena-35-rfa-35"
     },
     {
+     "id": "cage-warriors-2026-10-31",
+     "category": "mma",
+     "org": "Cage Warriors",
+     "title": "Cage Warriors Academy Italy 25",
+     "date": "2026-10-31",
+     "venue": "Palazzetto dello Sport",
+     "city": "Banzi",
+     "country": "Italy",
+     "url": "https://next-fight.com/en/event/cwa-cage-warriors-academy-italy-25"
+    },
+    {
      "id": "cage-warriors-2026-11-07",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 212: Spanish Showcase: Rutledge vs. Sargent",
+     "title": "Cage Warriors 212: Spanish Showcase: Izquierdo vs. Musleh",
      "date": "2026-11-07",
-     "headline": "Paddy Rutledge vs. Omar Sargent (bantamová váha)",
+     "headline": "Arturo Martin Izquierdo vs. Mohammad Hany Musleh (lehká váha)",
      "venue": "BBC Studioworks Television Centre",
      "city": "London",
      "country": "Greater London",
@@ -253,9 +264,9 @@ const AUTO_DATA = {
      "id": "cage-warriors-2026-11-27",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 212: Unplugged: Blair vs. Jones",
+     "title": "Cage Warriors 212: Unplugged: Loof vs. Ownsworth",
      "date": "2026-11-27",
-     "headline": "Chasen Blair vs. Nathan Jones (velterová váha)",
+     "headline": "Alexander Loof vs. Oscar Ownsworth (pérová váha)",
      "venue": "BEC Arena",
      "city": "Manchester",
      "country": "Greater Manchester",
@@ -442,90 +453,9 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-21T09:03:33.594Z",
-   "count": 167,
+   "updatedAt": "2026-10-22T09:05:52.914Z",
+   "count": 157,
    "events": [
-    {
-     "id": "fd-575368",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Como 1907 – Man United",
-     "date": "2026-10-21",
-     "time": "18:45",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575369",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Lille – Galatasaray",
-     "date": "2026-10-21",
-     "time": "18:45",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575370",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Real Madrid – RB Leipzig",
-     "date": "2026-10-21",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575371",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Inter – Shaktar",
-     "date": "2026-10-21",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575372",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Bayern – Arsenal",
-     "date": "2026-10-21",
-     "time": "21:00",
-     "headline": "⭐ šlágr, ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575373",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Club Brugge – RC Lens",
-     "date": "2026-10-21",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575374",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Aston Villa – Viking",
-     "date": "2026-10-21",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575375",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Sporting CP – LASK",
-     "date": "2026-10-21",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
-    {
-     "id": "fd-575376",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Real Betis – Feyenoord",
-     "date": "2026-10-21",
-     "time": "21:00",
-     "headline": "ligová fáze, 3. kolo"
-    },
     {
      "id": "fd-575377",
      "category": "football",
@@ -1173,15 +1103,6 @@ const AUTO_DATA = {
      "date": "2027-05-23",
      "time": "16:00",
      "headline": "⭐ šlágr, 37. kolo"
-    },
-    {
-     "id": "fd-564685",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Levante – Athletic",
-     "date": "2026-10-21",
-     "time": "20:00",
-     "headline": "6. kolo"
     },
     {
      "id": "fd-564719",
@@ -1940,7 +1861,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-21T09:03:33.594Z",
+   "updatedAt": "2026-10-22T09:05:52.914Z",
    "count": 53,
    "events": [
     {
