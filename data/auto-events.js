@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-22T09:05:52.914Z",
+ "updatedAt": "2026-10-23T09:00:15.669Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-22T09:05:52.914Z",
+   "updatedAt": "2026-10-23T09:00:15.669Z",
    "count": 18,
    "events": [
     {
@@ -47,7 +47,7 @@ const AUTO_DATA = {
      "org": "UFC",
      "title": "UFC Fight Night 295",
      "date": "2026-12-05",
-     "venue": "TBA",
+     "venue": "anb Arena",
      "city": "Riyadh",
      "country": "Saudi Arabia",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
@@ -211,7 +211,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-22T09:05:52.914Z",
+   "updatedAt": "2026-10-23T09:00:15.669Z",
    "count": 20,
    "events": [
     {
@@ -231,6 +231,7 @@ const AUTO_DATA = {
      "org": "Cage Warriors",
      "title": "Cage Warriors Academy Italy 25",
      "date": "2026-10-31",
+     "time": "14:00",
      "venue": "Palazzetto dello Sport",
      "city": "Banzi",
      "country": "Italy",
@@ -453,8 +454,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-22T09:05:52.914Z",
-   "count": 157,
+   "updatedAt": "2026-10-23T09:00:15.669Z",
+   "count": 161,
    "events": [
     {
      "id": "fd-575377",
@@ -898,6 +899,15 @@ const AUTO_DATA = {
      "headline": "9. kolo"
     },
     {
+     "id": "fd-560634",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Everton – Coventry City",
+     "date": "2026-11-06",
+     "time": "21:00",
+     "headline": "10. kolo"
+    },
+    {
      "id": "fd-560645",
      "category": "football",
      "org": "Premier League",
@@ -1285,6 +1295,15 @@ const AUTO_DATA = {
      "headline": "11. kolo"
     },
     {
+     "id": "fd-564740",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Sevilla FC – Alavés",
+     "date": "2026-11-06",
+     "time": "21:00",
+     "headline": "12. kolo"
+    },
+    {
      "id": "fd-564746",
      "category": "football",
      "org": "La Liga",
@@ -1478,6 +1497,15 @@ const AUTO_DATA = {
      "date": "2026-11-01",
      "time": "17:30",
      "headline": "8. kolo"
+    },
+    {
+     "id": "fd-565852",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "HSV – M'gladbach",
+     "date": "2026-11-06",
+     "time": "20:30",
+     "headline": "9. kolo"
     },
     {
      "id": "fd-565872",
@@ -1791,6 +1819,15 @@ const AUTO_DATA = {
      "headline": "10. kolo"
     },
     {
+     "id": "fd-558537",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Venezia FC – Udinese",
+     "date": "2026-11-06",
+     "time": "20:45",
+     "headline": "11. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1861,7 +1898,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-22T09:05:52.914Z",
+   "updatedAt": "2026-10-23T09:00:15.669Z",
    "count": 53,
    "events": [
     {
