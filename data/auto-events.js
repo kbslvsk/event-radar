@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-23T09:00:15.669Z",
+ "updatedAt": "2026-10-24T08:34:20.952Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-23T09:00:15.669Z",
+   "updatedAt": "2026-10-24T08:34:20.952Z",
    "count": 18,
    "events": [
     {
@@ -211,7 +211,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-23T09:00:15.669Z",
+   "updatedAt": "2026-10-24T08:34:20.952Z",
    "count": 20,
    "events": [
     {
@@ -243,6 +243,7 @@ const AUTO_DATA = {
      "org": "Cage Warriors",
      "title": "Cage Warriors 212: Spanish Showcase: Izquierdo vs. Musleh",
      "date": "2026-11-07",
+     "time": "15:00",
      "headline": "Arturo Martin Izquierdo vs. Mohammad Hany Musleh (lehká váha)",
      "venue": "BBC Studioworks Television Centre",
      "city": "London",
@@ -315,6 +316,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One Friday Fights 177: Lee vs. Ruotolo",
      "date": "2026-11-06",
+     "time": "09:30",
      "headline": "Christian Lee vs. Tye Ruotolo (velterová váha, o titul)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
@@ -454,8 +456,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-23T09:00:15.669Z",
-   "count": 161,
+   "updatedAt": "2026-10-24T08:34:20.952Z",
+   "count": 174,
    "events": [
     {
      "id": "fd-575377",
@@ -719,15 +721,6 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 8. kolo"
     },
     {
-     "id": "fd-560620",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Ipswich Town – Nottingham",
-     "date": "2026-10-23",
-     "time": "21:00",
-     "headline": "8. kolo"
-    },
-    {
      "id": "fd-560614",
      "category": "football",
      "org": "Premier League",
@@ -905,6 +898,42 @@ const AUTO_DATA = {
      "title": "Everton – Coventry City",
      "date": "2026-11-06",
      "time": "21:00",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-560632",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Leeds United – Tottenham",
+     "date": "2026-11-07",
+     "time": "13:30",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-560640",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Arsenal – Hull City",
+     "date": "2026-11-07",
+     "time": "16:00",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-560633",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Fulham – Newcastle",
+     "date": "2026-11-07",
+     "time": "16:00",
+     "headline": "10. kolo"
+    },
+    {
+     "id": "fd-560641",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Nottingham – Man City",
+     "date": "2026-11-07",
+     "time": "18:30",
      "headline": "10. kolo"
     },
     {
@@ -1115,15 +1144,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564719",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Alavés – Málaga",
-     "date": "2026-10-23",
-     "time": "21:00",
-     "headline": "10. kolo"
-    },
-    {
      "id": "fd-564718",
      "category": "football",
      "org": "La Liga",
@@ -1304,6 +1324,42 @@ const AUTO_DATA = {
      "headline": "12. kolo"
     },
     {
+     "id": "fd-564744",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Málaga – Santander",
+     "date": "2026-11-07",
+     "time": "14:00",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-564745",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Espanyol – Deportivo",
+     "date": "2026-11-07",
+     "time": "16:15",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-564739",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Osasuna – Athletic",
+     "date": "2026-11-07",
+     "time": "18:30",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-564741",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Valencia – Real Madrid",
+     "date": "2026-11-07",
+     "time": "21:00",
+     "headline": "12. kolo"
+    },
+    {
      "id": "fd-564746",
      "category": "football",
      "org": "La Liga",
@@ -1335,15 +1391,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565833",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Stuttgart – M'gladbach",
-     "date": "2026-10-23",
-     "time": "20:30",
-     "headline": "7. kolo"
     },
     {
      "id": "fd-565830",
@@ -1508,6 +1555,51 @@ const AUTO_DATA = {
      "headline": "9. kolo"
     },
     {
+     "id": "fd-565848",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "RB Leipzig – Augsburg",
+     "date": "2026-11-07",
+     "time": "15:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-565850",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Dortmund – Elversberg",
+     "date": "2026-11-07",
+     "time": "15:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-565851",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Mainz – Bayern",
+     "date": "2026-11-07",
+     "time": "15:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-565853",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "SC Paderborn – Frankfurt",
+     "date": "2026-11-07",
+     "time": "15:30",
+     "headline": "9. kolo"
+    },
+    {
+     "id": "fd-565849",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Stuttgart – Bremen",
+     "date": "2026-11-07",
+     "time": "18:30",
+     "headline": "9. kolo"
+    },
+    {
      "id": "fd-565872",
      "category": "football",
      "org": "Bundesliga",
@@ -1547,15 +1639,6 @@ const AUTO_DATA = {
      "title": "Leverkusen – Bayern",
      "date": "2027-05-15",
      "headline": "⭐ šlágr, 33. kolo"
-    },
-    {
-     "id": "fd-558567",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Torino – Monza",
-     "date": "2026-10-23",
-     "time": "20:45",
-     "headline": "8. kolo"
     },
     {
      "id": "fd-558560",
@@ -1828,6 +1911,42 @@ const AUTO_DATA = {
      "headline": "11. kolo"
     },
     {
+     "id": "fd-558532",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Torino – Lecce",
+     "date": "2026-11-07",
+     "time": "15:00",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-558534",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Cagliari – Frosinone",
+     "date": "2026-11-07",
+     "time": "15:00",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-558535",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Parma – Bologna",
+     "date": "2026-11-07",
+     "time": "18:00",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-558531",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Roma – Sassuolo",
+     "date": "2026-11-07",
+     "time": "20:45",
+     "headline": "11. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1898,7 +2017,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-23T09:00:15.669Z",
+   "updatedAt": "2026-10-24T08:34:20.952Z",
    "count": 53,
    "events": [
     {
