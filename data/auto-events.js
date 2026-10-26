@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-25T08:53:25.366Z",
+ "updatedAt": "2026-10-26T09:35:18.043Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-25T08:53:25.366Z",
+   "updatedAt": "2026-10-26T09:35:18.043Z",
    "count": 23,
    "events": [
     {
@@ -266,7 +266,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-25T08:53:25.366Z",
+   "updatedAt": "2026-10-26T09:35:18.043Z",
    "count": 19,
    "events": [
     {
@@ -357,9 +357,10 @@ const AUTO_DATA = {
      "id": "one-2026-10-30",
      "category": "mma",
      "org": "ONE",
-     "title": "One Friday Fights 176",
+     "title": "One Friday Fights 176: Brockett vs. Duarte",
      "date": "2026-10-30",
      "time": "09:30",
+     "headline": "Ethan Brockett vs. Pedro Duarte (lehká váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -431,6 +432,7 @@ const AUTO_DATA = {
      "org": "RIZIN",
      "title": "RIZIN Landmark Vol. 17: Takahashi vs. Laramie",
      "date": "2026-11-08",
+     "time": "03:00",
      "headline": "Makoto Takahashi vs. Tony Laramie (muší váha, o titul)",
      "venue": "LaLa Arena Tokyo-Bay",
      "city": "Funabashi",
@@ -498,8 +500,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-25T08:53:25.366Z",
-   "count": 173,
+   "updatedAt": "2026-10-26T09:35:18.043Z",
+   "count": 157,
    "events": [
     {
      "id": "fd-575377",
@@ -761,51 +763,6 @@ const AUTO_DATA = {
      "date": "2027-01-27",
      "time": "21:00",
      "headline": "ligová fáze, 8. kolo"
-    },
-    {
-     "id": "fd-560612",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Liverpool – Brighton Hove",
-     "date": "2026-10-25",
-     "time": "15:00",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-560613",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Crystal Palace – Newcastle",
-     "date": "2026-10-25",
-     "time": "15:00",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-560615",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Man United – Bournemouth",
-     "date": "2026-10-25",
-     "time": "15:00",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-560619",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Hull City – Brentford",
-     "date": "2026-10-25",
-     "time": "15:00",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-560621",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Sunderland – Leeds United",
-     "date": "2026-10-25",
-     "time": "17:30",
-     "headline": "8. kolo"
     },
     {
      "id": "fd-560626",
@@ -1195,42 +1152,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564720",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Athletic – Getafe",
-     "date": "2026-10-25",
-     "time": "14:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-564725",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Celta – Real Betis",
-     "date": "2026-10-25",
-     "time": "16:15",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-564726",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Real Sociedad – Levante",
-     "date": "2026-10-25",
-     "time": "18:30",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-564723",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Barça – Real Madrid",
-     "date": "2026-10-25",
-     "time": "21:00",
-     "headline": "⭐ šlágr, 10. kolo"
-    },
-    {
      "id": "fd-564721",
      "category": "football",
      "org": "La Liga",
@@ -1444,24 +1365,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 35. kolo"
     },
     {
-     "id": "fd-565835",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Hoffenheim – Leverkusen",
-     "date": "2026-10-25",
-     "time": "15:30",
-     "headline": "7. kolo"
-    },
-    {
-     "id": "fd-565836",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Freiburg – Bayern",
-     "date": "2026-10-25",
-     "time": "17:30",
-     "headline": "7. kolo"
-    },
-    {
      "id": "fd-565846",
      "category": "football",
      "org": "Bundesliga",
@@ -1663,51 +1566,6 @@ const AUTO_DATA = {
      "title": "Leverkusen – Bayern",
      "date": "2027-05-15",
      "headline": "⭐ šlágr, 33. kolo"
-    },
-    {
-     "id": "fd-558563",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Inter – Fiorentina",
-     "date": "2026-10-25",
-     "time": "12:30",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-558562",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Atalanta – Frosinone",
-     "date": "2026-10-25",
-     "time": "15:00",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-558568",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Genoa – Venezia FC",
-     "date": "2026-10-25",
-     "time": "15:00",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-558566",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Lecce – Juventus",
-     "date": "2026-10-25",
-     "time": "18:00",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-558559",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Udinese – Milan",
-     "date": "2026-10-25",
-     "time": "20:45",
-     "headline": "8. kolo"
     },
     {
      "id": "fd-558556",
@@ -2050,21 +1908,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-25T08:53:25.366Z",
+   "updatedAt": "2026-10-26T09:35:18.043Z",
    "count": 53,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16vaNj8e9",
-     "category": "concert",
-     "org": "The World Of Hans Zimmer",
-     "title": "THE WORLD OF HANS ZIMMER",
-     "date": "2026-10-25",
-     "time": "19:30",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/the-world-of-hans-zimmer-vstupenky/1263710097"
-    },
     {
      "id": "tm-Z698xZu0Z16v0tZ7_J",
      "category": "concert",
@@ -2484,6 +2330,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/nedvedi-27-vstupenky/2036974463"
+    },
+    {
+     "id": "tm-Z698xZu0Z1k788Y-Z",
+     "category": "concert",
+     "org": "Thirty Seconds To Mars",
+     "title": "Thirty Seconds to Mars Presents A Beautiful Lie vs This Is War",
+     "date": "2027-05-18",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/thirty-seconds-to-mars-presents-a-beautiful-lie-vs-this-is-war-vstupenky/110430840"
     },
     {
      "id": "tm-Z698xZu0Z16v-zGMZ9",
