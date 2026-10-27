@@ -1,18 +1,18 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-26T09:35:18.043Z",
+ "updatedAt": "2026-10-27T09:32:00.118Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-26T09:35:18.043Z",
-   "count": 23,
+   "updatedAt": "2026-10-27T09:32:00.118Z",
+   "count": 24,
    "events": [
     {
      "id": "ufc-2027-02-07",
      "category": "mma",
      "org": "UFC",
-     "title": "UFC Fight Night 297",
+     "title": "UFC Fight Night 298",
      "date": "2027-02-07",
      "venue": "Afterpay Arena",
      "city": "Sydney",
@@ -28,6 +28,17 @@ const AUTO_DATA = {
      "venue": "Scotiabank Arena",
      "city": "Toronto, Ontario",
      "country": "Canada",
+     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
+    },
+    {
+     "id": "ufc-2027-01-23",
+     "category": "mma",
+     "org": "UFC",
+     "title": "UFC Fight Night 297",
+     "date": "2027-01-23",
+     "venue": "Meta Apex",
+     "city": "Las Vegas, Nevada",
+     "country": "U.S.",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
     },
     {
@@ -266,8 +277,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-26T09:35:18.043Z",
-   "count": 19,
+   "updatedAt": "2026-10-27T09:32:00.118Z",
+   "count": 16,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -296,10 +307,10 @@ const AUTO_DATA = {
      "id": "cage-warriors-2026-11-07",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 212: Spanish Showcase: Izquierdo vs. Musleh",
+     "title": "Cage Warriors 212: Spanish Showcase: Valle vs. Duarte",
      "date": "2026-11-07",
      "time": "15:00",
-     "headline": "Arturo Martin Izquierdo vs. Mohammad Hany Musleh (lehká váha)",
+     "headline": "Manuel del Valle vs. Luan Duarte (velterová váha)",
      "venue": "BBC Studioworks Television Centre",
      "city": "London",
      "country": "Greater London",
@@ -427,6 +438,18 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/one-championship-one-samurai-6"
     },
     {
+     "id": "one-2026-12-18",
+     "category": "mma",
+     "org": "ONE",
+     "title": "One on Prime Video 50: Ruotolo vs. Ok",
+     "date": "2026-12-18",
+     "headline": "Kade Ruotolo vs. Rae Yoon Ok (velterová váha)",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-on-prime-video-50"
+    },
+    {
      "id": "rizin-2026-11-08",
      "category": "mma",
      "org": "RIZIN",
@@ -450,58 +473,14 @@ const AUTO_DATA = {
      "city": "Nagoya",
      "country": "Aichi",
      "url": "https://next-fight.com/en/event/rizin-ff-new-years-eve-event"
-    },
-    {
-     "id": "we-love-mma-2026-11-22",
-     "category": "mma",
-     "org": "We Love MMA",
-     "title": "We Love MMA 91",
-     "date": "2026-11-22",
-     "venue": "Barclays Arena",
-     "city": "Hamburg",
-     "country": "Germany",
-     "url": "https://next-fight.com/en/event/wlmma-we-love-mma-91"
-    },
-    {
-     "id": "we-love-mma-2026-12-12",
-     "category": "mma",
-     "org": "We Love MMA",
-     "title": "We Love MMA 92",
-     "date": "2026-12-12",
-     "venue": "Uber Arena",
-     "city": "Berlin",
-     "country": "Germany",
-     "url": "https://next-fight.com/en/event/wlmma-we-love-mma-92"
-    },
-    {
-     "id": "we-love-mma-2027-02-13",
-     "category": "mma",
-     "org": "We Love MMA",
-     "title": "We Love MMA 93",
-     "date": "2027-02-13",
-     "venue": "Kleine Olympiahalle",
-     "city": "Munchen",
-     "country": "Germany",
-     "url": "https://next-fight.com/en/event/wlmma-we-love-mma-93"
-    },
-    {
-     "id": "we-love-mma-2027-03-20",
-     "category": "mma",
-     "org": "We Love MMA",
-     "title": "We Love MMA 94",
-     "date": "2027-03-20",
-     "venue": "Swiss Life Hall",
-     "city": "Hannover",
-     "country": "Germany",
-     "url": "https://next-fight.com/en/event/wlmma-we-love-mma-94"
     }
    ]
   },
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-26T09:35:18.043Z",
-   "count": 157,
+   "updatedAt": "2026-10-27T09:32:00.118Z",
+   "count": 156,
    "events": [
     {
      "id": "fd-575377",
@@ -1150,15 +1129,6 @@ const AUTO_DATA = {
      "date": "2027-05-23",
      "time": "16:00",
      "headline": "⭐ šlágr, 37. kolo"
-    },
-    {
-     "id": "fd-564721",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Sevilla FC – Osasuna",
-     "date": "2026-10-26",
-     "time": "21:00",
-     "headline": "10. kolo"
     },
     {
      "id": "fd-564737",
@@ -1908,8 +1878,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-26T09:35:18.043Z",
-   "count": 53,
+   "updatedAt": "2026-10-27T09:32:00.118Z",
+   "count": 54,
    "events": [
     {
      "id": "tm-Z698xZu0Z16v0tZ7_J",
@@ -2366,6 +2336,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/greta-van-fleet-into-the-beginning-vstupenky/930317399"
+    },
+    {
+     "id": "tm-Z698xZu0Z1k3K74-F",
+     "category": "concert",
+     "org": "Andrea Bocelli",
+     "title": "Andrea Bocelli",
+     "date": "2027-05-27",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/andrea-bocelli-vstupenky/493115848"
     },
     {
      "id": "tm-Z698xZu0Z16vp__EbY",
