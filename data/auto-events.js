@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-27T09:32:00.118Z",
+ "updatedAt": "2026-10-28T10:16:11.397Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-27T09:32:00.118Z",
+   "updatedAt": "2026-10-28T10:16:11.397Z",
    "count": 24,
    "events": [
     {
@@ -277,19 +277,32 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-27T09:32:00.118Z",
-   "count": 16,
+   "updatedAt": "2026-10-28T10:16:11.397Z",
+   "count": 21,
    "events": [
     {
      "id": "rfa-2026-11-27",
      "category": "mma",
      "org": "RFA",
-     "title": "RFA 35",
+     "title": "RFA 35: Gelnarova vs. Ambrusova",
      "date": "2026-11-27",
+     "headline": "Hanka Gelnarova vs. Silvia Ambrusova (bantamová váha)",
      "venue": "Sportovni Hala Kralovka",
      "city": "Prague",
      "country": "Czech Republic",
      "url": "https://next-fight.com/en/event/real-fight-arena-35-rfa-35"
+    },
+    {
+     "id": "rfa-2026-12-11",
+     "category": "mma",
+     "org": "RFA",
+     "title": "RFA 36: Kristofic vs. Naruszczka",
+     "date": "2026-12-11",
+     "headline": "Samuel Kristofic vs. Marcin Naruszczka (smluvní váha 192 lb)",
+     "venue": "Tatran Handball arena",
+     "city": "Presov",
+     "country": "Slovakia",
+     "url": "https://next-fight.com/en/event/real-fight-arena-36-rfa-36"
     },
     {
      "id": "cage-warriors-2026-10-31",
@@ -356,9 +369,9 @@ const AUTO_DATA = {
      "id": "cage-warriors-2026-12-05",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 214: Newcastle: Pavey vs. Urquhart",
+     "title": "Cage Warriors 214: Newcastle: Burlinson vs. Nazarnia",
      "date": "2026-12-05",
-     "headline": "Geoff Pavey vs. Lewis Urquhart (velterová váha)",
+     "headline": "Justin Burlinson vs. Farshad Nazarnia (střední váha)",
      "venue": "Vertu Arena",
      "city": "Newcastle",
      "country": "England",
@@ -473,14 +486,58 @@ const AUTO_DATA = {
      "city": "Nagoya",
      "country": "Aichi",
      "url": "https://next-fight.com/en/event/rizin-ff-new-years-eve-event"
+    },
+    {
+     "id": "we-love-mma-2026-11-22",
+     "category": "mma",
+     "org": "We Love MMA",
+     "title": "We Love MMA 91",
+     "date": "2026-11-22",
+     "venue": "Barclays Arena",
+     "city": "Hamburg",
+     "country": "Germany",
+     "url": "https://next-fight.com/en/event/wlmma-we-love-mma-91"
+    },
+    {
+     "id": "we-love-mma-2026-12-12",
+     "category": "mma",
+     "org": "We Love MMA",
+     "title": "We Love MMA 92",
+     "date": "2026-12-12",
+     "venue": "Uber Arena",
+     "city": "Berlin",
+     "country": "Germany",
+     "url": "https://next-fight.com/en/event/wlmma-we-love-mma-92"
+    },
+    {
+     "id": "we-love-mma-2027-02-13",
+     "category": "mma",
+     "org": "We Love MMA",
+     "title": "We Love MMA 93",
+     "date": "2027-02-13",
+     "venue": "Kleine Olympiahalle",
+     "city": "Munchen",
+     "country": "Germany",
+     "url": "https://next-fight.com/en/event/wlmma-we-love-mma-93"
+    },
+    {
+     "id": "we-love-mma-2027-03-20",
+     "category": "mma",
+     "org": "We Love MMA",
+     "title": "We Love MMA 94",
+     "date": "2027-03-20",
+     "venue": "Swiss Life Hall",
+     "city": "Hannover",
+     "country": "Germany",
+     "url": "https://next-fight.com/en/event/wlmma-we-love-mma-94"
     }
    ]
   },
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-27T09:32:00.118Z",
-   "count": 156,
+   "updatedAt": "2026-10-28T10:16:11.397Z",
+   "count": 153,
    "events": [
     {
      "id": "fd-575377",
@@ -1538,33 +1595,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 33. kolo"
     },
     {
-     "id": "fd-558556",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Sassuolo – Lazio",
-     "date": "2026-10-27",
-     "time": "18:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-558555",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Roma – Cagliari",
-     "date": "2026-10-27",
-     "time": "20:45",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-558557",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Torino – Como 1907",
-     "date": "2026-10-27",
-     "time": "20:45",
-     "headline": "9. kolo"
-    },
-    {
      "id": "fd-558549",
      "category": "football",
      "org": "Serie A",
@@ -1878,21 +1908,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-27T09:32:00.118Z",
-   "count": 54,
+   "updatedAt": "2026-10-28T10:16:11.397Z",
+   "count": 53,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16v0tZ7_J",
-     "category": "concert",
-     "org": "Halloween Madness",
-     "title": "HALLOWEEN MADNESS",
-     "date": "2026-10-27",
-     "time": "21:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/halloween-madness-vstupenky/1929004666"
-    },
     {
      "id": "tm-Z698xZu0Z16vOUudJv",
      "category": "concert",
