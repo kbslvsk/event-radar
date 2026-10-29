@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-28T10:16:11.397Z",
+ "updatedAt": "2026-10-29T10:40:20.766Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-28T10:16:11.397Z",
+   "updatedAt": "2026-10-29T10:40:20.766Z",
    "count": 24,
    "events": [
     {
@@ -277,7 +277,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-28T10:16:11.397Z",
+   "updatedAt": "2026-10-29T10:40:20.766Z",
    "count": 21,
    "events": [
     {
@@ -536,8 +536,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-28T10:16:11.397Z",
-   "count": 153,
+   "updatedAt": "2026-10-29T10:40:20.766Z",
+   "count": 148,
    "events": [
     {
      "id": "fd-575377",
@@ -1595,51 +1595,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 33. kolo"
     },
     {
-     "id": "fd-558549",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Milan – Bologna",
-     "date": "2026-10-28",
-     "time": "18:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-558550",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Venezia FC – Inter",
-     "date": "2026-10-28",
-     "time": "18:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-558553",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Parma – Udinese",
-     "date": "2026-10-28",
-     "time": "18:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-558552",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Genoa – Juventus",
-     "date": "2026-10-28",
-     "time": "20:45",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-558554",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Monza – Napoli",
-     "date": "2026-10-28",
-     "time": "20:45",
-     "headline": "9. kolo"
-    },
-    {
      "id": "fd-558558",
      "category": "football",
      "org": "Serie A",
@@ -1908,7 +1863,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-28T10:16:11.397Z",
+   "updatedAt": "2026-10-29T10:40:20.766Z",
    "count": 53,
    "events": [
     {
