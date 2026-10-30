@@ -1,18 +1,18 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-29T10:40:20.766Z",
+ "updatedAt": "2026-10-30T10:40:46.043Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-29T10:40:20.766Z",
-   "count": 24,
+   "updatedAt": "2026-10-30T10:40:46.043Z",
+   "count": 23,
    "events": [
     {
      "id": "ufc-2027-02-07",
      "category": "mma",
      "org": "UFC",
-     "title": "UFC Fight Night 298",
+     "title": "UFC Fight Night 297",
      "date": "2027-02-07",
      "venue": "Afterpay Arena",
      "city": "Sydney",
@@ -28,17 +28,6 @@ const AUTO_DATA = {
      "venue": "Scotiabank Arena",
      "city": "Toronto, Ontario",
      "country": "Canada",
-     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
-    },
-    {
-     "id": "ufc-2027-01-23",
-     "category": "mma",
-     "org": "UFC",
-     "title": "UFC Fight Night 297",
-     "date": "2027-01-23",
-     "venue": "Meta Apex",
-     "city": "Las Vegas, Nevada",
-     "country": "U.S.",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
     },
     {
@@ -100,7 +89,7 @@ const AUTO_DATA = {
      "id": "ufc-2026-11-07",
      "category": "mma",
      "org": "UFC",
-     "title": "UFC Fight Night: Bonfim vs. Brady",
+     "title": "UFC Fight Night 293",
      "date": "2026-11-07",
      "venue": "Meta Apex",
      "city": "Las Vegas, Nevada",
@@ -277,7 +266,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-29T10:40:20.766Z",
+   "updatedAt": "2026-10-30T10:40:46.043Z",
    "count": 21,
    "events": [
     {
@@ -369,9 +358,9 @@ const AUTO_DATA = {
      "id": "cage-warriors-2026-12-05",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 214: Newcastle: Burlinson vs. Nazarnia",
+     "title": "Cage Warriors 214: Newcastle: Hardwick vs. Hughes",
      "date": "2026-12-05",
-     "headline": "Justin Burlinson vs. Farshad Nazarnia (střední váha)",
+     "headline": "George Hardwick vs. Gavin Hughes (lehká váha)",
      "venue": "Vertu Arena",
      "city": "Newcastle",
      "country": "England",
@@ -409,6 +398,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One Friday Fights 178",
      "date": "2026-11-13",
+     "time": "11:30",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -536,8 +526,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-29T10:40:20.766Z",
-   "count": 148,
+   "updatedAt": "2026-10-30T10:40:46.043Z",
+   "count": 146,
    "events": [
     {
      "id": "fd-575377",
@@ -1595,24 +1585,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 33. kolo"
     },
     {
-     "id": "fd-558558",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Frosinone – Lecce",
-     "date": "2026-10-29",
-     "time": "18:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-558551",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Fiorentina – Atalanta",
-     "date": "2026-10-29",
-     "time": "20:45",
-     "headline": "9. kolo"
-    },
-    {
      "id": "fd-558539",
      "category": "football",
      "org": "Serie A",
@@ -1863,7 +1835,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-29T10:40:20.766Z",
+   "updatedAt": "2026-10-30T10:40:46.043Z",
    "count": 53,
    "events": [
     {
