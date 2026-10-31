@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-30T10:40:46.043Z",
+ "updatedAt": "2026-10-31T10:07:40.775Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-30T10:40:46.043Z",
+   "updatedAt": "2026-10-31T10:07:40.775Z",
    "count": 23,
    "events": [
     {
@@ -89,7 +89,7 @@ const AUTO_DATA = {
      "id": "ufc-2026-11-07",
      "category": "mma",
      "org": "UFC",
-     "title": "UFC Fight Night 293",
+     "title": "UFC Fight Night: Cortes-Acosta vs. Walker",
      "date": "2026-11-07",
      "venue": "Meta Apex",
      "city": "Las Vegas, Nevada",
@@ -266,8 +266,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-30T10:40:46.043Z",
-   "count": 21,
+   "updatedAt": "2026-10-31T10:07:40.775Z",
+   "count": 20,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -324,6 +324,7 @@ const AUTO_DATA = {
      "org": "Cage Warriors",
      "title": "Cage Warriors 213: London: Bagley vs. Souza",
      "date": "2026-11-14",
+     "time": "17:30",
      "headline": "Nik Bagley vs. Bruno Souza (pérová váha, o titul)",
      "venue": "BBC Studioworks Television Centre",
      "city": "London",
@@ -365,19 +366,6 @@ const AUTO_DATA = {
      "city": "Newcastle",
      "country": "England",
      "url": "https://next-fight.com/en/event/cw-214-cage-warriors-214-newcastle"
-    },
-    {
-     "id": "one-2026-10-30",
-     "category": "mma",
-     "org": "ONE",
-     "title": "One Friday Fights 176: Brockett vs. Duarte",
-     "date": "2026-10-30",
-     "time": "09:30",
-     "headline": "Ethan Brockett vs. Pedro Duarte (lehká váha)",
-     "venue": "Lumpinee Boxing Stadium",
-     "city": "Bangkok",
-     "country": "Thailand",
-     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-176"
     },
     {
      "id": "one-2026-11-06",
@@ -526,8 +514,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-30T10:40:46.043Z",
-   "count": 146,
+   "updatedAt": "2026-10-31T10:07:40.775Z",
+   "count": 144,
    "events": [
     {
      "id": "fd-575377",
@@ -1178,15 +1166,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564737",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Villarreal – Espanyol",
-     "date": "2026-10-30",
-     "time": "21:00",
-     "headline": "11. kolo"
-    },
-    {
      "id": "fd-564730",
      "category": "football",
      "org": "La Liga",
@@ -1380,15 +1359,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565846",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Elversberg – Mainz",
-     "date": "2026-10-30",
-     "time": "20:30",
-     "headline": "8. kolo"
     },
     {
      "id": "fd-565839",
@@ -1835,33 +1805,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-30T10:40:46.043Z",
-   "count": 53,
+   "updatedAt": "2026-10-31T10:07:40.775Z",
+   "count": 51,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16vOUudJv",
-     "category": "concert",
-     "org": "Fontaines D.C.",
-     "title": "Fontaines D.C. + support: Chalk",
-     "date": "2026-10-30",
-     "time": "20:00",
-     "venue": "Sportovní hala FORTUNA",
-     "city": "Praha 7",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/fontaines-dc--support-chalk-vstupenky/1836343981"
-    },
-    {
-     "id": "tm-Z698xZu0Z1kjN8Jad",
-     "category": "concert",
-     "org": "Don Toliver",
-     "title": "DON TOLIVER: NITROUS - OCTANE WORLD TOUR LEG 2",
-     "date": "2026-10-30",
-     "time": "20:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/don-toliver-nitrous-octane-world-tour-leg-2-vstupenky/723426243"
-    },
     {
      "id": "tm-Z698xZu0Z1kabeKfa",
      "category": "concert",
