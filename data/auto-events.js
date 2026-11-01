@@ -1,12 +1,12 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-10-31T10:07:40.775Z",
+ "updatedAt": "2026-11-01T10:58:41.965Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-10-31T10:07:40.775Z",
-   "count": 23,
+   "updatedAt": "2026-11-01T10:58:41.965Z",
+   "count": 21,
    "events": [
     {
      "id": "ufc-2027-02-07",
@@ -95,28 +95,6 @@ const AUTO_DATA = {
      "city": "Las Vegas, Nevada",
      "country": "U.S.",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
-    },
-    {
-     "id": "ufc-2026-10-31",
-     "category": "mma",
-     "org": "UFC",
-     "title": "UFC Fight Night: Moicano vs. Nolan",
-     "date": "2026-10-31",
-     "venue": "Meta Apex",
-     "city": "Las Vegas, Nevada",
-     "country": "U.S.",
-     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
-    },
-    {
-     "id": "oktagon-2026-10-31",
-     "category": "mma",
-     "org": "OKTAGON",
-     "title": "Oktagon 96: Gogoladze vs. Klinkhammer",
-     "date": "2026-10-31",
-     "venue": "SAP Arena",
-     "city": "Munich",
-     "country": "Germany",
-     "url": "https://en.wikipedia.org/wiki/2026_in_Oktagon_MMA"
     },
     {
      "id": "oktagon-2026-11-07",
@@ -266,8 +244,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-10-31T10:07:40.775Z",
-   "count": 20,
+   "updatedAt": "2026-11-01T10:58:41.965Z",
+   "count": 19,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -292,18 +270,6 @@ const AUTO_DATA = {
      "city": "Presov",
      "country": "Slovakia",
      "url": "https://next-fight.com/en/event/real-fight-arena-36-rfa-36"
-    },
-    {
-     "id": "cage-warriors-2026-10-31",
-     "category": "mma",
-     "org": "Cage Warriors",
-     "title": "Cage Warriors Academy Italy 25",
-     "date": "2026-10-31",
-     "time": "14:00",
-     "venue": "Palazzetto dello Sport",
-     "city": "Banzi",
-     "country": "Italy",
-     "url": "https://next-fight.com/en/event/cwa-cage-warriors-academy-italy-25"
     },
     {
      "id": "cage-warriors-2026-11-07",
@@ -514,8 +480,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-10-31T10:07:40.775Z",
-   "count": 144,
+   "updatedAt": "2026-11-01T10:58:41.965Z",
+   "count": 123,
    "events": [
     {
      "id": "fd-575377",
@@ -777,78 +743,6 @@ const AUTO_DATA = {
      "date": "2027-01-27",
      "time": "21:00",
      "headline": "ligová fáze, 8. kolo"
-    },
-    {
-     "id": "fd-560626",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Chelsea – Man United",
-     "date": "2026-10-31",
-     "time": "13:30",
-     "headline": "⭐ šlágr, 9. kolo"
-    },
-    {
-     "id": "fd-560623",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Man City – Brighton Hove",
-     "date": "2026-10-31",
-     "time": "16:00",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-560624",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Bournemouth – Leeds United",
-     "date": "2026-10-31",
-     "time": "16:00",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-560625",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Coventry City – Sunderland",
-     "date": "2026-10-31",
-     "time": "16:00",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-560629",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Hull City – Ipswich Town",
-     "date": "2026-10-31",
-     "time": "16:00",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-560630",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Brentford – Nottingham",
-     "date": "2026-10-31",
-     "time": "16:00",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-560627",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Tottenham – Crystal Palace",
-     "date": "2026-10-31",
-     "time": "18:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-560628",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Aston Villa – Fulham",
-     "date": "2026-10-31",
-     "time": "21:00",
-     "headline": "9. kolo"
     },
     {
      "id": "fd-560631",
@@ -1166,42 +1060,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564730",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Levante – Atleti",
-     "date": "2026-10-31",
-     "time": "14:00",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-564735",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Rayo Vallecano – Celta",
-     "date": "2026-10-31",
-     "time": "16:15",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-564736",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Real Betis – Málaga",
-     "date": "2026-10-31",
-     "time": "18:30",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-564732",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Barça – Alavés",
-     "date": "2026-10-31",
-     "time": "21:00",
-     "headline": "11. kolo"
-    },
-    {
      "id": "fd-564733",
      "category": "football",
      "org": "La Liga",
@@ -1361,60 +1219,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 35. kolo"
     },
     {
-     "id": "fd-565839",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "M'gladbach – SC Paderborn",
-     "date": "2026-10-31",
-     "time": "15:30",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-565840",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Schalke – RB Leipzig",
-     "date": "2026-10-31",
-     "time": "15:30",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-565842",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Augsburg – Freiburg",
-     "date": "2026-10-31",
-     "time": "15:30",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-565843",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Bremen – Hoffenheim",
-     "date": "2026-10-31",
-     "time": "15:30",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-565847",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Leverkusen – Stuttgart",
-     "date": "2026-10-31",
-     "time": "15:30",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-565845",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Bayern – Dortmund",
-     "date": "2026-10-31",
-     "time": "18:30",
-     "headline": "⭐ šlágr, 8. kolo"
-    },
-    {
      "id": "fd-565841",
      "category": "football",
      "org": "Bundesliga",
@@ -1553,33 +1357,6 @@ const AUTO_DATA = {
      "title": "Leverkusen – Bayern",
      "date": "2027-05-15",
      "headline": "⭐ šlágr, 33. kolo"
-    },
-    {
-     "id": "fd-558539",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Bologna – Monza",
-     "date": "2026-10-31",
-     "time": "15:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-558542",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Udinese – Roma",
-     "date": "2026-10-31",
-     "time": "18:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-558548",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Milan – Inter",
-     "date": "2026-10-31",
-     "time": "20:45",
-     "headline": "⭐ šlágr, 10. kolo"
     },
     {
      "id": "fd-558543",
@@ -1805,8 +1582,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-10-31T10:07:40.775Z",
-   "count": 51,
+   "updatedAt": "2026-11-01T10:58:41.965Z",
+   "count": 52,
    "events": [
     {
      "id": "tm-Z698xZu0Z1kabeKfa",
@@ -2419,6 +2196,18 @@ const AUTO_DATA = {
      "city": "Vienna",
      "country": "Austria",
      "url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081"
+    },
+    {
+     "id": "tm-Z698xZ5rZa7YE",
+     "category": "concert",
+     "org": "Test",
+     "title": "Resale_AT_KEV",
+     "date": "2027-10-31",
+     "time": "20:00",
+     "venue": "Wiener Stadthalle - Halle D",
+     "city": "Vienna",
+     "country": "Austria",
+     "url": "https://www.ticketmaster.at/event/resale_at_kev-tickets/19495"
     }
    ]
   }
