@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-01T10:58:41.965Z",
+ "updatedAt": "2026-11-02T11:56:42.060Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-01T10:58:41.965Z",
+   "updatedAt": "2026-11-02T11:56:42.060Z",
    "count": 21,
    "events": [
     {
@@ -244,7 +244,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-01T10:58:41.965Z",
+   "updatedAt": "2026-11-02T11:56:42.060Z",
    "count": 19,
    "events": [
     {
@@ -480,8 +480,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-01T10:58:41.965Z",
-   "count": 123,
+   "updatedAt": "2026-11-02T11:56:42.060Z",
+   "count": 111,
    "events": [
     {
      "id": "fd-575377",
@@ -743,15 +743,6 @@ const AUTO_DATA = {
      "date": "2027-01-27",
      "time": "21:00",
      "headline": "ligová fáze, 8. kolo"
-    },
-    {
-     "id": "fd-560631",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Liverpool – Arsenal",
-     "date": "2026-11-01",
-     "time": "17:30",
-     "headline": "⭐ šlágr, 9. kolo"
     },
     {
      "id": "fd-560622",
@@ -1060,42 +1051,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564733",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Getafe – Sevilla FC",
-     "date": "2026-11-01",
-     "time": "14:00",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-564734",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Santander – Real Madrid",
-     "date": "2026-11-01",
-     "time": "16:15",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-564728",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Elche – Valencia",
-     "date": "2026-11-01",
-     "time": "18:30",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-564729",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Athletic – Real Sociedad",
-     "date": "2026-11-01",
-     "time": "21:00",
-     "headline": "11. kolo"
-    },
-    {
      "id": "fd-564731",
      "category": "football",
      "org": "La Liga",
@@ -1219,24 +1174,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 35. kolo"
     },
     {
-     "id": "fd-565841",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Union Berlin – 1. FC Köln",
-     "date": "2026-11-01",
-     "time": "15:30",
-     "headline": "8. kolo"
-    },
-    {
-     "id": "fd-565844",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Frankfurt – HSV",
-     "date": "2026-11-01",
-     "time": "17:30",
-     "headline": "8. kolo"
-    },
-    {
      "id": "fd-565852",
      "category": "football",
      "org": "Bundesliga",
@@ -1357,51 +1294,6 @@ const AUTO_DATA = {
      "title": "Leverkusen – Bayern",
      "date": "2027-05-15",
      "headline": "⭐ šlágr, 33. kolo"
-    },
-    {
-     "id": "fd-558543",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Como 1907 – Venezia FC",
-     "date": "2026-11-01",
-     "time": "12:30",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-558544",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Frosinone – Torino",
-     "date": "2026-11-01",
-     "time": "15:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-558546",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Lazio – Cagliari",
-     "date": "2026-11-01",
-     "time": "15:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-558540",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Lecce – Genoa",
-     "date": "2026-11-01",
-     "time": "18:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-558547",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Juventus – Napoli",
-     "date": "2026-11-01",
-     "time": "20:45",
-     "headline": "⭐ šlágr, 10. kolo"
     },
     {
      "id": "fd-558541",
@@ -1582,8 +1474,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-01T10:58:41.965Z",
-   "count": 52,
+   "updatedAt": "2026-11-02T11:56:42.060Z",
+   "count": 53,
    "events": [
     {
      "id": "tm-Z698xZu0Z1kabeKfa",
@@ -2028,6 +1920,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/richard-krajco-50-vstupenky/1599667630"
+    },
+    {
+     "id": "tm-Z698xZu0Z16v4tvFve",
+     "category": "concert",
+     "org": "Scorpions",
+     "title": "Scorpions",
+     "date": "2027-06-09",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/scorpions-vstupenky/1569048042"
     },
     {
      "id": "tm-Z698xZu0Z16v8fFVx6",
