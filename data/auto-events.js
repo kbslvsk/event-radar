@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-02T11:56:42.060Z",
+ "updatedAt": "2026-11-03T11:33:09.402Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-02T11:56:42.060Z",
+   "updatedAt": "2026-11-03T11:33:09.402Z",
    "count": 21,
    "events": [
     {
@@ -244,8 +244,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-02T11:56:42.060Z",
-   "count": 19,
+   "updatedAt": "2026-11-03T11:33:09.402Z",
+   "count": 21,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -298,6 +298,17 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/cw-213-cage-warriors-213-london"
     },
     {
+     "id": "cage-warriors-2026-11-21",
+     "category": "mma",
+     "org": "Cage Warriors",
+     "title": "Cage Warriors Academy Lowlands 20",
+     "date": "2026-11-21",
+     "venue": "Sportcentrum Sportvision",
+     "city": "Eindhoven",
+     "country": "The Netherlands",
+     "url": "https://next-fight.com/en/event/cwa-cage-warriors-academy-lowlands-20"
+    },
+    {
      "id": "cage-warriors-2026-11-27",
      "category": "mma",
      "org": "Cage Warriors",
@@ -320,6 +331,17 @@ const AUTO_DATA = {
      "city": "Manchester",
      "country": "Greater Manchester",
      "url": "https://next-fight.com/en/event/cw-213-cage-warriors-213-manchester"
+    },
+    {
+     "id": "cage-warriors-2026-11-29",
+     "category": "mma",
+     "org": "Cage Warriors",
+     "title": "Cage Warriors Amateur Academy 2",
+     "date": "2026-11-29",
+     "venue": "BEC Arena",
+     "city": "Manchester",
+     "country": "England",
+     "url": "https://next-fight.com/en/event/cage-warriors-amateur-academy-2"
     },
     {
      "id": "cage-warriors-2026-12-05",
@@ -432,11 +454,12 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/rizin-ff-new-years-eve-event"
     },
     {
-     "id": "we-love-mma-2026-11-22",
+     "id": "we-love-mma-2026-11-21",
      "category": "mma",
      "org": "We Love MMA",
      "title": "We Love MMA 91",
-     "date": "2026-11-22",
+     "date": "2026-11-21",
+     "time": "19:00",
      "venue": "Barclays Arena",
      "city": "Hamburg",
      "country": "Germany",
@@ -480,8 +503,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-02T11:56:42.060Z",
-   "count": 111,
+   "updatedAt": "2026-11-03T11:33:09.402Z",
+   "count": 107,
    "events": [
     {
      "id": "fd-575377",
@@ -743,15 +766,6 @@ const AUTO_DATA = {
      "date": "2027-01-27",
      "time": "21:00",
      "headline": "ligová fáze, 8. kolo"
-    },
-    {
-     "id": "fd-560622",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Newcastle – Everton",
-     "date": "2026-11-02",
-     "time": "21:00",
-     "headline": "9. kolo"
     },
     {
      "id": "fd-560634",
@@ -1051,15 +1065,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564731",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Deportivo – Osasuna",
-     "date": "2026-11-02",
-     "time": "21:00",
-     "headline": "11. kolo"
-    },
-    {
      "id": "fd-564740",
      "category": "football",
      "org": "La Liga",
@@ -1296,24 +1301,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 33. kolo"
     },
     {
-     "id": "fd-558541",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Sassuolo – Fiorentina",
-     "date": "2026-11-02",
-     "time": "18:30",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-558545",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Atalanta – Parma",
-     "date": "2026-11-02",
-     "time": "20:45",
-     "headline": "10. kolo"
-    },
-    {
      "id": "fd-558537",
      "category": "football",
      "org": "Serie A",
@@ -1474,8 +1461,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-02T11:56:42.060Z",
-   "count": 53,
+   "updatedAt": "2026-11-03T11:33:09.402Z",
+   "count": 54,
    "events": [
     {
      "id": "tm-Z698xZu0Z1kabeKfa",
@@ -1708,14 +1695,14 @@ const AUTO_DATA = {
     {
      "id": "tm-Z698xZu0Z1krFAUqa",
      "category": "concert",
-     "org": "MEGA SILVESTROVSKÉ PECKY",
-     "title": "MEGA SILVESTROVSKÉ PECKY",
+     "org": "SILVESTROVSKÉ PECKY",
+     "title": "SILVESTROVSKÉ PECKY",
      "date": "2026-12-31",
      "time": "20:00",
      "venue": "O2 Arena",
      "city": "Praha 9",
      "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/mega-silvestrovske-pecky-vstupenky/788176749"
+     "url": "https://www.ticketmaster.cz/event/silvestrovske-pecky-vstupenky/788176749"
     },
     {
      "id": "tm-Z698xZu0Z16vrF8vjx",
@@ -2052,6 +2039,18 @@ const AUTO_DATA = {
      "city": "Vienna",
      "country": "Austria",
      "url": "https://www.ticketmaster.at/event/nimo-home-sweet-home-arena-tour-2026-tickets/1044640854"
+    },
+    {
+     "id": "tm-Z698xZ5rZ1kaNASqI",
+     "category": "concert",
+     "org": "Xavier Naidoo",
+     "title": "Xavier Naidoo - Live 2027",
+     "date": "2027-02-21",
+     "time": "20:00",
+     "venue": "Wiener Stadthalle - Halle D",
+     "city": "Vienna",
+     "country": "Austria",
+     "url": "https://www.ticketmaster.at/event/xavier-naidoo-live-2027-tickets/263173768"
     },
     {
      "id": "tm-Z698xZ5rZ1k-Suw-g",
