@@ -1,18 +1,18 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-03T11:33:09.402Z",
+ "updatedAt": "2026-11-04T11:47:56.452Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-03T11:33:09.402Z",
+   "updatedAt": "2026-11-04T11:47:56.452Z",
    "count": 21,
    "events": [
     {
      "id": "ufc-2027-02-07",
      "category": "mma",
      "org": "UFC",
-     "title": "UFC Fight Night 297",
+     "title": "UFC Fight Night: Salkilld vs. Saint Denis",
      "date": "2027-02-07",
      "venue": "Afterpay Arena",
      "city": "Sydney",
@@ -122,7 +122,7 @@ const AUTO_DATA = {
      "id": "oktagon-2026-12-05",
      "category": "mma",
      "org": "OKTAGON",
-     "title": "Oktagon 99: Dortmund",
+     "title": "Oktagon 99: Aras vs. Flores",
      "date": "2026-12-05",
      "venue": "Westfalenhalle",
      "city": "Dortmund",
@@ -133,7 +133,7 @@ const AUTO_DATA = {
      "id": "oktagon-2026-12-29",
      "category": "mma",
      "org": "OKTAGON",
-     "title": "Oktagon 100: Prague",
+     "title": "Oktagon 100: Jotko vs. Muradov",
      "date": "2026-12-29",
      "venue": "O2 Arena",
      "city": "Prague",
@@ -244,8 +244,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-03T11:33:09.402Z",
-   "count": 21,
+   "updatedAt": "2026-11-04T11:47:56.452Z",
+   "count": 23,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -359,6 +359,18 @@ const AUTO_DATA = {
      "id": "one-2026-11-06",
      "category": "mma",
      "org": "ONE",
+     "title": "One on Prime Video 49: Gabriel vs. Magomedov",
+     "date": "2026-11-06",
+     "headline": "Lucas Gabriel vs. Magomed Magomedov (velterová váha)",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-on-prime-video-49"
+    },
+    {
+     "id": "one-2026-11-06-one-friday-fights-177",
+     "category": "mma",
+     "org": "ONE",
      "title": "One Friday Fights 177: Lee vs. Ruotolo",
      "date": "2026-11-06",
      "time": "09:30",
@@ -386,6 +398,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "ONE Samurai 5: Pacio vs. Yamakita",
      "date": "2026-11-18",
+     "time": "06:30",
      "headline": "Joshua Pacio vs. Keito Yamakita (muší váha, o titul)",
      "venue": "Ebara Wave Arena Ota",
      "city": "Ota",
@@ -427,6 +440,18 @@ const AUTO_DATA = {
      "city": "Bangkok",
      "country": "Thailand",
      "url": "https://next-fight.com/en/event/one-championship-one-on-prime-video-50"
+    },
+    {
+     "id": "one-2027-01-15",
+     "category": "mma",
+     "org": "ONE",
+     "title": "One Friday Fights 185: Alyshov vs. Bumina-ang",
+     "date": "2027-01-15",
+     "headline": "Elbek Alyshov vs. Carlo Bumina-ang (pérová váha, o titul)",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-185"
     },
     {
      "id": "rizin-2026-11-08",
@@ -503,90 +528,9 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-03T11:33:09.402Z",
-   "count": 107,
+   "updatedAt": "2026-11-04T11:47:56.452Z",
+   "count": 98,
    "events": [
-    {
-     "id": "fd-575377",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Shaktar – Sporting CP",
-     "date": "2026-11-03",
-     "time": "18:45",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575378",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Galatasaray – Stuttgart",
-     "date": "2026-11-03",
-     "time": "18:45",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575379",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Feyenoord – Inter",
-     "date": "2026-11-03",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575380",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Barça – Aston Villa",
-     "date": "2026-11-03",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575381",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Atleti – Bayern",
-     "date": "2026-11-03",
-     "time": "21:00",
-     "headline": "⭐ šlágr, ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575382",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Villarreal – PSG",
-     "date": "2026-11-03",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575383",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Man United – Roma",
-     "date": "2026-11-03",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575384",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Bodø/Glimt – Lille",
-     "date": "2026-11-03",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575385",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "LASK – Sl. Bratislava",
-     "date": "2026-11-03",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
     {
      "id": "fd-575386",
      "category": "football",
@@ -1461,7 +1405,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-03T11:33:09.402Z",
+   "updatedAt": "2026-11-04T11:47:56.452Z",
    "count": 54,
    "events": [
     {
