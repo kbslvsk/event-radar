@@ -1,12 +1,12 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-04T11:47:56.452Z",
+ "updatedAt": "2026-11-05T11:46:56.928Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-04T11:47:56.452Z",
-   "count": 21,
+   "updatedAt": "2026-11-05T11:46:56.928Z",
+   "count": 22,
    "events": [
     {
      "id": "ufc-2027-02-07",
@@ -28,6 +28,16 @@ const AUTO_DATA = {
      "venue": "Scotiabank Arena",
      "city": "Toronto, Ontario",
      "country": "Canada",
+     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
+    },
+    {
+     "id": "ufc-2027-01-23",
+     "category": "mma",
+     "org": "UFC",
+     "title": "UFC Fight Night 297",
+     "date": "2027-01-23",
+     "venue": "TBA",
+     "city": "TBA",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
     },
     {
@@ -244,7 +254,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-04T11:47:56.452Z",
+   "updatedAt": "2026-11-05T11:46:56.928Z",
    "count": 23,
    "events": [
     {
@@ -359,18 +369,6 @@ const AUTO_DATA = {
      "id": "one-2026-11-06",
      "category": "mma",
      "org": "ONE",
-     "title": "One on Prime Video 49: Gabriel vs. Magomedov",
-     "date": "2026-11-06",
-     "headline": "Lucas Gabriel vs. Magomed Magomedov (velterová váha)",
-     "venue": "Lumpinee Boxing Stadium",
-     "city": "Bangkok",
-     "country": "Thailand",
-     "url": "https://next-fight.com/en/event/one-championship-one-on-prime-video-49"
-    },
-    {
-     "id": "one-2026-11-06-one-friday-fights-177",
-     "category": "mma",
-     "org": "ONE",
      "title": "One Friday Fights 177: Lee vs. Ruotolo",
      "date": "2026-11-06",
      "time": "09:30",
@@ -379,6 +377,19 @@ const AUTO_DATA = {
      "city": "Bangkok",
      "country": "Thailand",
      "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-177"
+    },
+    {
+     "id": "one-2026-11-07",
+     "category": "mma",
+     "org": "ONE",
+     "title": "One on Prime Video 49: Gabriel vs. Magomedov",
+     "date": "2026-11-07",
+     "time": "00:00",
+     "headline": "Lucas Gabriel vs. Magomed Magomedov (velterová váha)",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-on-prime-video-49"
     },
     {
      "id": "one-2026-11-13",
@@ -528,90 +539,9 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-04T11:47:56.452Z",
-   "count": 98,
+   "updatedAt": "2026-11-05T11:46:56.928Z",
+   "count": 89,
    "events": [
-    {
-     "id": "fd-575386",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "PAE AEK – Real Madrid",
-     "date": "2026-11-04",
-     "time": "18:45",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575387",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Fenerbahçe – Liverpool",
-     "date": "2026-11-04",
-     "time": "18:45",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575388",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "RB Leipzig – Man City",
-     "date": "2026-11-04",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575389",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Slavia Praha – Arsenal",
-     "date": "2026-11-04",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575390",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "PSV – Club Brugge",
-     "date": "2026-11-04",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575391",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Dortmund – Real Betis",
-     "date": "2026-11-04",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575392",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Porto – Napoli",
-     "date": "2026-11-04",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575393",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "RC Lens – Como 1907",
-     "date": "2026-11-04",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
-    {
-     "id": "fd-575394",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Viking – Sabah FK",
-     "date": "2026-11-04",
-     "time": "21:00",
-     "headline": "ligová fáze, 4. kolo"
-    },
     {
      "id": "fd-575398",
      "category": "football",
@@ -1405,7 +1335,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-04T11:47:56.452Z",
+   "updatedAt": "2026-11-05T11:46:56.928Z",
    "count": 54,
    "events": [
     {
