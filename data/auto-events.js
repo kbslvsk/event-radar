@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-05T11:46:56.928Z",
+ "updatedAt": "2026-11-06T11:43:40.203Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-05T11:46:56.928Z",
+   "updatedAt": "2026-11-06T11:43:40.203Z",
    "count": 22,
    "events": [
     {
@@ -254,7 +254,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-05T11:46:56.928Z",
+   "updatedAt": "2026-11-06T11:43:40.203Z",
    "count": 23,
    "events": [
     {
@@ -539,8 +539,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-05T11:46:56.928Z",
-   "count": 89,
+   "updatedAt": "2026-11-06T11:43:40.203Z",
+   "count": 91,
    "events": [
     {
      "id": "fd-575398",
@@ -1029,6 +1029,15 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 12. kolo"
     },
     {
+     "id": "fd-564748",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Athletic – Espanyol",
+     "date": "2026-11-20",
+     "time": "21:00",
+     "headline": "13. kolo"
+    },
+    {
      "id": "fd-564857",
      "category": "football",
      "org": "La Liga",
@@ -1134,6 +1143,15 @@ const AUTO_DATA = {
      "headline": "9. kolo"
     },
     {
+     "id": "fd-565859",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Bayern – 1. FC Köln",
+     "date": "2026-11-20",
+     "time": "20:30",
+     "headline": "10. kolo"
+    },
+    {
      "id": "fd-565872",
      "category": "football",
      "org": "Bundesliga",
@@ -1148,6 +1166,7 @@ const AUTO_DATA = {
      "org": "Bundesliga",
      "title": "Bayern – Leverkusen",
      "date": "2027-01-13",
+     "time": "20:30",
      "headline": "⭐ šlágr, 16. kolo"
     },
     {
@@ -1335,7 +1354,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-05T11:46:56.928Z",
+   "updatedAt": "2026-11-06T11:43:40.203Z",
    "count": 54,
    "events": [
     {
