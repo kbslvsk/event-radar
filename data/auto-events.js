@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-08T10:59:22.790Z",
+ "updatedAt": "2026-11-09T12:27:03.113Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-08T10:59:22.790Z",
+   "updatedAt": "2026-11-09T12:27:03.113Z",
    "count": 20,
    "events": [
     {
@@ -232,8 +232,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-08T10:59:22.790Z",
-   "count": 20,
+   "updatedAt": "2026-11-09T12:27:03.113Z",
+   "count": 23,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -273,6 +273,17 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/cw-213-cage-warriors-213-london"
     },
     {
+     "id": "cage-warriors-2026-11-14-cage-warriors-academy-italy-26",
+     "category": "mma",
+     "org": "Cage Warriors",
+     "title": "Cage Warriors Academy Italy 26",
+     "date": "2026-11-14",
+     "venue": "Tarantini Fight Club",
+     "city": "Sassari",
+     "country": "Italy",
+     "url": "https://next-fight.com/en/event/cwa-cage-warriors-academy-italy-26"
+    },
+    {
      "id": "cage-warriors-2026-11-21",
      "category": "mma",
      "org": "Cage Warriors",
@@ -280,7 +291,7 @@ const AUTO_DATA = {
      "date": "2026-11-21",
      "venue": "Sportcentrum Sportvision",
      "city": "Eindhoven",
-     "country": "The Netherlands",
+     "country": "Netherlands",
      "url": "https://next-fight.com/en/event/cwa-cage-warriors-academy-lowlands-20"
     },
     {
@@ -315,7 +326,7 @@ const AUTO_DATA = {
      "date": "2026-11-29",
      "venue": "BEC Arena",
      "city": "Manchester",
-     "country": "England",
+     "country": "Greater Manchester",
      "url": "https://next-fight.com/en/event/cage-warriors-amateur-academy-2"
     },
     {
@@ -325,18 +336,30 @@ const AUTO_DATA = {
      "title": "Cage Warriors 214: Newcastle: Hardwick vs. Hughes",
      "date": "2026-12-05",
      "headline": "George Hardwick vs. Gavin Hughes (lehká váha)",
-     "venue": "Vertu Arena",
-     "city": "Newcastle",
-     "country": "England",
+     "venue": "Vertu Motors Arena",
+     "city": "Newcastle upon Tyne",
+     "country": "Tyne and Wear",
      "url": "https://next-fight.com/en/event/cw-214-cage-warriors-214-newcastle"
+    },
+    {
+     "id": "cage-warriors-2027-04-03",
+     "category": "mma",
+     "org": "Cage Warriors",
+     "title": "Cage Warriors: Seville",
+     "date": "2027-04-03",
+     "venue": "Seville",
+     "city": "Andalusia",
+     "country": "Spain",
+     "url": "https://next-fight.com/en/event/cw-cage-warriors-seville"
     },
     {
      "id": "one-2026-11-13",
      "category": "mma",
      "org": "ONE",
-     "title": "One Friday Fights 178",
+     "title": "One Friday Fights 178: Kasorn vs. Gesto",
      "date": "2026-11-13",
      "time": "11:30",
+     "headline": "Natakorn Kasorn vs. Mathew Gesto (muší váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -404,19 +427,6 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-185"
     },
     {
-     "id": "rizin-2026-11-08",
-     "category": "mma",
-     "org": "RIZIN",
-     "title": "RIZIN Landmark Vol. 17: Takahashi vs. Laramie",
-     "date": "2026-11-08",
-     "time": "03:00",
-     "headline": "Makoto Takahashi vs. Tony Laramie (muší váha, o titul)",
-     "venue": "LaLa Arena Tokyo-Bay",
-     "city": "Funabashi",
-     "country": "Chiba",
-     "url": "https://next-fight.com/en/event/rizin-ff-landmark-vol-17"
-    },
-    {
      "id": "rizin-2026-12-31",
      "category": "mma",
      "org": "RIZIN",
@@ -472,14 +482,36 @@ const AUTO_DATA = {
      "city": "Hannover",
      "country": "Germany",
      "url": "https://next-fight.com/en/event/wlmma-we-love-mma-94"
+    },
+    {
+     "id": "babilon-mma-2026-12-05",
+     "category": "mma",
+     "org": "Babilon MMA",
+     "title": "Babilon MMA 62",
+     "date": "2026-12-05",
+     "venue": "OSiR Ustka",
+     "city": "Ustka",
+     "country": "Poland",
+     "url": "https://next-fight.com/en/event/babilon-mma-62-kolecki-vs-dreczkowski"
+    },
+    {
+     "id": "pml-2026-11-28",
+     "category": "mma",
+     "org": "PML",
+     "title": "PML Professional Muaythai League 22",
+     "date": "2026-11-28",
+     "venue": "Zimny Stadion",
+     "city": "Trencin",
+     "country": "Slovakia",
+     "url": "https://next-fight.com/en/event/pml-22-professional-muaythai-league-22"
     }
    ]
   },
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-08T10:59:22.790Z",
-   "count": 103,
+   "updatedAt": "2026-11-09T12:27:03.113Z",
+   "count": 88,
    "events": [
     {
      "id": "fd-575398",
@@ -581,51 +613,6 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 8. kolo"
     },
     {
-     "id": "fd-560635",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Crystal Palace – Liverpool",
-     "date": "2026-11-08",
-     "time": "15:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-560636",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Sunderland – Chelsea",
-     "date": "2026-11-08",
-     "time": "15:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-560637",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Ipswich Town – Bournemouth",
-     "date": "2026-11-08",
-     "time": "15:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-560638",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Brighton Hove – Brentford",
-     "date": "2026-11-08",
-     "time": "15:00",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-560639",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Man United – Aston Villa",
-     "date": "2026-11-08",
-     "time": "17:30",
-     "headline": "10. kolo"
-    },
-    {
      "id": "fd-560643",
      "category": "football",
      "org": "Premier League",
@@ -705,6 +692,15 @@ const AUTO_DATA = {
      "date": "2026-11-22",
      "time": "17:30",
      "headline": "⭐ šlágr, 11. kolo"
+    },
+    {
+     "id": "fd-560649",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Brentford – Everton",
+     "date": "2026-11-23",
+     "time": "21:00",
+     "headline": "11. kolo"
     },
     {
      "id": "fd-560654",
@@ -905,51 +901,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564738",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Elche – Real Betis",
-     "date": "2026-11-08",
-     "time": "14:00",
-     "headline": "12. kolo"
-    },
-    {
-     "id": "fd-564743",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Real Sociedad – Rayo Vallecano",
-     "date": "2026-11-08",
-     "time": "16:15",
-     "headline": "12. kolo"
-    },
-    {
-     "id": "fd-564742",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Celta – Levante",
-     "date": "2026-11-08",
-     "time": "18:30",
-     "headline": "12. kolo"
-    },
-    {
-     "id": "fd-564747",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Villarreal – Getafe",
-     "date": "2026-11-08",
-     "time": "18:30",
-     "headline": "12. kolo"
-    },
-    {
-     "id": "fd-564746",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Atleti – Barça",
-     "date": "2026-11-08",
-     "time": "21:00",
-     "headline": "⭐ šlágr, 12. kolo"
-    },
-    {
      "id": "fd-564748",
      "category": "football",
      "org": "La Liga",
@@ -1031,6 +982,15 @@ const AUTO_DATA = {
      "headline": "13. kolo"
     },
     {
+     "id": "fd-564757",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Levante – Elche",
+     "date": "2026-11-23",
+     "time": "21:00",
+     "headline": "13. kolo"
+    },
+    {
      "id": "fd-564857",
      "category": "football",
      "org": "La Liga",
@@ -1054,33 +1014,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565855",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "1. FC Köln – Leverkusen",
-     "date": "2026-11-08",
-     "time": "15:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-565854",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Freiburg – Union Berlin",
-     "date": "2026-11-08",
-     "time": "17:30",
-     "headline": "9. kolo"
-    },
-    {
-     "id": "fd-565856",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Hoffenheim – Schalke",
-     "date": "2026-11-08",
-     "time": "19:30",
-     "headline": "9. kolo"
     },
     {
      "id": "fd-565859",
@@ -1206,51 +1139,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 33. kolo"
     },
     {
-     "id": "fd-558533",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Napoli – Lazio",
-     "date": "2026-11-08",
-     "time": "12:30",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-558536",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Genoa – Milan",
-     "date": "2026-11-08",
-     "time": "15:00",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-558538",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Monza – Atalanta",
-     "date": "2026-11-08",
-     "time": "15:00",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-558530",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Inter – Como 1907",
-     "date": "2026-11-08",
-     "time": "18:00",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-558529",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Fiorentina – Juventus",
-     "date": "2026-11-08",
-     "time": "20:45",
-     "headline": "11. kolo"
-    },
-    {
      "id": "fd-558525",
      "category": "football",
      "org": "Serie A",
@@ -1332,6 +1220,15 @@ const AUTO_DATA = {
      "headline": "12. kolo"
     },
     {
+     "id": "fd-558519",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Monza – Fiorentina",
+     "date": "2026-11-23",
+     "time": "20:45",
+     "headline": "12. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1402,7 +1299,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-08T10:59:22.790Z",
+   "updatedAt": "2026-11-09T12:27:03.113Z",
    "count": 55,
    "events": [
     {
