@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-09T12:27:03.113Z",
+ "updatedAt": "2026-11-10T12:00:30.614Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-09T12:27:03.113Z",
+   "updatedAt": "2026-11-10T12:00:30.614Z",
    "count": 20,
    "events": [
     {
@@ -66,7 +66,7 @@ const AUTO_DATA = {
      "id": "ufc-2026-12-05",
      "category": "mma",
      "org": "UFC",
-     "title": "UFC Fight Night 295",
+     "title": "UFC Fight Night: Adesanya vs. Magomedov",
      "date": "2026-12-05",
      "venue": "ANB Arena",
      "city": "Riyadh",
@@ -232,7 +232,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-09T12:27:03.113Z",
+   "updatedAt": "2026-11-10T12:00:30.614Z",
    "count": 23,
    "events": [
     {
@@ -487,8 +487,9 @@ const AUTO_DATA = {
      "id": "babilon-mma-2026-12-05",
      "category": "mma",
      "org": "Babilon MMA",
-     "title": "Babilon MMA 62",
+     "title": "Babilon MMA 62: Kolecki vs. Dreczkowski",
      "date": "2026-12-05",
+     "headline": "Szymon Kolecki vs. Michal Dreczkowski (polotěžká váha, o titul)",
      "venue": "OSiR Ustka",
      "city": "Ustka",
      "country": "Poland",
@@ -510,9 +511,36 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-09T12:27:03.113Z",
-   "count": 88,
+   "updatedAt": "2026-11-10T12:00:30.614Z",
+   "count": 95,
    "events": [
+    {
+     "id": "fd-575395",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Galatasaray – Aston Villa",
+     "date": "2026-11-24",
+     "time": "18:45",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575396",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Bodø/Glimt – LASK",
+     "date": "2026-11-24",
+     "time": "18:45",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575397",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Real Madrid – PSV",
+     "date": "2026-11-24",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
     {
      "id": "fd-575398",
      "category": "football",
@@ -530,6 +558,42 @@ const AUTO_DATA = {
      "date": "2026-11-24",
      "time": "21:00",
      "headline": "⭐ šlágr, ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575400",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Feyenoord – Porto",
+     "date": "2026-11-24",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575401",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Sl. Bratislava – Real Betis",
+     "date": "2026-11-24",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575402",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "RB Leipzig – RC Lens",
+     "date": "2026-11-24",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575403",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Como 1907 – PAE AEK",
+     "date": "2026-11-24",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
     },
     {
      "id": "fd-575405",
@@ -1299,8 +1363,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-09T12:27:03.113Z",
-   "count": 55,
+   "updatedAt": "2026-11-10T12:00:30.614Z",
+   "count": 56,
    "events": [
     {
      "id": "tm-Z698xZu0Z1kabeKfa",
@@ -1687,6 +1751,18 @@ const AUTO_DATA = {
      "url": "https://www.ticketmaster.cz/event/nedvedi-27-vstupenky/2036974463"
     },
     {
+     "id": "tm-Z698xZu0Z16eepQfuF",
+     "category": "concert",
+     "org": "Fall Out Boy",
+     "title": "Fall Out Boy: Twilight of the Punks",
+     "date": "2027-05-17",
+     "time": "18:30",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/fall-out-boy-twilight-of-the-punks-vstupenky/2096694348"
+    },
+    {
      "id": "tm-Z698xZu0Z1k788Y-Z",
      "category": "concert",
      "org": "Thirty Seconds To Mars",
@@ -1843,18 +1919,6 @@ const AUTO_DATA = {
      "url": "https://www.ticketmaster.cz/event/il-volo-vstupenky/508042298"
     },
     {
-     "id": "tm-Z698xZ5rZ1kbob6e3",
-     "category": "concert",
-     "org": "Placebo",
-     "title": "Placebo - 30th Anniversary Tour",
-     "date": "2026-11-10",
-     "time": "19:30",
-     "venue": "Wiener Stadthalle - Halle D",
-     "city": "Vienna",
-     "country": "Austria",
-     "url": "https://www.ticketmaster.at/event/placebo-30th-anniversary-tour-tickets/611607092"
-    },
-    {
      "id": "tm-Z698xZ5rZ16v_Nfeaf",
      "category": "concert",
      "org": "Pitbull",
@@ -1937,6 +2001,18 @@ const AUTO_DATA = {
      "city": "Vienna",
      "country": "Austria",
      "url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081"
+    },
+    {
+     "id": "tm-Z698xZ5rZ16vOFPore",
+     "category": "concert",
+     "org": "Stray Kids",
+     "title": "Stray Kids World Tour [RUN IT VIENNA]",
+     "date": "2027-07-21",
+     "time": "19:30",
+     "venue": "Ernst-Happel-Stadion",
+     "city": "Vienna",
+     "country": "Austria",
+     "url": "https://www.ticketmaster.at/event/stray-kids-world-tour-run-it-vienna-tickets/1808951782"
     },
     {
      "id": "tm-Z698xZ5rZa7YE",
