@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-10T12:00:30.614Z",
+ "updatedAt": "2026-11-11T11:38:42.455Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-10T12:00:30.614Z",
+   "updatedAt": "2026-11-11T11:38:42.455Z",
    "count": 20,
    "events": [
     {
@@ -68,7 +68,7 @@ const AUTO_DATA = {
      "org": "UFC",
      "title": "UFC Fight Night: Adesanya vs. Magomedov",
      "date": "2026-12-05",
-     "venue": "ANB Arena",
+     "venue": "anb Arena",
      "city": "Riyadh",
      "country": "Saudi Arabia",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
@@ -232,7 +232,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-10T12:00:30.614Z",
+   "updatedAt": "2026-11-11T11:38:42.455Z",
    "count": 23,
    "events": [
     {
@@ -511,8 +511,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-10T12:00:30.614Z",
-   "count": 95,
+   "updatedAt": "2026-11-11T11:38:42.455Z",
+   "count": 103,
    "events": [
     {
      "id": "fd-575395",
@@ -596,12 +596,84 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 5. kolo"
     },
     {
+     "id": "fd-575404",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Sabah FK – Barça",
+     "date": "2026-11-25",
+     "time": "18:45",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
      "id": "fd-575405",
      "category": "football",
      "org": "Liga mistrů",
      "title": "Slavia Praha – Villarreal",
      "date": "2026-11-25",
      "time": "18:45",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575406",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Inter – Stuttgart",
+     "date": "2026-11-25",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575407",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Atleti – Viking",
+     "date": "2026-11-25",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575408",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "PSG – Roma",
+     "date": "2026-11-25",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575409",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Club Brugge – Liverpool",
+     "date": "2026-11-25",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575410",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Lille – Bayern",
+     "date": "2026-11-25",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575411",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Sporting CP – Man United",
+     "date": "2026-11-25",
+     "time": "21:00",
+     "headline": "ligová fáze, 5. kolo"
+    },
+    {
+     "id": "fd-575412",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Shaktar – Fenerbahçe",
+     "date": "2026-11-25",
+     "time": "21:00",
      "headline": "ligová fáze, 5. kolo"
     },
     {
@@ -1363,21 +1435,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-10T12:00:30.614Z",
-   "count": 56,
+   "updatedAt": "2026-11-11T11:38:42.455Z",
+   "count": 55,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z1kabeKfa",
-     "category": "concert",
-     "org": "Kabát",
-     "title": "KABÁT",
-     "date": "2026-11-10",
-     "time": "20:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/kabat-vstupenky/258093509"
-    },
     {
      "id": "tm-Z698xZu0Z16vPIu4jY",
      "category": "concert",
