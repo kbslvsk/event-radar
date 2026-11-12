@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-11T11:38:42.455Z",
+ "updatedAt": "2026-11-12T12:04:42.389Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-11T11:38:42.455Z",
+   "updatedAt": "2026-11-12T12:04:42.389Z",
    "count": 20,
    "events": [
     {
@@ -232,7 +232,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-11T11:38:42.455Z",
+   "updatedAt": "2026-11-12T12:04:42.389Z",
    "count": 23,
    "events": [
     {
@@ -406,9 +406,9 @@ const AUTO_DATA = {
      "id": "one-2026-12-18",
      "category": "mma",
      "org": "ONE",
-     "title": "One on Prime Video 50: Ruotolo vs. Ok",
+     "title": "One on Prime Video 50: Abevi vs. Dzhabrailov",
      "date": "2026-12-18",
-     "headline": "Kade Ruotolo vs. Rae Yoon Ok (velterová váha)",
+     "headline": "Maurice Abevi vs. Dzhabir Dzhabrailov (střední váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -511,7 +511,7 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-11T11:38:42.455Z",
+   "updatedAt": "2026-11-12T12:04:42.389Z",
    "count": 103,
    "events": [
     {
@@ -1435,21 +1435,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-11T11:38:42.455Z",
+   "updatedAt": "2026-11-12T12:04:42.389Z",
    "count": 55,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16vPIu4jY",
-     "category": "concert",
-     "org": "Kabát",
-     "title": "KABÁT",
-     "date": "2026-11-11",
-     "time": "20:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/kabat-vstupenky/1968355730"
-    },
     {
      "id": "tm-Z698xZu0Z16vbP1vv4",
      "category": "concert",
@@ -1617,6 +1605,18 @@ const AUTO_DATA = {
      "city": "Praha 7",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/ministry-of-rave-vstupenky/2034248979"
+    },
+    {
+     "id": "tm-Z698xZu0Z16vPvaaAv",
+     "category": "concert",
+     "org": "Superstar",
+     "title": "SuperStar SuperFinale",
+     "date": "2026-12-09",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/superstar-superfinale-vstupenky/1941249141"
     },
     {
      "id": "tm-Z698xZu0ZaGRo",
