@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-12T12:04:42.389Z",
+ "updatedAt": "2026-11-13T11:47:25.111Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-12T12:04:42.389Z",
+   "updatedAt": "2026-11-13T11:47:25.111Z",
    "count": 20,
    "events": [
     {
@@ -232,7 +232,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-12T12:04:42.389Z",
+   "updatedAt": "2026-11-13T11:47:25.111Z",
    "count": 23,
    "events": [
     {
@@ -241,6 +241,7 @@ const AUTO_DATA = {
      "org": "RFA",
      "title": "RFA 35: Gelnarova vs. Ambrusova",
      "date": "2026-11-27",
+     "time": "15:30",
      "headline": "Hanka Gelnarova vs. Silvia Ambrusova (bantamová váha)",
      "venue": "Sportovni Hala Kralovka",
      "city": "Prague",
@@ -300,6 +301,7 @@ const AUTO_DATA = {
      "org": "Cage Warriors",
      "title": "Cage Warriors 212: Unplugged: Loof vs. Ownsworth",
      "date": "2026-11-27",
+     "time": "15:00",
      "headline": "Alexander Loof vs. Oscar Ownsworth (pérová váha)",
      "venue": "BEC Arena",
      "city": "Manchester",
@@ -444,7 +446,7 @@ const AUTO_DATA = {
      "org": "We Love MMA",
      "title": "We Love MMA 91",
      "date": "2026-11-21",
-     "time": "19:00",
+     "time": "16:00",
      "venue": "Barclays Arena",
      "city": "Hamburg",
      "country": "Germany",
@@ -511,8 +513,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-12T12:04:42.389Z",
-   "count": 103,
+   "updatedAt": "2026-11-13T11:47:25.111Z",
+   "count": 107,
    "events": [
     {
      "id": "fd-575395",
@@ -839,6 +841,15 @@ const AUTO_DATA = {
      "headline": "11. kolo"
     },
     {
+     "id": "fd-560658",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Nottingham – Chelsea",
+     "date": "2026-11-27",
+     "time": "21:00",
+     "headline": "12. kolo"
+    },
+    {
      "id": "fd-560654",
      "category": "football",
      "org": "Premier League",
@@ -1127,6 +1138,15 @@ const AUTO_DATA = {
      "headline": "13. kolo"
     },
     {
+     "id": "fd-564765",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Levante – Santander",
+     "date": "2026-11-27",
+     "time": "21:00",
+     "headline": "14. kolo"
+    },
+    {
      "id": "fd-564857",
      "category": "football",
      "org": "La Liga",
@@ -1231,6 +1251,15 @@ const AUTO_DATA = {
      "date": "2026-11-22",
      "time": "17:30",
      "headline": "10. kolo"
+    },
+    {
+     "id": "fd-565869",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Bremen – M'gladbach",
+     "date": "2026-11-27",
+     "time": "20:30",
+     "headline": "11. kolo"
     },
     {
      "id": "fd-565872",
@@ -1365,6 +1394,15 @@ const AUTO_DATA = {
      "headline": "12. kolo"
     },
     {
+     "id": "fd-558515",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Venezia FC – Bologna",
+     "date": "2026-11-27",
+     "time": "20:45",
+     "headline": "13. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1435,8 +1473,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-12T12:04:42.389Z",
-   "count": 55,
+   "updatedAt": "2026-11-13T11:47:25.111Z",
+   "count": 56,
    "events": [
     {
      "id": "tm-Z698xZu0Z16vbP1vv4",
@@ -1977,6 +2015,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/il-volo-vstupenky/508042298"
+    },
+    {
+     "id": "tm-Z698xZu0Z16vf3jKAN",
+     "category": "concert",
+     "org": "Powerwolf",
+     "title": "POWERWOLF",
+     "date": "2027-11-12",
+     "time": "18:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/powerwolf-vstupenky/1512713163"
     },
     {
      "id": "tm-Z698xZ5rZ16v_Nfeaf",
