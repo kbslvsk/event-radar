@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-13T11:47:25.111Z",
+ "updatedAt": "2026-11-14T11:09:21.443Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-13T11:47:25.111Z",
+   "updatedAt": "2026-11-14T11:09:21.443Z",
    "count": 20,
    "events": [
     {
@@ -187,7 +187,7 @@ const AUTO_DATA = {
      "id": "ksw-2026-11-21",
      "category": "mma",
      "org": "KSW",
-     "title": "KSW 123: Bartosiński vs. Łopaczyk",
+     "title": "KSW 123: Mircea vs. Held",
      "date": "2026-11-21",
      "venue": "Enea Arena",
      "city": "Szczecin",
@@ -232,8 +232,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-13T11:47:25.111Z",
-   "count": 23,
+   "updatedAt": "2026-11-14T11:09:21.443Z",
+   "count": 22,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -266,7 +266,7 @@ const AUTO_DATA = {
      "org": "Cage Warriors",
      "title": "Cage Warriors 213: London: Bagley vs. Souza",
      "date": "2026-11-14",
-     "time": "17:30",
+     "time": "20:00",
      "headline": "Nik Bagley vs. Bruno Souza (pérová váha, o titul)",
      "venue": "BBC Studioworks Television Centre",
      "city": "London",
@@ -279,6 +279,7 @@ const AUTO_DATA = {
      "org": "Cage Warriors",
      "title": "Cage Warriors Academy Italy 26",
      "date": "2026-11-14",
+     "time": "17:30",
      "venue": "Tarantini Fight Club",
      "city": "Sassari",
      "country": "Italy",
@@ -355,19 +356,6 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/cw-cage-warriors-seville"
     },
     {
-     "id": "one-2026-11-13",
-     "category": "mma",
-     "org": "ONE",
-     "title": "One Friday Fights 178: Kasorn vs. Gesto",
-     "date": "2026-11-13",
-     "time": "11:30",
-     "headline": "Natakorn Kasorn vs. Mathew Gesto (muší váha)",
-     "venue": "Lumpinee Boxing Stadium",
-     "city": "Bangkok",
-     "country": "Thailand",
-     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-178"
-    },
-    {
      "id": "one-2026-11-18",
      "category": "mma",
      "org": "ONE",
@@ -386,6 +374,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One Friday Fights 179: Rodrigues vs. Padie",
      "date": "2026-11-20",
+     "time": "09:30",
      "headline": "Allycia Hellen Rodrigues vs. Charlotte Padie (slámová váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
@@ -513,8 +502,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-13T11:47:25.111Z",
-   "count": 107,
+   "updatedAt": "2026-11-14T11:09:21.443Z",
+   "count": 122,
    "events": [
     {
      "id": "fd-575395",
@@ -850,6 +839,33 @@ const AUTO_DATA = {
      "headline": "12. kolo"
     },
     {
+     "id": "fd-560652",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Leeds United – Coventry City",
+     "date": "2026-11-28",
+     "time": "16:00",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-560655",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Man United – Brentford",
+     "date": "2026-11-28",
+     "time": "16:00",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-560653",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Ipswich Town – Aston Villa",
+     "date": "2026-11-28",
+     "time": "18:30",
+     "headline": "12. kolo"
+    },
+    {
      "id": "fd-560654",
      "category": "football",
      "org": "Premier League",
@@ -1147,6 +1163,42 @@ const AUTO_DATA = {
      "headline": "14. kolo"
     },
     {
+     "id": "fd-564760",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Real Betis – Rayo Vallecano",
+     "date": "2026-11-28",
+     "time": "14:00",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-564767",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Málaga – Athletic",
+     "date": "2026-11-28",
+     "time": "16:15",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-564759",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Elche – Atleti",
+     "date": "2026-11-28",
+     "time": "18:30",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-564762",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Real Madrid – Alavés",
+     "date": "2026-11-28",
+     "time": "21:00",
+     "headline": "14. kolo"
+    },
+    {
      "id": "fd-564857",
      "category": "football",
      "org": "La Liga",
@@ -1259,6 +1311,51 @@ const AUTO_DATA = {
      "title": "Bremen – M'gladbach",
      "date": "2026-11-27",
      "time": "20:30",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-565866",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "1. FC Köln – Elversberg",
+     "date": "2026-11-28",
+     "time": "15:30",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-565867",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Mainz – Union Berlin",
+     "date": "2026-11-28",
+     "time": "15:30",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-565868",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "SC Paderborn – Schalke",
+     "date": "2026-11-28",
+     "time": "15:30",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-565874",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "HSV – Bayern",
+     "date": "2026-11-28",
+     "time": "15:30",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-565870",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Stuttgart – Frankfurt",
+     "date": "2026-11-28",
+     "time": "18:30",
      "headline": "11. kolo"
     },
     {
@@ -1403,6 +1500,33 @@ const AUTO_DATA = {
      "headline": "13. kolo"
     },
     {
+     "id": "fd-558513",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Frosinone – Parma",
+     "date": "2026-11-28",
+     "time": "15:00",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-558514",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Torino – Lazio",
+     "date": "2026-11-28",
+     "time": "18:00",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-558518",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Inter – Genoa",
+     "date": "2026-11-28",
+     "time": "20:45",
+     "headline": "13. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1473,21 +1597,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-13T11:47:25.111Z",
-   "count": 56,
+   "updatedAt": "2026-11-14T11:09:21.443Z",
+   "count": 54,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16vbP1vv4",
-     "category": "concert",
-     "org": "SIMA",
-     "title": "SIMA IN O2 ARENA",
-     "date": "2026-11-13",
-     "time": "20:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/sima-v-o2-arene-vstupenky/1625281055"
-    },
     {
      "id": "tm-Z698xZu0Z1kvto07y",
      "category": "concert",
@@ -1499,18 +1611,6 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/lord-of-the-dance-2026-vstupenky/69464139"
-    },
-    {
-     "id": "tm-Z698xZu0Z16vCdfAue",
-     "category": "concert",
-     "org": "Placebo",
-     "title": "Placebo – 30th Anniversary Tour",
-     "date": "2026-11-15",
-     "time": "20:00",
-     "venue": "Sportovní hala FORTUNA",
-     "city": "Praha 7",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/placebo--30th-anniversary-tour-vstupenky/1383505342"
     },
     {
      "id": "tm-Z698xZu0Z16vow_8_9",
