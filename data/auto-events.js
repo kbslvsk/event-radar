@@ -1,13 +1,35 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-14T11:09:21.443Z",
+ "updatedAt": "2026-11-15T11:42:51.312Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-14T11:09:21.443Z",
+   "updatedAt": "2026-11-15T11:42:51.312Z",
    "count": 20,
    "events": [
+    {
+     "id": "ufc-2027-02-20",
+     "category": "mma",
+     "org": "UFC",
+     "title": "UFC 337",
+     "date": "2027-02-20",
+     "venue": "Kia Center",
+     "city": "Orlando, Florida",
+     "country": "U.S.",
+     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
+    },
+    {
+     "id": "ufc-2027-02-13",
+     "category": "mma",
+     "org": "UFC",
+     "title": "UFC Fight Night: Pyfer vs. Nickal",
+     "date": "2027-02-13",
+     "venue": "Rocket Arena",
+     "city": "Cleveland, Ohio",
+     "country": "U.S.",
+     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
+    },
     {
      "id": "ufc-2027-02-07",
      "category": "mma",
@@ -34,17 +56,18 @@ const AUTO_DATA = {
      "id": "ufc-2027-01-23",
      "category": "mma",
      "org": "UFC",
-     "title": "UFC Fight Night 297",
+     "title": "UFC Fight Night: Bonfim vs. Brady",
      "date": "2027-01-23",
-     "venue": "TBA",
-     "city": "TBA",
+     "venue": "Meta Apex",
+     "city": "Las Vegas, Nevada",
+     "country": "U.S.",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
     },
     {
      "id": "ufc-2027-01-16",
      "category": "mma",
      "org": "UFC",
-     "title": "UFC Fight Night 296",
+     "title": "UFC Fight Night: Rodríguez vs. Garcia",
      "date": "2027-01-16",
      "venue": "American Airlines Center",
      "city": "Dallas, Texas",
@@ -82,17 +105,6 @@ const AUTO_DATA = {
      "venue": "Ali Bin Hamad al-Attiyah Arena",
      "city": "Al Rayyan",
      "country": "Qatar",
-     "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
-    },
-    {
-     "id": "ufc-2026-11-14",
-     "category": "mma",
-     "org": "UFC",
-     "title": "UFC 334: Gane vs. Hokit",
-     "date": "2026-11-14",
-     "venue": "Madison Square Garden",
-     "city": "New York City, New York",
-     "country": "U.S.",
      "url": "https://en.wikipedia.org/wiki/List_of_UFC_events"
     },
     {
@@ -206,17 +218,6 @@ const AUTO_DATA = {
      "url": "https://en.wikipedia.org/wiki/2026_in_Konfrontacja_Sztuk_Walki"
     },
     {
-     "id": "pfl-2026-11-14",
-     "category": "mma",
-     "org": "PFL",
-     "title": "PFL Dubai: Nemkov vs. Bilostenniy",
-     "date": "2026-11-14",
-     "venue": "Coca-Cola Arena",
-     "city": "Dubai",
-     "country": "United Arab Emirates",
-     "url": "https://en.wikipedia.org/wiki/2026_in_Professional_Fighters_League"
-    },
-    {
      "id": "pfl-2026-12-19",
      "category": "mma",
      "org": "PFL",
@@ -232,8 +233,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-14T11:09:21.443Z",
-   "count": 22,
+   "updatedAt": "2026-11-15T11:42:51.312Z",
+   "count": 20,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -259,31 +260,6 @@ const AUTO_DATA = {
      "city": "Presov",
      "country": "Slovakia",
      "url": "https://next-fight.com/en/event/real-fight-arena-36-rfa-36"
-    },
-    {
-     "id": "cage-warriors-2026-11-14",
-     "category": "mma",
-     "org": "Cage Warriors",
-     "title": "Cage Warriors 213: London: Bagley vs. Souza",
-     "date": "2026-11-14",
-     "time": "20:00",
-     "headline": "Nik Bagley vs. Bruno Souza (pérová váha, o titul)",
-     "venue": "BBC Studioworks Television Centre",
-     "city": "London",
-     "country": "Greater London",
-     "url": "https://next-fight.com/en/event/cw-213-cage-warriors-213-london"
-    },
-    {
-     "id": "cage-warriors-2026-11-14-cage-warriors-academy-italy-26",
-     "category": "mma",
-     "org": "Cage Warriors",
-     "title": "Cage Warriors Academy Italy 26",
-     "date": "2026-11-14",
-     "time": "17:30",
-     "venue": "Tarantini Fight Club",
-     "city": "Sassari",
-     "country": "Italy",
-     "url": "https://next-fight.com/en/event/cwa-cage-warriors-academy-italy-26"
     },
     {
      "id": "cage-warriors-2026-11-21",
@@ -372,10 +348,10 @@ const AUTO_DATA = {
      "id": "one-2026-11-20",
      "category": "mma",
      "org": "ONE",
-     "title": "One Friday Fights 179: Rodrigues vs. Padie",
+     "title": "One Friday Fights 179: Miriyev vs. Britez",
      "date": "2026-11-20",
      "time": "09:30",
-     "headline": "Allycia Hellen Rodrigues vs. Charlotte Padie (slámová váha)",
+     "headline": "Mirmehti Miriyev vs. Waldimir Britez (pérová váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -502,8 +478,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-14T11:09:21.443Z",
-   "count": 122,
+   "updatedAt": "2026-11-15T11:42:51.312Z",
+   "count": 137,
    "events": [
     {
      "id": "fd-575395",
@@ -866,6 +842,51 @@ const AUTO_DATA = {
      "headline": "12. kolo"
     },
     {
+     "id": "fd-560656",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Everton – Liverpool",
+     "date": "2026-11-29",
+     "time": "13:00",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-560657",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Fulham – Bournemouth",
+     "date": "2026-11-29",
+     "time": "15:05",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-560659",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Brighton Hove – Newcastle",
+     "date": "2026-11-29",
+     "time": "15:05",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-560660",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Sunderland – Tottenham",
+     "date": "2026-11-29",
+     "time": "15:05",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-560661",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Crystal Palace – Hull City",
+     "date": "2026-11-29",
+     "time": "15:05",
+     "headline": "12. kolo"
+    },
+    {
      "id": "fd-560654",
      "category": "football",
      "org": "Premier League",
@@ -1199,6 +1220,42 @@ const AUTO_DATA = {
      "headline": "14. kolo"
     },
     {
+     "id": "fd-564761",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Valencia – Osasuna",
+     "date": "2026-11-29",
+     "time": "14:00",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-564766",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Deportivo – Barça",
+     "date": "2026-11-29",
+     "time": "16:15",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-564758",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Celta – Villarreal",
+     "date": "2026-11-29",
+     "time": "18:30",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-564764",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Real Sociedad – Sevilla FC",
+     "date": "2026-11-29",
+     "time": "21:00",
+     "headline": "14. kolo"
+    },
+    {
      "id": "fd-564857",
      "category": "football",
      "org": "La Liga",
@@ -1356,6 +1413,24 @@ const AUTO_DATA = {
      "title": "Stuttgart – Frankfurt",
      "date": "2026-11-28",
      "time": "18:30",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-565873",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Freiburg – RB Leipzig",
+     "date": "2026-11-29",
+     "time": "15:30",
+     "headline": "11. kolo"
+    },
+    {
+     "id": "fd-565871",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Hoffenheim – Augsburg",
+     "date": "2026-11-29",
+     "time": "17:30",
      "headline": "11. kolo"
     },
     {
@@ -1527,6 +1602,42 @@ const AUTO_DATA = {
      "headline": "13. kolo"
     },
     {
+     "id": "fd-558517",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Udinese – Fiorentina",
+     "date": "2026-11-29",
+     "time": "12:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-558509",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Sassuolo – Napoli",
+     "date": "2026-11-29",
+     "time": "15:00",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-558512",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Roma – Monza",
+     "date": "2026-11-29",
+     "time": "18:00",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-558511",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Como 1907 – Juventus",
+     "date": "2026-11-29",
+     "time": "20:45",
+     "headline": "13. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1597,21 +1708,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-14T11:09:21.443Z",
-   "count": 54,
+   "updatedAt": "2026-11-15T11:42:51.312Z",
+   "count": 53,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z1kvto07y",
-     "category": "concert",
-     "org": "Lord of the Dance",
-     "title": "Lord of the Dance 2026",
-     "date": "2026-11-14",
-     "time": "20:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/lord-of-the-dance-2026-vstupenky/69464139"
-    },
     {
      "id": "tm-Z698xZu0Z16vow_8_9",
      "category": "concert",
