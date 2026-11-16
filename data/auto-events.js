@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-15T11:42:51.312Z",
+ "updatedAt": "2026-11-16T12:22:27.064Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-15T11:42:51.312Z",
+   "updatedAt": "2026-11-16T12:22:27.064Z",
    "count": 20,
    "events": [
     {
@@ -233,8 +233,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-15T11:42:51.312Z",
-   "count": 20,
+   "updatedAt": "2026-11-16T12:22:27.064Z",
+   "count": 24,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -267,6 +267,7 @@ const AUTO_DATA = {
      "org": "Cage Warriors",
      "title": "Cage Warriors Academy Lowlands 20",
      "date": "2026-11-21",
+     "time": "13:00",
      "venue": "Sportcentrum Sportvision",
      "city": "Eindhoven",
      "country": "Netherlands",
@@ -291,6 +292,7 @@ const AUTO_DATA = {
      "org": "Cage Warriors",
      "title": "Cage Warriors 213: Manchester: Davies vs. Vucenic",
      "date": "2026-11-28",
+     "time": "17:00",
      "headline": "Ieuan Davies vs. Jordan Vucenic (lehká váha, o titul)",
      "venue": "BEC Arena",
      "city": "Manchester",
@@ -348,14 +350,25 @@ const AUTO_DATA = {
      "id": "one-2026-11-20",
      "category": "mma",
      "org": "ONE",
-     "title": "One Friday Fights 179: Miriyev vs. Britez",
+     "title": "One Friday Fights 179: Miriyev vs. Sohibnazarov",
      "date": "2026-11-20",
      "time": "09:30",
-     "headline": "Mirmehti Miriyev vs. Waldimir Britez (pérová váha)",
+     "headline": "Mirmehti Miriyev vs. Lutfullo Sohibnazarov (pérová váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
      "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-179"
+    },
+    {
+     "id": "one-2026-11-27",
+     "category": "mma",
+     "org": "ONE",
+     "title": "One Friday Fights 180",
+     "date": "2026-11-27",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-180"
     },
     {
      "id": "one-2026-12-02",
@@ -370,6 +383,28 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/one-championship-one-samurai-6"
     },
     {
+     "id": "one-2026-12-04",
+     "category": "mma",
+     "org": "ONE",
+     "title": "One Friday Fights 181",
+     "date": "2026-12-04",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-181"
+    },
+    {
+     "id": "one-2026-12-11",
+     "category": "mma",
+     "org": "ONE",
+     "title": "One Friday Fights 182",
+     "date": "2026-12-11",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-182"
+    },
+    {
      "id": "one-2026-12-18",
      "category": "mma",
      "org": "ONE",
@@ -380,6 +415,17 @@ const AUTO_DATA = {
      "city": "Bangkok",
      "country": "Thailand",
      "url": "https://next-fight.com/en/event/one-championship-one-on-prime-video-50"
+    },
+    {
+     "id": "one-2026-12-18-one-friday-fights-183",
+     "category": "mma",
+     "org": "ONE",
+     "title": "One Friday Fights 183",
+     "date": "2026-12-18",
+     "venue": "Lumpinee Boxing Stadium",
+     "city": "Bangkok",
+     "country": "Thailand",
+     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-183"
     },
     {
      "id": "one-2027-01-15",
@@ -468,6 +514,7 @@ const AUTO_DATA = {
      "org": "PML",
      "title": "PML Professional Muaythai League 22",
      "date": "2026-11-28",
+     "time": "15:00",
      "venue": "Zimny Stadion",
      "city": "Trencin",
      "country": "Slovakia",
@@ -478,8 +525,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-15T11:42:51.312Z",
-   "count": 137,
+   "updatedAt": "2026-11-16T12:22:27.064Z",
+   "count": 140,
    "events": [
     {
      "id": "fd-575395",
@@ -1256,6 +1303,15 @@ const AUTO_DATA = {
      "headline": "14. kolo"
     },
     {
+     "id": "fd-564763",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Espanyol – Getafe",
+     "date": "2026-11-30",
+     "time": "21:00",
+     "headline": "14. kolo"
+    },
+    {
      "id": "fd-564857",
      "category": "football",
      "org": "La Liga",
@@ -1638,6 +1694,24 @@ const AUTO_DATA = {
      "headline": "13. kolo"
     },
     {
+     "id": "fd-558516",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Lecce – Atalanta",
+     "date": "2026-11-30",
+     "time": "18:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-558510",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Cagliari – Milan",
+     "date": "2026-11-30",
+     "time": "20:45",
+     "headline": "13. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1708,8 +1782,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-15T11:42:51.312Z",
-   "count": 53,
+   "updatedAt": "2026-11-16T12:22:27.064Z",
+   "count": 54,
    "events": [
     {
      "id": "tm-Z698xZu0Z16vow_8_9",
@@ -2226,6 +2300,17 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/powerwolf-vstupenky/1512713163"
+    },
+    {
+     "id": "tm-Z698xZu0Z16vCdfAue",
+     "category": "concert",
+     "org": "Placebo",
+     "title": "Placebo – 30th Anniversary Tour",
+     "date": "2027-11-15",
+     "venue": "Sportovní hala FORTUNA",
+     "city": "Praha 7",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/placebo--30th-anniversary-tour-vstupenky/1383505342"
     },
     {
      "id": "tm-Z698xZ5rZ16v_Nfeaf",
