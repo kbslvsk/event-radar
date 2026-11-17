@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-16T12:22:27.064Z",
+ "updatedAt": "2026-11-17T12:42:32.453Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-16T12:22:27.064Z",
+   "updatedAt": "2026-11-17T12:42:32.453Z",
    "count": 20,
    "events": [
     {
@@ -233,7 +233,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-16T12:22:27.064Z",
+   "updatedAt": "2026-11-17T12:42:32.453Z",
    "count": 24,
    "events": [
     {
@@ -365,6 +365,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One Friday Fights 180",
      "date": "2026-11-27",
+     "time": "09:30",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -525,8 +526,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-16T12:22:27.064Z",
-   "count": 140,
+   "updatedAt": "2026-11-17T12:42:32.453Z",
+   "count": 141,
    "events": [
     {
      "id": "fd-575395",
@@ -941,6 +942,15 @@ const AUTO_DATA = {
      "date": "2026-11-29",
      "time": "17:30",
      "headline": "⭐ šlágr, 12. kolo"
+    },
+    {
+     "id": "fd-560668",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Coventry City – Ipswich Town",
+     "date": "2026-12-01",
+     "time": "21:00",
+     "headline": "13. kolo"
     },
     {
      "id": "fd-560676",
@@ -1782,21 +1792,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-16T12:22:27.064Z",
-   "count": 54,
+   "updatedAt": "2026-11-17T12:42:32.453Z",
+   "count": 53,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16vow_8_9",
-     "category": "concert",
-     "org": "Korn",
-     "title": "KoRn",
-     "date": "2026-11-16",
-     "time": "19:30",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/korn-vstupenky/1472650657"
-    },
     {
      "id": "tm-Z698xZu0Z16vuwZ6GK",
      "category": "concert",
