@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-17T12:42:32.453Z",
+ "updatedAt": "2026-11-18T12:34:29.681Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-17T12:42:32.453Z",
+   "updatedAt": "2026-11-18T12:34:29.681Z",
    "count": 20,
    "events": [
     {
@@ -233,7 +233,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-17T12:42:32.453Z",
+   "updatedAt": "2026-11-18T12:34:29.681Z",
    "count": 24,
    "events": [
     {
@@ -305,6 +305,7 @@ const AUTO_DATA = {
      "org": "Cage Warriors",
      "title": "Cage Warriors Amateur Academy 2",
      "date": "2026-11-29",
+     "time": "15:00",
      "venue": "BEC Arena",
      "city": "Manchester",
      "country": "Greater Manchester",
@@ -377,6 +378,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "ONE Samurai 6: Sawada vs. Nikolakakos",
      "date": "2026-12-02",
+     "time": "06:30",
      "headline": "Chihiro Sawada vs. Anastasia Nikolakakos (slámová váha, o titul)",
      "venue": "Yokohama Buntai",
      "city": "Yokohama",
@@ -526,8 +528,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-17T12:42:32.453Z",
-   "count": 141,
+   "updatedAt": "2026-11-18T12:34:29.681Z",
+   "count": 150,
    "events": [
     {
      "id": "fd-575395",
@@ -953,6 +955,78 @@ const AUTO_DATA = {
      "headline": "13. kolo"
     },
     {
+     "id": "fd-560663",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Liverpool – Sunderland",
+     "date": "2026-12-02",
+     "time": "20:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-560664",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Hull City – Nottingham",
+     "date": "2026-12-02",
+     "time": "20:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-560665",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Chelsea – Crystal Palace",
+     "date": "2026-12-02",
+     "time": "20:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-560669",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Man City – Leeds United",
+     "date": "2026-12-02",
+     "time": "20:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-560666",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Aston Villa – Everton",
+     "date": "2026-12-02",
+     "time": "21:15",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-560667",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Brentford – Arsenal",
+     "date": "2026-12-02",
+     "time": "21:15",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-560670",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Newcastle – Man United",
+     "date": "2026-12-02",
+     "time": "21:15",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-560671",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Bournemouth – Brighton Hove",
+     "date": "2026-12-02",
+     "time": "21:15",
+     "headline": "13. kolo"
+    },
+    {
      "id": "fd-560676",
      "category": "football",
      "org": "Premier League",
@@ -1320,6 +1394,15 @@ const AUTO_DATA = {
      "date": "2026-11-30",
      "time": "21:00",
      "headline": "14. kolo"
+    },
+    {
+     "id": "fd-564855",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Real Sociedad – Real Madrid",
+     "date": "2026-12-02",
+     "time": "19:00",
+     "headline": "23. kolo"
     },
     {
      "id": "fd-564857",
@@ -1792,7 +1875,7 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-17T12:42:32.453Z",
+   "updatedAt": "2026-11-18T12:34:29.681Z",
    "count": 53,
    "events": [
     {
