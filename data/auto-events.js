@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-18T12:34:29.681Z",
+ "updatedAt": "2026-11-19T12:24:39.398Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-18T12:34:29.681Z",
+   "updatedAt": "2026-11-19T12:24:39.398Z",
    "count": 20,
    "events": [
     {
@@ -233,7 +233,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-18T12:34:29.681Z",
+   "updatedAt": "2026-11-19T12:24:39.398Z",
    "count": 24,
    "events": [
     {
@@ -335,19 +335,6 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/cw-cage-warriors-seville"
     },
     {
-     "id": "one-2026-11-18",
-     "category": "mma",
-     "org": "ONE",
-     "title": "ONE Samurai 5: Pacio vs. Yamakita",
-     "date": "2026-11-18",
-     "time": "06:30",
-     "headline": "Joshua Pacio vs. Keito Yamakita (muší váha, o titul)",
-     "venue": "Ebara Wave Arena Ota",
-     "city": "Ota",
-     "country": "Tokyo",
-     "url": "https://next-fight.com/en/event/one-championship-one-samurai-5"
-    },
-    {
      "id": "one-2026-11-20",
      "category": "mma",
      "org": "ONE",
@@ -406,6 +393,17 @@ const AUTO_DATA = {
      "city": "Bangkok",
      "country": "Thailand",
      "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-182"
+    },
+    {
+     "id": "one-2026-12-12",
+     "category": "mma",
+     "org": "ONE",
+     "title": "ONE 124",
+     "date": "2026-12-12",
+     "venue": "Shanghai Indoor Stadium",
+     "city": "Shanghai",
+     "country": "China",
+     "url": "https://next-fight.com/en/event/one-championship-one-124"
     },
     {
      "id": "one-2026-12-18",
@@ -528,8 +526,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-18T12:34:29.681Z",
-   "count": 150,
+   "updatedAt": "2026-11-19T12:24:39.398Z",
+   "count": 151,
    "events": [
     {
      "id": "fd-575395",
@@ -1024,6 +1022,15 @@ const AUTO_DATA = {
      "title": "Bournemouth – Brighton Hove",
      "date": "2026-12-02",
      "time": "21:15",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-560662",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Tottenham – Fulham",
+     "date": "2026-12-03",
+     "time": "21:00",
      "headline": "13. kolo"
     },
     {
@@ -1875,8 +1882,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-18T12:34:29.681Z",
-   "count": 53,
+   "updatedAt": "2026-11-19T12:24:39.398Z",
+   "count": 52,
    "events": [
     {
      "id": "tm-Z698xZu0Z16vuwZ6GK",
@@ -2392,18 +2399,6 @@ const AUTO_DATA = {
      "city": "Praha 7",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/placebo--30th-anniversary-tour-vstupenky/1383505342"
-    },
-    {
-     "id": "tm-Z698xZ5rZ16v_Nfeaf",
-     "category": "concert",
-     "org": "Pitbull",
-     "title": "Pitbull - I'm Back!",
-     "date": "2026-11-18",
-     "time": "19:30",
-     "venue": "Wiener Stadthalle - Halle D",
-     "city": "Vienna",
-     "country": "Austria",
-     "url": "https://www.ticketmaster.at/event/pitbull-im-back-tickets/1663502254"
     },
     {
      "id": "tm-Z698xZ5rZ16vv7_Z-f",
