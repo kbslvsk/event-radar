@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-19T12:24:39.398Z",
+ "updatedAt": "2026-11-20T12:25:44.615Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-19T12:24:39.398Z",
+   "updatedAt": "2026-11-20T12:25:44.615Z",
    "count": 20,
    "events": [
     {
@@ -233,7 +233,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-19T12:24:39.398Z",
+   "updatedAt": "2026-11-20T12:25:44.615Z",
    "count": 24,
    "events": [
     {
@@ -341,7 +341,7 @@ const AUTO_DATA = {
      "title": "One Friday Fights 179: Miriyev vs. Sohibnazarov",
      "date": "2026-11-20",
      "time": "09:30",
-     "headline": "Mirmehti Miriyev vs. Lutfullo Sohibnazarov (pérová váha)",
+     "headline": "Mirmehti Miriyev vs. Lutfullo Sohibnazarov (lehká váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -378,6 +378,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One Friday Fights 181",
      "date": "2026-12-04",
+     "time": "11:30",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -526,8 +527,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-19T12:24:39.398Z",
-   "count": 151,
+   "updatedAt": "2026-11-20T12:25:44.615Z",
+   "count": 154,
    "events": [
     {
      "id": "fd-575395",
@@ -1092,8 +1093,8 @@ const AUTO_DATA = {
      "category": "football",
      "org": "Premier League",
      "title": "Man United – Liverpool",
-     "date": "2027-01-23",
-     "time": "16:00",
+     "date": "2027-01-24",
+     "time": "17:30",
      "headline": "⭐ šlágr, 22. kolo"
     },
     {
@@ -1101,8 +1102,8 @@ const AUTO_DATA = {
      "category": "football",
      "org": "Premier League",
      "title": "Man City – Arsenal",
-     "date": "2027-01-30",
-     "time": "16:00",
+     "date": "2027-01-31",
+     "time": "17:30",
      "headline": "⭐ šlágr, 23. kolo"
     },
     {
@@ -1421,6 +1422,15 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 23. kolo"
     },
     {
+     "id": "fd-564770",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Alavés – Espanyol",
+     "date": "2026-12-04",
+     "time": "21:00",
+     "headline": "15. kolo"
+    },
+    {
      "id": "fd-564925",
      "category": "football",
      "org": "La Liga",
@@ -1597,6 +1607,15 @@ const AUTO_DATA = {
      "date": "2026-11-29",
      "time": "19:30",
      "headline": "⭐ šlágr, 11. kolo"
+    },
+    {
+     "id": "fd-565882",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Bayern – SC Paderborn",
+     "date": "2026-12-04",
+     "time": "20:30",
+     "headline": "12. kolo"
     },
     {
      "id": "fd-565916",
@@ -1812,6 +1831,15 @@ const AUTO_DATA = {
      "headline": "13. kolo"
     },
     {
+     "id": "fd-558502",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Bologna – Roma",
+     "date": "2026-12-04",
+     "time": "20:45",
+     "headline": "14. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1882,8 +1910,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-19T12:24:39.398Z",
-   "count": 52,
+   "updatedAt": "2026-11-20T12:25:44.615Z",
+   "count": 51,
    "events": [
     {
      "id": "tm-Z698xZu0Z16vuwZ6GK",
@@ -2399,18 +2427,6 @@ const AUTO_DATA = {
      "city": "Praha 7",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/placebo--30th-anniversary-tour-vstupenky/1383505342"
-    },
-    {
-     "id": "tm-Z698xZ5rZ16vv7_Z-f",
-     "category": "concert",
-     "org": "Nimo",
-     "title": "NIMO: Home Sweet Home Arena Tour 2026",
-     "date": "2026-12-16",
-     "time": "19:30",
-     "venue": "Wiener Stadthalle - Halle D",
-     "city": "Vienna",
-     "country": "Austria",
-     "url": "https://www.ticketmaster.at/event/nimo-home-sweet-home-arena-tour-2026-tickets/1044640854"
     },
     {
      "id": "tm-Z698xZ5rZ1kaNASqI",
