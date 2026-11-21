@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-20T12:25:44.615Z",
+ "updatedAt": "2026-11-21T11:59:12.617Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-20T12:25:44.615Z",
+   "updatedAt": "2026-11-21T11:59:12.617Z",
    "count": 20,
    "events": [
     {
@@ -233,8 +233,8 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-20T12:25:44.615Z",
-   "count": 24,
+   "updatedAt": "2026-11-21T11:59:12.617Z",
+   "count": 23,
    "events": [
     {
      "id": "rfa-2026-11-27",
@@ -333,19 +333,6 @@ const AUTO_DATA = {
      "city": "Andalusia",
      "country": "Spain",
      "url": "https://next-fight.com/en/event/cw-cage-warriors-seville"
-    },
-    {
-     "id": "one-2026-11-20",
-     "category": "mma",
-     "org": "ONE",
-     "title": "One Friday Fights 179: Miriyev vs. Sohibnazarov",
-     "date": "2026-11-20",
-     "time": "09:30",
-     "headline": "Mirmehti Miriyev vs. Lutfullo Sohibnazarov (lehká váha)",
-     "venue": "Lumpinee Boxing Stadium",
-     "city": "Bangkok",
-     "country": "Thailand",
-     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-179"
     },
     {
      "id": "one-2026-11-27",
@@ -504,6 +491,7 @@ const AUTO_DATA = {
      "org": "Babilon MMA",
      "title": "Babilon MMA 62: Kolecki vs. Dreczkowski",
      "date": "2026-12-05",
+     "time": "16:30",
      "headline": "Szymon Kolecki vs. Michal Dreczkowski (polotěžká váha, o titul)",
      "venue": "OSiR Ustka",
      "city": "Ustka",
@@ -527,8 +515,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-20T12:25:44.615Z",
-   "count": 154,
+   "updatedAt": "2026-11-21T11:59:12.617Z",
+   "count": 171,
    "events": [
     {
      "id": "fd-575395",
@@ -1044,6 +1032,60 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 14. kolo"
     },
     {
+     "id": "fd-560673",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Man United – Coventry City",
+     "date": "2026-12-05",
+     "time": "16:00",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-560674",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Leeds United – Ipswich Town",
+     "date": "2026-12-05",
+     "time": "16:00",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-560678",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Bournemouth – Hull City",
+     "date": "2026-12-05",
+     "time": "16:00",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-560679",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Aston Villa – Crystal Palace",
+     "date": "2026-12-05",
+     "time": "16:00",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-560680",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Nottingham – Brighton Hove",
+     "date": "2026-12-05",
+     "time": "18:30",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-560677",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Brentford – Man City",
+     "date": "2026-12-05",
+     "time": "21:00",
+     "headline": "14. kolo"
+    },
+    {
      "id": "fd-560672",
      "category": "football",
      "org": "Premier League",
@@ -1222,15 +1264,6 @@ const AUTO_DATA = {
      "date": "2027-05-23",
      "time": "16:00",
      "headline": "⭐ šlágr, 37. kolo"
-    },
-    {
-     "id": "fd-564748",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Athletic – Espanyol",
-     "date": "2026-11-20",
-     "time": "21:00",
-     "headline": "13. kolo"
     },
     {
      "id": "fd-564755",
@@ -1431,6 +1464,42 @@ const AUTO_DATA = {
      "headline": "15. kolo"
     },
     {
+     "id": "fd-564772",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Santander – Deportivo",
+     "date": "2026-12-05",
+     "time": "14:00",
+     "headline": "15. kolo"
+    },
+    {
+     "id": "fd-564777",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Rayo Vallecano – Levante",
+     "date": "2026-12-05",
+     "time": "16:15",
+     "headline": "15. kolo"
+    },
+    {
+     "id": "fd-564776",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Villarreal – Real Sociedad",
+     "date": "2026-12-05",
+     "time": "18:30",
+     "headline": "15. kolo"
+    },
+    {
+     "id": "fd-564773",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Barça – Celta",
+     "date": "2026-12-05",
+     "time": "21:00",
+     "headline": "15. kolo"
+    },
+    {
      "id": "fd-564925",
      "category": "football",
      "org": "La Liga",
@@ -1445,15 +1514,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565859",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Bayern – 1. FC Köln",
-     "date": "2026-11-20",
-     "time": "20:30",
-     "headline": "10. kolo"
     },
     {
      "id": "fd-565857",
@@ -1615,6 +1675,60 @@ const AUTO_DATA = {
      "title": "Bayern – SC Paderborn",
      "date": "2026-12-04",
      "time": "20:30",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-565875",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Union Berlin – HSV",
+     "date": "2026-12-05",
+     "time": "15:30",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-565877",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Leverkusen – M'gladbach",
+     "date": "2026-12-05",
+     "time": "15:30",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-565879",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "RB Leipzig – Mainz",
+     "date": "2026-12-05",
+     "time": "15:30",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-565881",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Freiburg – Hoffenheim",
+     "date": "2026-12-05",
+     "time": "15:30",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-565883",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Augsburg – 1. FC Köln",
+     "date": "2026-12-05",
+     "time": "15:30",
+     "headline": "12. kolo"
+    },
+    {
+     "id": "fd-565878",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Frankfurt – Bremen",
+     "date": "2026-12-05",
+     "time": "18:30",
      "headline": "12. kolo"
     },
     {
@@ -1840,6 +1954,33 @@ const AUTO_DATA = {
      "headline": "14. kolo"
     },
     {
+     "id": "fd-558507",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Monza – Como 1907",
+     "date": "2026-12-05",
+     "time": "15:00",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-558501",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Frosinone – Inter",
+     "date": "2026-12-05",
+     "time": "18:00",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-558508",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Napoli – Lecce",
+     "date": "2026-12-05",
+     "time": "20:45",
+     "headline": "14. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1910,21 +2051,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-20T12:25:44.615Z",
-   "count": 51,
+   "updatedAt": "2026-11-21T11:59:12.617Z",
+   "count": 50,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16vuwZ6GK",
-     "category": "concert",
-     "org": "Martina Pártlová",
-     "title": "Martina Pártlová",
-     "date": "2026-11-20",
-     "time": "20:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/martina-partlova-vstupenky/1372007313"
-    },
     {
      "id": "tm-Z698xZu0Z1A4AV4P",
      "category": "concert",
