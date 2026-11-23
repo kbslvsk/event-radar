@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-22T12:13:31.681Z",
+ "updatedAt": "2026-11-23T13:56:48.260Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-22T12:13:31.681Z",
+   "updatedAt": "2026-11-23T13:56:48.260Z",
    "count": 17,
    "events": [
     {
@@ -200,7 +200,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-22T12:13:31.681Z",
+   "updatedAt": "2026-11-23T13:56:48.260Z",
    "count": 21,
    "events": [
     {
@@ -461,8 +461,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-22T12:13:31.681Z",
-   "count": 162,
+   "updatedAt": "2026-11-23T13:56:48.260Z",
+   "count": 152,
    "events": [
     {
      "id": "fd-575395",
@@ -697,24 +697,6 @@ const AUTO_DATA = {
      "date": "2027-01-27",
      "time": "21:00",
      "headline": "ligová fáze, 8. kolo"
-    },
-    {
-     "id": "fd-560646",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Hull City – Brighton Hove",
-     "date": "2026-11-22",
-     "time": "15:00",
-     "headline": "11. kolo"
-    },
-    {
-     "id": "fd-560645",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Liverpool – Man United",
-     "date": "2026-11-22",
-     "time": "17:30",
-     "headline": "⭐ šlágr, 11. kolo"
     },
     {
      "id": "fd-560649",
@@ -1167,42 +1149,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564749",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Barça – Villarreal",
-     "date": "2026-11-22",
-     "time": "14:00",
-     "headline": "13. kolo"
-    },
-    {
-     "id": "fd-564750",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Santander – Real Sociedad",
-     "date": "2026-11-22",
-     "time": "16:15",
-     "headline": "13. kolo"
-    },
-    {
-     "id": "fd-564752",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Osasuna – Málaga",
-     "date": "2026-11-22",
-     "time": "18:30",
-     "headline": "13. kolo"
-    },
-    {
-     "id": "fd-564753",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Getafe – Atleti",
-     "date": "2026-11-22",
-     "time": "21:00",
-     "headline": "13. kolo"
-    },
-    {
      "id": "fd-564757",
      "category": "football",
      "org": "La Liga",
@@ -1401,6 +1347,15 @@ const AUTO_DATA = {
      "headline": "15. kolo"
     },
     {
+     "id": "fd-564769",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Sevilla FC – Málaga",
+     "date": "2026-12-07",
+     "time": "21:00",
+     "headline": "15. kolo"
+    },
+    {
      "id": "fd-564925",
      "category": "football",
      "org": "La Liga",
@@ -1415,24 +1370,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565864",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Augsburg – Mainz",
-     "date": "2026-11-22",
-     "time": "15:30",
-     "headline": "10. kolo"
-    },
-    {
-     "id": "fd-565863",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Bremen – HSV",
-     "date": "2026-11-22",
-     "time": "17:30",
-     "headline": "10. kolo"
     },
     {
      "id": "fd-565869",
@@ -1630,51 +1567,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 33. kolo"
     },
     {
-     "id": "fd-558521",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Juventus – Venezia FC",
-     "date": "2026-11-22",
-     "time": "12:30",
-     "headline": "12. kolo"
-    },
-    {
-     "id": "fd-558522",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Bologna – Udinese",
-     "date": "2026-11-22",
-     "time": "15:00",
-     "headline": "12. kolo"
-    },
-    {
-     "id": "fd-558524",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Sassuolo – Genoa",
-     "date": "2026-11-22",
-     "time": "15:00",
-     "headline": "12. kolo"
-    },
-    {
-     "id": "fd-558523",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Milan – Frosinone",
-     "date": "2026-11-22",
-     "time": "18:00",
-     "headline": "12. kolo"
-    },
-    {
-     "id": "fd-558520",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Atalanta – Inter",
-     "date": "2026-11-22",
-     "time": "20:45",
-     "headline": "12. kolo"
-    },
-    {
      "id": "fd-558519",
      "category": "football",
      "org": "Serie A",
@@ -1846,6 +1738,24 @@ const AUTO_DATA = {
      "headline": "14. kolo"
     },
     {
+     "id": "fd-558506",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Venezia FC – Sassuolo",
+     "date": "2026-12-07",
+     "time": "18:30",
+     "headline": "14. kolo"
+    },
+    {
+     "id": "fd-558503",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Fiorentina – Cagliari",
+     "date": "2026-12-07",
+     "time": "20:45",
+     "headline": "14. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1916,21 +1826,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-22T12:13:31.681Z",
-   "count": 49,
+   "updatedAt": "2026-11-23T13:56:48.260Z",
+   "count": 48,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16v7KuvkK",
-     "category": "concert",
-     "org": "Pitbull",
-     "title": "Pitbull - I'm Back!",
-     "date": "2026-11-22",
-     "time": "20:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/pitbull-im-back-vstupenky/1113341193"
-    },
     {
      "id": "tm-Z698xZu0Z16vjYFk1A",
      "category": "concert",
