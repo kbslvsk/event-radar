@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-23T13:56:48.260Z",
+ "updatedAt": "2026-11-24T14:29:24.692Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-23T13:56:48.260Z",
+   "updatedAt": "2026-11-24T14:29:24.692Z",
    "count": 17,
    "events": [
     {
@@ -200,7 +200,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-23T13:56:48.260Z",
+   "updatedAt": "2026-11-24T14:29:24.692Z",
    "count": 21,
    "events": [
     {
@@ -232,10 +232,10 @@ const AUTO_DATA = {
      "id": "cage-warriors-2026-11-27",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 212: Unplugged: Loof vs. Ownsworth",
+     "title": "Cage Warriors 212: Unplugged: Blair vs. Jones",
      "date": "2026-11-27",
      "time": "15:00",
-     "headline": "Alexander Loof vs. Oscar Ownsworth (pérová váha)",
+     "headline": "Chasen Blair vs. Nathan Jones (velterová váha)",
      "venue": "BEC Arena",
      "city": "Manchester",
      "country": "Greater Manchester",
@@ -461,8 +461,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-23T13:56:48.260Z",
-   "count": 152,
+   "updatedAt": "2026-11-24T14:29:24.692Z",
+   "count": 156,
    "events": [
     {
      "id": "fd-575395",
@@ -627,6 +627,24 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 5. kolo"
     },
     {
+     "id": "fd-575413",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Villarreal – Sabah FK",
+     "date": "2026-12-08",
+     "time": "18:45",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575414",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Viking – Feyenoord",
+     "date": "2026-12-08",
+     "time": "18:45",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
      "id": "fd-575415",
      "category": "football",
      "org": "Liga mistrů",
@@ -636,10 +654,55 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, ligová fáze, 6. kolo"
     },
     {
+     "id": "fd-575416",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Aston Villa – PSG",
+     "date": "2026-12-08",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
      "id": "fd-575417",
      "category": "football",
      "org": "Liga mistrů",
      "title": "Bayern – Slavia Praha",
+     "date": "2026-12-08",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575418",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Napoli – Club Brugge",
+     "date": "2026-12-08",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575419",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Roma – Sporting CP",
+     "date": "2026-12-08",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575420",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Man United – RB Leipzig",
+     "date": "2026-12-08",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575421",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "PAE AEK – Galatasaray",
      "date": "2026-12-08",
      "time": "21:00",
      "headline": "ligová fáze, 6. kolo"
@@ -697,15 +760,6 @@ const AUTO_DATA = {
      "date": "2027-01-27",
      "time": "21:00",
      "headline": "ligová fáze, 8. kolo"
-    },
-    {
-     "id": "fd-560649",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Brentford – Everton",
-     "date": "2026-11-23",
-     "time": "21:00",
-     "headline": "11. kolo"
     },
     {
      "id": "fd-560658",
@@ -1149,15 +1203,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 37. kolo"
     },
     {
-     "id": "fd-564757",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Levante – Elche",
-     "date": "2026-11-23",
-     "time": "21:00",
-     "headline": "13. kolo"
-    },
-    {
      "id": "fd-564765",
      "category": "football",
      "org": "La Liga",
@@ -1567,15 +1612,6 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 33. kolo"
     },
     {
-     "id": "fd-558519",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Monza – Fiorentina",
-     "date": "2026-11-23",
-     "time": "20:45",
-     "headline": "12. kolo"
-    },
-    {
      "id": "fd-558515",
      "category": "football",
      "org": "Serie A",
@@ -1826,21 +1862,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-23T13:56:48.260Z",
-   "count": 48,
+   "updatedAt": "2026-11-24T14:29:24.692Z",
+   "count": 47,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16vjYFk1A",
-     "category": "concert",
-     "org": "The Prodigy",
-     "title": "The Prodigy",
-     "date": "2026-11-23",
-     "time": "20:00",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/the-prodigy-vstupenky/1730206285"
-    },
     {
      "id": "tm-Z698xZu0Z16v0krAvb",
      "category": "concert",
@@ -2034,16 +2058,16 @@ const AUTO_DATA = {
      "url": "https://www.ticketmaster.cz/event/queen-relived-philharmonic--praha-vstupenky/1744822676"
     },
     {
-     "id": "tm-Z698xZu0Z1kqMjwjN",
+     "id": "tm-Z698xZu0Z16vCbkeFg",
      "category": "concert",
      "org": "Michael Lives Forever",
      "title": "Michael Lives Forever",
      "date": "2027-02-27",
-     "time": "19:00",
+     "time": "13:00",
      "venue": "O2 Arena",
      "city": "Praha 9",
      "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/michael-lives-forever-vstupenky/777732723"
+     "url": "https://www.ticketmaster.cz/event/michael-lives-forever-vstupenky/1398182235"
     },
     {
      "id": "tm-Z698xZu0Z1kQ9x78k",
