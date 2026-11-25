@@ -1,11 +1,11 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-24T14:29:24.692Z",
+ "updatedAt": "2026-11-25T13:48:30.049Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-24T14:29:24.692Z",
+   "updatedAt": "2026-11-25T13:48:30.049Z",
    "count": 17,
    "events": [
     {
@@ -200,7 +200,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-24T14:29:24.692Z",
+   "updatedAt": "2026-11-25T13:48:30.049Z",
    "count": 21,
    "events": [
     {
@@ -357,6 +357,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One on Prime Video 50: Abevi vs. Dzhabrailov",
      "date": "2026-12-18",
+     "time": "17:00",
      "headline": "Maurice Abevi vs. Dzhabir Dzhabrailov (střední váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
@@ -369,6 +370,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One Friday Fights 183",
      "date": "2026-12-18",
+     "time": "02:30",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -461,90 +463,9 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-24T14:29:24.692Z",
-   "count": 156,
+   "updatedAt": "2026-11-25T13:48:30.049Z",
+   "count": 154,
    "events": [
-    {
-     "id": "fd-575395",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Galatasaray – Aston Villa",
-     "date": "2026-11-24",
-     "time": "18:45",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575396",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Bodø/Glimt – LASK",
-     "date": "2026-11-24",
-     "time": "18:45",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575397",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Real Madrid – PSV",
-     "date": "2026-11-24",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575398",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Man City – Napoli",
-     "date": "2026-11-24",
-     "time": "21:00",
-     "headline": "⭐ šlágr, ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575399",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Arsenal – Dortmund",
-     "date": "2026-11-24",
-     "time": "21:00",
-     "headline": "⭐ šlágr, ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575400",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Feyenoord – Porto",
-     "date": "2026-11-24",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575401",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Sl. Bratislava – Real Betis",
-     "date": "2026-11-24",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575402",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "RB Leipzig – RC Lens",
-     "date": "2026-11-24",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575403",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Como 1907 – PAE AEK",
-     "date": "2026-11-24",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
     {
      "id": "fd-575404",
      "category": "football",
@@ -708,6 +629,24 @@ const AUTO_DATA = {
      "headline": "ligová fáze, 6. kolo"
     },
     {
+     "id": "fd-575422",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Real Betis – Como 1907",
+     "date": "2026-12-09",
+     "time": "18:45",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575423",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Sl. Bratislava – Shaktar",
+     "date": "2026-12-09",
+     "time": "18:45",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
      "id": "fd-575280",
      "category": "football",
      "org": "Liga mistrů",
@@ -724,6 +663,51 @@ const AUTO_DATA = {
      "date": "2026-12-09",
      "time": "21:00",
      "headline": "⭐ šlágr, ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575290",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "PSV – Atleti",
+     "date": "2026-12-09",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575295",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Liverpool – Porto",
+     "date": "2026-12-09",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575315",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "RC Lens – Bodø/Glimt",
+     "date": "2026-12-09",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575317",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "LASK – Fenerbahçe",
+     "date": "2026-12-09",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
+    },
+    {
+     "id": "fd-575322",
+     "category": "football",
+     "org": "Liga mistrů",
+     "title": "Stuttgart – Lille",
+     "date": "2026-12-09",
+     "time": "21:00",
+     "headline": "ligová fáze, 6. kolo"
     },
     {
      "id": "fd-575285",
@@ -1862,8 +1846,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-24T14:29:24.692Z",
-   "count": 47,
+   "updatedAt": "2026-11-25T13:48:30.049Z",
+   "count": 49,
    "events": [
     {
      "id": "tm-Z698xZu0Z16v0krAvb",
@@ -2092,6 +2076,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/the-world-of-hans-zimmer-vstupenky/1169289956"
+    },
+    {
+     "id": "tm-Z698xZu0Z16v-aG30J",
+     "category": "concert",
+     "org": "Chase Atlantic",
+     "title": "Chase Atlantic — DON’T LOOK DOWN TOUR",
+     "date": "2027-04-20",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/chase-atlantic--dont-look-down-tour-vstupenky/1849312926"
     },
     {
      "id": "tm-Z698xZu0Z1kGgP0G_",
@@ -2367,6 +2363,18 @@ const AUTO_DATA = {
      "city": "Vienna",
      "country": "Austria",
      "url": "https://www.ticketmaster.at/event/lea-sieben-monde-arena-tour-2027-tickets/1117055358"
+    },
+    {
+     "id": "tm-Z698xZ5rZ16vqMp3OP",
+     "category": "concert",
+     "org": "Chase Atlantic",
+     "title": "Chase Atlantic — DON’T LOOK DOWN TOUR",
+     "date": "2027-04-19",
+     "time": "19:30",
+     "venue": "Wiener Stadthalle - Halle D",
+     "city": "Vienna",
+     "country": "Austria",
+     "url": "https://www.ticketmaster.at/event/chase-atlantic--dont-look-down-tour-tickets/1777592825"
     },
     {
      "id": "tm-Z698xZ5rZ16vFEvJbe",
