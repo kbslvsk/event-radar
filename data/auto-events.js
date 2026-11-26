@@ -1,12 +1,12 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-25T13:48:30.049Z",
+ "updatedAt": "2026-11-26T13:28:33.019Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-25T13:48:30.049Z",
-   "count": 17,
+   "updatedAt": "2026-11-26T13:28:33.019Z",
+   "count": 19,
    "events": [
     {
      "id": "ufc-2027-02-20",
@@ -185,6 +185,27 @@ const AUTO_DATA = {
      "url": "https://en.wikipedia.org/wiki/2026_in_Konfrontacja_Sztuk_Walki"
     },
     {
+     "id": "ksw-2027-01-23",
+     "category": "mma",
+     "org": "KSW",
+     "title": "KSW 125: Leśko vs. Różański",
+     "date": "2027-01-23",
+     "venue": "ATM Studio",
+     "city": "Warsaw",
+     "country": "Poland",
+     "url": "https://en.wikipedia.org/wiki/2027_in_Konfrontacja_Sztuk_Walki"
+    },
+    {
+     "id": "ksw-2027-02-20",
+     "category": "mma",
+     "org": "KSW",
+     "title": "KSW 126",
+     "date": "2027-02-20",
+     "city": "Wrocław",
+     "country": "Poland",
+     "url": "https://en.wikipedia.org/wiki/2027_in_Konfrontacja_Sztuk_Walki"
+    },
+    {
      "id": "pfl-2026-12-19",
      "category": "mma",
      "org": "PFL",
@@ -200,7 +221,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-25T13:48:30.049Z",
+   "updatedAt": "2026-11-26T13:28:33.019Z",
    "count": 21,
    "events": [
     {
@@ -232,9 +253,9 @@ const AUTO_DATA = {
      "id": "cage-warriors-2026-11-27",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 212: Unplugged: Blair vs. Jones",
+     "title": "Cage Warriors 214: Unplugged: Blair vs. Jones",
      "date": "2026-11-27",
-     "time": "15:00",
+     "time": "19:00",
      "headline": "Chasen Blair vs. Nathan Jones (velterová váha)",
      "venue": "BEC Arena",
      "city": "Manchester",
@@ -245,9 +266,9 @@ const AUTO_DATA = {
      "id": "cage-warriors-2026-11-28",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 213: Manchester: Davies vs. Vucenic",
+     "title": "Cage Warriors 215: Manchester: Davies vs. Vucenic",
      "date": "2026-11-28",
-     "time": "17:00",
+     "time": "19:00",
      "headline": "Ieuan Davies vs. Jordan Vucenic (lehká váha, o titul)",
      "venue": "BEC Arena",
      "city": "Manchester",
@@ -270,7 +291,7 @@ const AUTO_DATA = {
      "id": "cage-warriors-2026-12-05",
      "category": "mma",
      "org": "Cage Warriors",
-     "title": "Cage Warriors 214: Newcastle: Hardwick vs. Hughes",
+     "title": "Cage Warriors 216: Newcastle: Hardwick vs. Hughes",
      "date": "2026-12-05",
      "time": "17:00",
      "headline": "George Hardwick vs. Gavin Hughes (lehká váha)",
@@ -296,7 +317,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One Friday Fights 180: Fitzharris vs. Mutum",
      "date": "2026-11-27",
-     "time": "09:30",
+     "time": "11:30",
      "headline": "Alistair Fitzharris vs. Bhupen Mutum (bantamová váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
@@ -463,90 +484,9 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-25T13:48:30.049Z",
-   "count": 154,
+   "updatedAt": "2026-11-26T13:28:33.019Z",
+   "count": 146,
    "events": [
-    {
-     "id": "fd-575404",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Sabah FK – Barça",
-     "date": "2026-11-25",
-     "time": "18:45",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575405",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Slavia Praha – Villarreal",
-     "date": "2026-11-25",
-     "time": "18:45",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575406",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Inter – Stuttgart",
-     "date": "2026-11-25",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575407",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Atleti – Viking",
-     "date": "2026-11-25",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575408",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "PSG – Roma",
-     "date": "2026-11-25",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575409",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Club Brugge – Liverpool",
-     "date": "2026-11-25",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575410",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Lille – Bayern",
-     "date": "2026-11-25",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575411",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Sporting CP – Man United",
-     "date": "2026-11-25",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
-    {
-     "id": "fd-575412",
-     "category": "football",
-     "org": "Liga mistrů",
-     "title": "Shaktar – Fenerbahçe",
-     "date": "2026-11-25",
-     "time": "21:00",
-     "headline": "ligová fáze, 5. kolo"
-    },
     {
      "id": "fd-575413",
      "category": "football",
@@ -1385,6 +1325,15 @@ const AUTO_DATA = {
      "headline": "15. kolo"
     },
     {
+     "id": "fd-564698",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Rayo Vallecano – Athletic",
+     "date": "2026-12-09",
+     "time": "20:00",
+     "headline": "8. kolo"
+    },
+    {
      "id": "fd-564925",
      "category": "football",
      "org": "La Liga",
@@ -1846,8 +1795,8 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-25T13:48:30.049Z",
-   "count": 49,
+   "updatedAt": "2026-11-26T13:28:33.019Z",
+   "count": 50,
    "events": [
     {
      "id": "tm-Z698xZu0Z16v0krAvb",
@@ -2100,6 +2049,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/sabaton-vstupenky/335964319"
+    },
+    {
+     "id": "tm-Z698xZu0Z1k8gu-7E",
+     "category": "concert",
+     "org": "Andre Rieu",
+     "title": "ANDRÉ RIEU IN PRAGUE 2027",
+     "date": "2027-05-07",
+     "time": "19:30",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/andre-rieu-in-prague-2027-vstupenky/435361127"
     },
     {
      "id": "tm-Z698xZu0Z1kCf7Vjg",
