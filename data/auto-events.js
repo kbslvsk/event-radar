@@ -1,12 +1,12 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-26T13:28:33.019Z",
+ "updatedAt": "2026-11-27T13:24:58.697Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-26T13:28:33.019Z",
-   "count": 19,
+   "updatedAt": "2026-11-27T13:24:58.697Z",
+   "count": 20,
    "events": [
     {
      "id": "ufc-2027-02-20",
@@ -152,10 +152,21 @@ const AUTO_DATA = {
      "url": "https://en.wikipedia.org/wiki/2027_in_Oktagon_MMA"
     },
     {
+     "id": "oktagon-2027-03-06",
+     "category": "mma",
+     "org": "OKTAGON",
+     "title": "Oktagon 104: Ostrava",
+     "date": "2027-03-06",
+     "venue": "Mustang Aréna",
+     "city": "Ostrava",
+     "country": "Czech Republic",
+     "url": "https://en.wikipedia.org/wiki/2027_in_Oktagon_MMA"
+    },
+    {
      "id": "oktagon-2027-05-01",
      "category": "mma",
      "org": "OKTAGON",
-     "title": "Oktagon: Bratislava 2027",
+     "title": "Oktagon 106",
      "date": "2027-05-01",
      "venue": "Ondrej Nepela Arena",
      "city": "Bratislava",
@@ -221,7 +232,7 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-26T13:28:33.019Z",
+   "updatedAt": "2026-11-27T13:24:58.697Z",
    "count": 21,
    "events": [
     {
@@ -484,8 +495,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-26T13:28:33.019Z",
-   "count": 146,
+   "updatedAt": "2026-11-27T13:24:58.697Z",
+   "count": 149,
    "events": [
     {
      "id": "fd-575413",
@@ -1334,6 +1345,15 @@ const AUTO_DATA = {
      "headline": "8. kolo"
     },
     {
+     "id": "fd-564783",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Elche – Sevilla FC",
+     "date": "2026-12-11",
+     "time": "21:00",
+     "headline": "16. kolo"
+    },
+    {
      "id": "fd-564925",
      "category": "football",
      "org": "La Liga",
@@ -1510,6 +1530,15 @@ const AUTO_DATA = {
      "date": "2026-12-06",
      "time": "17:30",
      "headline": "12. kolo"
+    },
+    {
+     "id": "fd-565888",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "HSV – Schalke",
+     "date": "2026-12-11",
+     "time": "20:30",
+     "headline": "13. kolo"
     },
     {
      "id": "fd-565916",
@@ -1725,6 +1754,15 @@ const AUTO_DATA = {
      "headline": "14. kolo"
     },
     {
+     "id": "fd-558491",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Udinese – Frosinone",
+     "date": "2026-12-11",
+     "time": "20:45",
+     "headline": "15. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1795,21 +1833,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-26T13:28:33.019Z",
-   "count": 50,
+   "updatedAt": "2026-11-27T13:24:58.697Z",
+   "count": 52,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z16v0krAvb",
-     "category": "concert",
-     "org": "Sarah Brightman",
-     "title": "SARAH BRIGHTMAN",
-     "date": "2026-11-26",
-     "time": "19:30",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/sarah-brightman-vstupenky/1906785058"
-    },
     {
      "id": "tm-Z698xZu0Z1k88C6Q4",
      "category": "concert",
@@ -2290,6 +2316,18 @@ const AUTO_DATA = {
      "url": "https://www.ticketmaster.cz/event/placebo--30th-anniversary-tour-vstupenky/1383505342"
     },
     {
+     "id": "tm-Z698xZu0Z1k1vuKp6",
+     "category": "concert",
+     "org": "Horkýže Slíže",
+     "title": "HORKÝŽE SLÍŽE 35",
+     "date": "2027-11-26",
+     "time": "20:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/horkyze-slize-35-vstupenky/281353587"
+    },
+    {
      "id": "tm-Z698xZ5rZ1kaNASqI",
      "category": "concert",
      "org": "Xavier Naidoo",
@@ -2350,6 +2388,18 @@ const AUTO_DATA = {
      "url": "https://www.ticketmaster.at/event/sombr-you-are-the-reason-tour-wien-tickets/1227066602"
     },
     {
+     "id": "tm-Z698xZ5rZ1k0EFdvI",
+     "category": "concert",
+     "org": "Backstreet Boys",
+     "title": "Backstreet Boys: Into The Millennium - Homecoming",
+     "date": "2027-06-24",
+     "time": "20:00",
+     "venue": "Ernst-Happel-Stadion",
+     "city": "Vienna",
+     "country": "Austria",
+     "url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/927203068"
+    },
+    {
      "id": "tm-Z698xZ5rZ16vZ489ev",
      "category": "concert",
      "org": "Nickelback",
@@ -2360,6 +2410,18 @@ const AUTO_DATA = {
      "city": "Vienna",
      "country": "Austria",
      "url": "https://www.ticketmaster.at/event/nickelback-everything-under-the-sun-tour-tickets/1015417081"
+    },
+    {
+     "id": "tm-Z698xZ5rZ16voS_wa7",
+     "category": "concert",
+     "org": "Backstreet Boys",
+     "title": "Backstreet Boys: Into The Millennium - Homecoming",
+     "date": "2027-06-25",
+     "time": "20:00",
+     "venue": "Ernst-Happel-Stadion",
+     "city": "Vienna",
+     "country": "Austria",
+     "url": "https://www.ticketmaster.at/event/backstreet-boys-into-the-millennium-homecoming-tickets/1473672244"
     },
     {
      "id": "tm-Z698xZ5rZ16vOFPore",
