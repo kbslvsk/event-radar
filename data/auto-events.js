@@ -1,12 +1,12 @@
 // Generováno skriptem scripts/update.mjs – needituj ručně.
 const AUTO_DATA = {
- "updatedAt": "2026-11-27T13:24:58.697Z",
+ "updatedAt": "2026-11-28T12:38:38.390Z",
  "sources": {
   "mma": {
    "label": "MMA (Wikipedia)",
    "ok": true,
-   "updatedAt": "2026-11-27T13:24:58.697Z",
-   "count": 20,
+   "updatedAt": "2026-11-28T12:38:38.390Z",
+   "count": 22,
    "events": [
     {
      "id": "ufc-2027-02-20",
@@ -217,6 +217,28 @@ const AUTO_DATA = {
      "url": "https://en.wikipedia.org/wiki/2027_in_Konfrontacja_Sztuk_Walki"
     },
     {
+     "id": "pfl-2026-12-11",
+     "category": "mma",
+     "org": "PFL",
+     "title": "PFL MENA 12: MMA's Most Wanted",
+     "date": "2026-12-11",
+     "venue": "Dhahran Expo",
+     "city": "Khobar",
+     "country": "Saudi Arabia",
+     "url": "https://en.wikipedia.org/wiki/2026_in_Professional_Fighters_League"
+    },
+    {
+     "id": "pfl-2026-12-12",
+     "category": "mma",
+     "org": "PFL",
+     "title": "PFL Africa 4: Kigali",
+     "date": "2026-12-12",
+     "venue": "BK Arena",
+     "city": "Kigali",
+     "country": "Rwanda",
+     "url": "https://en.wikipedia.org/wiki/2026_in_Professional_Fighters_League"
+    },
+    {
      "id": "pfl-2026-12-19",
      "category": "mma",
      "org": "PFL",
@@ -232,46 +254,21 @@ const AUTO_DATA = {
   "mmaFeeds": {
    "label": "Menší organizace (next-fight.com)",
    "ok": true,
-   "updatedAt": "2026-11-27T13:24:58.697Z",
-   "count": 21,
+   "updatedAt": "2026-11-28T12:38:38.390Z",
+   "count": 18,
    "events": [
-    {
-     "id": "rfa-2026-11-27",
-     "category": "mma",
-     "org": "RFA",
-     "title": "RFA 35: Gelnarova vs. Ambrusova",
-     "date": "2026-11-27",
-     "time": "15:30",
-     "headline": "Hanka Gelnarova vs. Silvia Ambrusova (bantamová váha)",
-     "venue": "Sportovni Hala Kralovka",
-     "city": "Prague",
-     "country": "Czech Republic",
-     "url": "https://next-fight.com/en/event/real-fight-arena-35-rfa-35"
-    },
     {
      "id": "rfa-2026-12-11",
      "category": "mma",
      "org": "RFA",
      "title": "RFA 36: Kristofic vs. Naruszczka",
      "date": "2026-12-11",
+     "time": "15:30",
      "headline": "Samuel Kristofic vs. Marcin Naruszczka (smluvní váha 192 lb)",
      "venue": "Tatran Handball arena",
      "city": "Presov",
      "country": "Slovakia",
      "url": "https://next-fight.com/en/event/real-fight-arena-36-rfa-36"
-    },
-    {
-     "id": "cage-warriors-2026-11-27",
-     "category": "mma",
-     "org": "Cage Warriors",
-     "title": "Cage Warriors 214: Unplugged: Blair vs. Jones",
-     "date": "2026-11-27",
-     "time": "19:00",
-     "headline": "Chasen Blair vs. Nathan Jones (velterová váha)",
-     "venue": "BEC Arena",
-     "city": "Manchester",
-     "country": "Greater Manchester",
-     "url": "https://next-fight.com/en/event/cw-212-cage-warriors-212-unplugged"
     },
     {
      "id": "cage-warriors-2026-11-28",
@@ -323,26 +320,13 @@ const AUTO_DATA = {
      "url": "https://next-fight.com/en/event/cw-cage-warriors-seville"
     },
     {
-     "id": "one-2026-11-27",
-     "category": "mma",
-     "org": "ONE",
-     "title": "One Friday Fights 180: Fitzharris vs. Mutum",
-     "date": "2026-11-27",
-     "time": "11:30",
-     "headline": "Alistair Fitzharris vs. Bhupen Mutum (bantamová váha)",
-     "venue": "Lumpinee Boxing Stadium",
-     "city": "Bangkok",
-     "country": "Thailand",
-     "url": "https://next-fight.com/en/event/one-championship-one-friday-fights-180"
-    },
-    {
      "id": "one-2026-12-02",
      "category": "mma",
      "org": "ONE",
-     "title": "ONE Samurai 6: Sawada vs. Nikolakakos",
+     "title": "ONE Samurai 6: Minowa vs. Dourado",
      "date": "2026-12-02",
      "time": "06:30",
-     "headline": "Chihiro Sawada vs. Anastasia Nikolakakos (slámová váha, o titul)",
+     "headline": "Koha Minowa vs. Fabio Henrique Dourado (muší váha)",
      "venue": "Yokohama Buntai",
      "city": "Yokohama",
      "country": "Kanagawa",
@@ -366,6 +350,7 @@ const AUTO_DATA = {
      "org": "ONE",
      "title": "One Friday Fights 182",
      "date": "2026-12-11",
+     "time": "11:30",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -387,10 +372,10 @@ const AUTO_DATA = {
      "id": "one-2026-12-18",
      "category": "mma",
      "org": "ONE",
-     "title": "One on Prime Video 50: Abevi vs. Dzhabrailov",
+     "title": "One on Prime Video 50: Cesar vs. Do",
      "date": "2026-12-18",
      "time": "17:00",
-     "headline": "Maurice Abevi vs. Dzhabir Dzhabrailov (střední váha)",
+     "headline": "Antonio Cesar vs. Viet Anh Do (bantamová váha)",
      "venue": "Lumpinee Boxing Stadium",
      "city": "Bangkok",
      "country": "Thailand",
@@ -495,8 +480,8 @@ const AUTO_DATA = {
   "football": {
    "label": "Fotbal (football-data.org)",
    "ok": true,
-   "updatedAt": "2026-11-27T13:24:58.697Z",
-   "count": 149,
+   "updatedAt": "2026-11-28T12:38:38.390Z",
+   "count": 160,
    "events": [
     {
      "id": "fd-575413",
@@ -695,15 +680,6 @@ const AUTO_DATA = {
      "date": "2027-01-27",
      "time": "21:00",
      "headline": "ligová fáze, 8. kolo"
-    },
-    {
-     "id": "fd-560658",
-     "category": "football",
-     "org": "Premier League",
-     "title": "Nottingham – Chelsea",
-     "date": "2026-11-27",
-     "time": "21:00",
-     "headline": "12. kolo"
     },
     {
      "id": "fd-560652",
@@ -967,6 +943,33 @@ const AUTO_DATA = {
      "headline": "⭐ šlágr, 14. kolo"
     },
     {
+     "id": "fd-560686",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Ipswich Town – Newcastle",
+     "date": "2026-12-12",
+     "time": "16:00",
+     "headline": "15. kolo"
+    },
+    {
+     "id": "fd-560690",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Liverpool – Leeds United",
+     "date": "2026-12-12",
+     "time": "16:00",
+     "headline": "15. kolo"
+    },
+    {
+     "id": "fd-560691",
+     "category": "football",
+     "org": "Premier League",
+     "title": "Fulham – Brentford",
+     "date": "2026-12-12",
+     "time": "16:00",
+     "headline": "15. kolo"
+    },
+    {
      "id": "fd-560689",
      "category": "football",
      "org": "Premier League",
@@ -1136,15 +1139,6 @@ const AUTO_DATA = {
      "date": "2027-05-23",
      "time": "16:00",
      "headline": "⭐ šlágr, 37. kolo"
-    },
-    {
-     "id": "fd-564765",
-     "category": "football",
-     "org": "La Liga",
-     "title": "Levante – Santander",
-     "date": "2026-11-27",
-     "time": "21:00",
-     "headline": "14. kolo"
     },
     {
      "id": "fd-564760",
@@ -1354,6 +1348,42 @@ const AUTO_DATA = {
      "headline": "16. kolo"
     },
     {
+     "id": "fd-564782",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Levante – Alavés",
+     "date": "2026-12-12",
+     "time": "14:00",
+     "headline": "16. kolo"
+    },
+    {
+     "id": "fd-564784",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Villarreal – Rayo Vallecano",
+     "date": "2026-12-12",
+     "time": "16:15",
+     "headline": "16. kolo"
+    },
+    {
+     "id": "fd-564779",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Málaga – Barça",
+     "date": "2026-12-12",
+     "time": "18:30",
+     "headline": "16. kolo"
+    },
+    {
+     "id": "fd-564785",
+     "category": "football",
+     "org": "La Liga",
+     "title": "Real Betis – Santander",
+     "date": "2026-12-12",
+     "time": "21:00",
+     "headline": "16. kolo"
+    },
+    {
      "id": "fd-564925",
      "category": "football",
      "org": "La Liga",
@@ -1368,15 +1398,6 @@ const AUTO_DATA = {
      "title": "Real Madrid – Barça",
      "date": "2027-05-09",
      "headline": "⭐ šlágr, 35. kolo"
-    },
-    {
-     "id": "fd-565869",
-     "category": "football",
-     "org": "Bundesliga",
-     "title": "Bremen – M'gladbach",
-     "date": "2026-11-27",
-     "time": "20:30",
-     "headline": "11. kolo"
     },
     {
      "id": "fd-565866",
@@ -1541,6 +1562,51 @@ const AUTO_DATA = {
      "headline": "13. kolo"
     },
     {
+     "id": "fd-565884",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "SC Paderborn – Elversberg",
+     "date": "2026-12-12",
+     "time": "15:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-565886",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Stuttgart – Union Berlin",
+     "date": "2026-12-12",
+     "time": "15:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-565887",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "Dortmund – Augsburg",
+     "date": "2026-12-12",
+     "time": "15:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-565890",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "1. FC Köln – RB Leipzig",
+     "date": "2026-12-12",
+     "time": "15:30",
+     "headline": "13. kolo"
+    },
+    {
+     "id": "fd-565892",
+     "category": "football",
+     "org": "Bundesliga",
+     "title": "M'gladbach – Frankfurt",
+     "date": "2026-12-12",
+     "time": "18:30",
+     "headline": "13. kolo"
+    },
+    {
      "id": "fd-565916",
      "category": "football",
      "org": "Bundesliga",
@@ -1572,15 +1638,6 @@ const AUTO_DATA = {
      "title": "Leverkusen – Bayern",
      "date": "2027-05-15",
      "headline": "⭐ šlágr, 33. kolo"
-    },
-    {
-     "id": "fd-558515",
-     "category": "football",
-     "org": "Serie A",
-     "title": "Venezia FC – Bologna",
-     "date": "2026-11-27",
-     "time": "20:45",
-     "headline": "13. kolo"
     },
     {
      "id": "fd-558513",
@@ -1763,6 +1820,33 @@ const AUTO_DATA = {
      "headline": "15. kolo"
     },
     {
+     "id": "fd-558494",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Cagliari – Venezia FC",
+     "date": "2026-12-12",
+     "time": "15:00",
+     "headline": "15. kolo"
+    },
+    {
+     "id": "fd-558492",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Lecce – Sassuolo",
+     "date": "2026-12-12",
+     "time": "18:00",
+     "headline": "15. kolo"
+    },
+    {
+     "id": "fd-558490",
+     "category": "football",
+     "org": "Serie A",
+     "title": "Como 1907 – Bologna",
+     "date": "2026-12-12",
+     "time": "20:45",
+     "headline": "15. kolo"
+    },
+    {
      "id": "fd-558489",
      "category": "football",
      "org": "Serie A",
@@ -1833,21 +1917,9 @@ const AUTO_DATA = {
   "concert": {
    "label": "Koncerty (Ticketmaster)",
    "ok": true,
-   "updatedAt": "2026-11-27T13:24:58.697Z",
+   "updatedAt": "2026-11-28T12:38:38.390Z",
    "count": 52,
    "events": [
-    {
-     "id": "tm-Z698xZu0Z1k88C6Q4",
-     "category": "concert",
-     "org": "The Sound Chapter",
-     "title": "The Sound Chapter",
-     "date": "2026-11-27",
-     "time": "18:30",
-     "venue": "O2 Arena",
-     "city": "Praha 9",
-     "country": "Czech Republic",
-     "url": "https://www.ticketmaster.cz/event/the-sound-chapter-vstupenky/410387695"
-    },
     {
      "id": "tm-Z698xZu0Z16vb7e8CF",
      "category": "concert",
@@ -2326,6 +2398,18 @@ const AUTO_DATA = {
      "city": "Praha 9",
      "country": "Czech Republic",
      "url": "https://www.ticketmaster.cz/event/horkyze-slize-35-vstupenky/281353587"
+    },
+    {
+     "id": "tm-Z698xZu0Z16v1f0z_d",
+     "category": "concert",
+     "org": "Millennium Explosion",
+     "title": "RADIO KISS MILLENNIUM EXPLOSION",
+     "date": "2027-11-27",
+     "time": "19:00",
+     "venue": "O2 Arena",
+     "city": "Praha 9",
+     "country": "Czech Republic",
+     "url": "https://www.ticketmaster.cz/event/radio-kiss-millennium-explosion-vstupenky/1294938643"
     },
     {
      "id": "tm-Z698xZ5rZ1kaNASqI",
